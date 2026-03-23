@@ -127,6 +127,39 @@ All agents should eventually exchange work through common artifact types:
 - analysis memo
 - final synthesis brief
 
+
+## Recommended model assignments
+
+### LEAF Conductor
+- Model: `gpt-5.4`
+- Thinking: `high`
+- Reason: orchestration, planning, synthesis, and final decision quality matter more than raw speed.
+
+### LEAF Content Reader
+- Model: `gpt-5.4`
+- Thinking: `high` by default, `xhigh` for difficult source packs
+- Reason: careful reading, nuanced evidence extraction, and contradiction handling need strong reasoning.
+
+### LEAF Context Mapper
+- Model: `gpt-5.4`
+- Thinking: `high`
+- Reason: thematic clustering, relationship mapping, and gap detection are abstraction-heavy tasks.
+
+### LEAF Methodologist
+- Model: `gpt-5.4`
+- Thinking: `high`
+- Reason: evidence sufficiency, bias checks, and methodological rigor need strong judgment.
+
+### LEAF Data Scientist
+- Model: `Codex (highest available)`
+- Thinking/Mode: highest practical reasoning setting available for code/data work
+- Reason: this role is expected to be the most code- and tool-oriented when Python, SQL, and analysis scripts are introduced.
+
+## Escalation policy
+- Keep `xhigh` reserved mainly for LEAF Content Reader on especially difficult source sets.
+- Use strong defaults across the rest of the system rather than maximum reasoning everywhere.
+- If LEAF Data Scientist ends up being more interpretive than code-driven, consider pairing or shifting some analysis-summary work back to `gpt-5.4 high`.
+
 ## Current phase limitations
 This scaffold intentionally avoids:
 - database connections

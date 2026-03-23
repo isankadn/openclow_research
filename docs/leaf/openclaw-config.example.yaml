@@ -7,6 +7,8 @@ agents:
       label: LEAF Conductor
       workspace: ./agents/leaf-conductor
       role: orchestrator
+      model: gpt-5.4
+      thinking: high
       notes:
         - user-facing coordinator
         - routes work to specialists
@@ -15,6 +17,10 @@ agents:
       label: LEAF Content Reader
       workspace: ./agents/leaf-content-reader
       role: source-extraction
+      model: gpt-5.4
+      thinking: high
+      escalation:
+        hard_source_packs: xhigh
       notes:
         - document/web reading
         - extraction notes
@@ -23,6 +29,8 @@ agents:
       label: LEAF Context Mapper
       workspace: ./agents/leaf-context-mapper
       role: thematic-organization
+      model: gpt-5.4
+      thinking: high
       notes:
         - entities
         - themes
@@ -33,6 +41,8 @@ agents:
       label: LEAF Methodologist
       workspace: ./agents/leaf-methodologist
       role: rigor-and-scope-review
+      model: gpt-5.4
+      thinking: high
       notes:
         - quality checks
         - bias checks
@@ -42,6 +52,8 @@ agents:
       label: LEAF Data Scientist
       workspace: ./agents/leaf-data-scientist
       role: structured-analysis
+      model: Codex (highest available)
+      thinking: highest practical setting
       notes:
         - metrics
         - tabular analysis

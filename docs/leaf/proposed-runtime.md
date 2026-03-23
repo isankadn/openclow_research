@@ -31,3 +31,11 @@ Potential later additions:
 - LEAF Reviewer
 - LEAF Citation Manager
 - LEAF Corpus Indexer
+
+
+## Recommended model policy
+- LEAF Conductor -> `gpt-5.4` with `high`
+- LEAF Content Reader -> `gpt-5.4` with `high` (escalate to `xhigh` when source complexity is high)
+- LEAF Context Mapper -> `gpt-5.4` with `high`
+- LEAF Methodologist -> `gpt-5.4` with `high`
+- LEAF Data Scientist -> `Codex (highest available)` for code/data execution work
