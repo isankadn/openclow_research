@@ -3,9 +3,10 @@
 ## Purpose
 LEAF is an OpenClaw-based multi-agent system for automated research, analysis, synthesis, and drafting.
 
-It is designed to transform a user request into a repeatable workflow:
+It is designed to transform a user request into a repeatable workflow. The default operating model is existing-data-first secondary-use research, with external literature used to contextualize, validate, and fill gaps.
 
-question -> evidence collection -> extraction -> contextual mapping -> analysis -> draft output -> review/refinement
+Default workflow:
+question -> internal data inspection -> contextual mapping -> feasibility/method review -> targeted literature retrieval -> synthesis/draft output
 
 ## Design principles
 - Separate research into distinct stages instead of using one generic agent for everything.
@@ -33,7 +34,7 @@ Should not:
 - Make infrastructure assumptions without confirmation
 
 ### 2) LEAF Content Reader
-Role: Source intake and extraction specialist.
+Role: Targeted literature intake and extraction specialist that supports internal-data-driven research.
 
 Responsibilities:
 - Read source materials from web, documents, or later connected corpora
@@ -79,7 +80,7 @@ Outputs:
 - validation checklist
 
 ### 5) LEAF Data Scientist
-Role: Structured analysis and computational reasoning specialist.
+Role: Structured analysis, internal-data interpretation, and computational reasoning specialist.
 
 Responsibilities:
 - Work on structured/tabular data when available later
@@ -96,13 +97,13 @@ Outputs:
 ## Recommended workflow
 
 ### Standard workflow
-1. User submits question, topic, or report request.
-2. LEAF Conductor clarifies objective, deliverable type, deadline, and evidence expectations.
-3. LEAF Content Reader gathers and extracts source material.
-4. LEAF Context Mapper organizes extracted material into themes and relationships.
-5. LEAF Methodologist evaluates scope, rigor, bias, and evidence gaps.
-6. LEAF Data Scientist performs structured analysis if quantitative or tabular data is involved.
-7. LEAF Conductor merges outputs into a research brief, report plan, or writing package.
+1. User submits a question, paper idea, or analysis goal.
+2. LEAF Conductor clarifies the objective, target output, and whether the task should be treated as existing-data-first secondary use.
+3. LEAF Data Scientist inspects the available internal data and defines what is analytically feasible.
+4. LEAF Context Mapper organizes variables, themes, entities, and possible research angles.
+5. LEAF Methodologist evaluates validity, scope, confounds, and publishability risk.
+6. LEAF Content Reader retrieves targeted literature to fill conceptual, methodological, or evidence gaps.
+7. LEAF Conductor merges outputs into a research brief, analysis plan, paper-angle memo, or draft package.
 8. Final writing/review stage can be handled by the Conductor initially, or later by an additional dedicated writing/review agent if needed.
 
 ## Why there is no separate writer agent yet

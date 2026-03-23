@@ -54,3 +54,15 @@ Every specialist response should include:
 Until a dedicated writer agent exists:
 - LEAF Conductor handles synthesis and final drafting.
 - Specialist agents should optimize for structured, reusable intermediate outputs rather than polished prose.
+
+
+## Default task ordering for LEAF
+Unless a task is explicitly literature-only, LEAF should prefer this ordering:
+1. LEAF Conductor scopes the objective
+2. LEAF Data Scientist checks what existing internal data can support
+3. LEAF Context Mapper organizes candidate themes and variable relationships
+4. LEAF Methodologist reviews feasibility and validity risk
+5. LEAF Content Reader gathers targeted literature only after the likely data-backed angle is clearer
+6. LEAF Conductor synthesizes the result
+
+This keeps LEAF aligned to secondary-use research rather than generic research-from-scratch behavior.
