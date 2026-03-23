@@ -1,0 +1,68 @@
+# Draft example only — not applied to the running system.
+# This is a planning sketch for how a LEAF multi-agent setup could be represented.
+
+agents:
+  list:
+    - id: leaf-conductor
+      label: LEAF Conductor
+      workspace: ./agents/leaf-conductor
+      role: orchestrator
+      notes:
+        - user-facing coordinator
+        - routes work to specialists
+
+    - id: leaf-content-reader
+      label: LEAF Content Reader
+      workspace: ./agents/leaf-content-reader
+      role: source-extraction
+      notes:
+        - document/web reading
+        - extraction notes
+
+    - id: leaf-context-mapper
+      label: LEAF Context Mapper
+      workspace: ./agents/leaf-context-mapper
+      role: thematic-organization
+      notes:
+        - entities
+        - themes
+        - contradictions
+        - gaps
+
+    - id: leaf-methodologist
+      label: LEAF Methodologist
+      workspace: ./agents/leaf-methodologist
+      role: rigor-and-scope-review
+      notes:
+        - quality checks
+        - bias checks
+        - methodology review
+
+    - id: leaf-data-scientist
+      label: LEAF Data Scientist
+      workspace: ./agents/leaf-data-scientist
+      role: structured-analysis
+      notes:
+        - metrics
+        - tabular analysis
+        - quantitative outputs
+
+shared:
+  docs: ./docs/leaf
+  prompts: ./shared/prompts
+  schemas: ./shared/schemas
+  references: ./shared/references
+  outputs: ./shared/outputs
+
+coordination:
+  default_entrypoint: leaf-conductor
+  handoff_template: ./shared/prompts/handoff-template.md
+  artifact_schema_reference: ./shared/schemas/artifact-types.md
+
+placeholders:
+  data_sources:
+    - clickhouse
+    - mysql
+    - minio
+    - literature-corpus
+  status: waiting-for-user-details
