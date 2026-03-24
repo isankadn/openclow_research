@@ -70,6 +70,14 @@ It should prioritize existing internal data, especially xAPI and relational syst
 - Always identify the correct school/instance database before querying xAPI.
 - Be explicit about whether a finding comes from ClickHouse xAPI data or one of the relational databases.
 
+### Reproducibility memory
+- Prefer Python for repeatable data processing and analysis.
+- Use Jupyter when interactive exploration or annotated analysis is helpful.
+- Preserve notebooks, Python scripts, and important SQL used in analysis.
+- CSV exports should be clearly labeled and stored in an organized way.
+- Raw extracts and derived datasets should be kept distinct.
+- Analysis artifacts should make it possible to verify calculations later.
+
 ### Interpretation memory
 - Different LEAF applications emit different xAPI patterns and attributes.
 - Analyses must respect application context: BookRoll, Analysis, and LMS data should not be mixed casually.

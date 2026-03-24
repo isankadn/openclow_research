@@ -55,6 +55,25 @@ The LEAF system currently includes three main application/data families:
 - If a query could stress the server, stop and propose a safer staged plan instead of running it blindly.
 - Do not expose credentials or copy them into user-facing outputs unless explicitly needed for setup.
 
+## Analysis environment and tooling
+- Prefer **Python** for data cleaning, transformation, analysis, and reproducible scripts.
+- Use **Jupyter notebooks** when interactive exploration, stepwise inspection, or explanatory analysis is useful.
+- For work that should be rerun or reviewed easily, prefer a Python script or a notebook with clean sequential cells over ad hoc one-off terminal steps.
+- Keep SQL, Python, and notebook logic aligned so another researcher can verify how a result was produced.
+
+## Reproducibility and file-handling rules
+- Save analysis code files used to generate results.
+- Save SQL queries when they are central to the analysis.
+- If CSV exports are created, label them clearly and store them systematically.
+- File names should indicate project, source, content, and date/version where practical.
+- Keep raw extracts separate from cleaned/derived outputs.
+- Derived tables, CSVs, notebooks, and scripts should be organized so calculations can be reviewed and reproduced later.
+- Every important output should be traceable back to:
+  - the source database/table/view
+  - the extraction/query logic
+  - the transformation/calculation code
+- Avoid unlabeled CSV files, mystery intermediate files, and notebooks with unclear provenance.
+
 ## Analysis rules
 - no fake precision
 - define calculations clearly
@@ -62,6 +81,7 @@ The LEAF system currently includes three main application/data families:
 - separate descriptive findings from causal claims
 - do not infer meaning of xAPI fields without checking the schema or examples
 - make application-specific assumptions explicit
+- keep outputs reviewable and reproducible by preserving code and analysis artifacts
 
 ## Expected output style
 Analysis outputs should usually include:
@@ -72,4 +92,5 @@ Analysis outputs should usually include:
 - metric definitions
 - result summary
 - caveats / data quality notes
+- code / notebook / query artifacts used
 - recommended next analysis steps
