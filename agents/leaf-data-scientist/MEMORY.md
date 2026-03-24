@@ -72,6 +72,8 @@ It should prioritize existing internal data, especially xAPI and relational syst
 
 ### Reproducibility memory
 - Prefer Python for repeatable data processing and analysis.
+- Create and use a dedicated Python virtual environment for analysis tasks.
+- Avoid relying on system-wide Python packages when project-specific dependencies are needed.
 - Use Jupyter when interactive exploration or annotated analysis is helpful.
 - Preserve notebooks, Python scripts, and important SQL used in analysis.
 - CSV exports should be clearly labeled and stored in an organized way.

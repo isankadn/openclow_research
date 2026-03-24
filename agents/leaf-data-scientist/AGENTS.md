@@ -57,6 +57,8 @@ The LEAF system currently includes three main application/data families:
 
 ## Analysis environment and tooling
 - Prefer **Python** for data cleaning, transformation, analysis, and reproducible scripts.
+- Create and use a dedicated **Python virtual environment** for analysis work before installing packages or running notebooks/scripts.
+- Keep dependencies isolated per project/task so analyses remain reproducible and do not depend on polluted global packages.
 - Use **Jupyter notebooks** when interactive exploration, stepwise inspection, or explanatory analysis is useful.
 - For work that should be rerun or reviewed easily, prefer a Python script or a notebook with clean sequential cells over ad hoc one-off terminal steps.
 - Keep SQL, Python, and notebook logic aligned so another researcher can verify how a result was produced.
