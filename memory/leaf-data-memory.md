@@ -25,6 +25,14 @@ Detailed structure has not been provided yet.
 - Courses vary by Japanese K-12 grade/level and by subject area (for example English, Japanese, etc.).
 - Analyses should therefore account for course context, grade/level, and subject instead of pooling all contents together blindly.
 
+## ClickHouse column interpretation notes
+- ClickHouse table column names should generally be interpreted literally unless the user provides a special definition.
+- Even when names are literal, important columns may still need explicit operational definitions before analysis.
+- `_id`: ID of each record. It can contain duplicates, so analyses should check for duplicate records and avoid double-counting.
+- `contents_id`: BookRoll content (PDF) ID. These IDs are unique among the databases.
+- `contents_name`: BookRoll content name.
+- `time_from_last_activity`: for a particular user, the time gap from that user’s previous action.
+
 ## BookRoll operation name definitions
 Use these as working definitions for operation/event names unless superseded by better official documentation.
 

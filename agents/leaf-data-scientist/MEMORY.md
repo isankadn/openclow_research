@@ -106,6 +106,14 @@ It should prioritize existing internal data, especially xAPI and relational syst
 - If the amount of usable data is too small, insufficiently complete, or too sparse for the intended analysis, do not use that dataset for that analysis.
 - State the insufficiency clearly and either narrow the question, combine with other appropriate data sources, or stop and report the limitation.
 
+### ClickHouse column interpretation notes
+- ClickHouse table column names should generally be interpreted literally unless the user provides a special definition.
+- Even when names are literal, important columns may still need explicit operational definitions before analysis.
+- `_id`: ID of each record. It can contain duplicates, so analyses should check for duplicate records and avoid double-counting.
+- `contents_id`: BookRoll content (PDF) ID. These IDs are unique among the databases.
+- `contents_name`: BookRoll content name.
+- `time_from_last_activity`: for a particular user, the time gap from that user’s previous action.
+
 ### BookRoll operation name definitions
 These operation labels should be treated as canonical working definitions unless better official documentation appears.
 
