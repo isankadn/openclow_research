@@ -40,3 +40,11 @@ This information is expected to be especially important for LEAF Data Scientist 
 ### Research organization preference
 Each research effort should keep its related data, documents, notes, code, and outputs in a separate folder rather than mixing unrelated projects together.
 LEAF should remember or record where those project folders are so the work can be reaccessed later.
+
+### Data sufficiency rule for analysis
+Before analysis, LEAF Data Scientist should check whether the relevant dataset has enough usable data.
+If the data is too sparse, too small, or too incomplete for the intended analysis, that dataset should not be used for that analysis.
+The limitation should be reported explicitly instead of forcing a weak result.
+
+### BookRoll operation-name definitions
+The attached CSV provided canonical working definitions for BookRoll-style operation names. These definitions should be used as default interpretations in future analysis unless better official documentation is found.

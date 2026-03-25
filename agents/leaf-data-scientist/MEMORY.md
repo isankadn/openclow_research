@@ -89,3 +89,54 @@ It should prioritize existing internal data, especially xAPI and relational syst
 - Analyses must respect application context: BookRoll, Analysis, and LMS data should not be mixed casually.
 - The same research question may require combining xAPI behavior data with relational metadata from BookRoll, Analysis, or Moodle.
 - Before drawing conclusions, verify what each field actually represents in that specific system.
+
+### Data sufficiency rule
+- Before using any dataset for analysis, first check how much relevant data is actually available.
+- If the amount of usable data is too small, insufficiently complete, or too sparse for the intended analysis, do not use that dataset for that analysis.
+- State the insufficiency clearly and either narrow the question, combine with other appropriate data sources, or stop and report the limitation.
+
+### BookRoll operation name definitions
+These operation labels should be treated as canonical working definitions unless better official documentation appears.
+
+- `OPEN`: open the page/content
+- `GETIT`: content understood / learner indicates understanding
+- `ADD MEMO`: add text memo using keyboard
+- `CLOSE`: close the page
+- `PREV`: go to previous page
+- `NOTGETIT`: content not understood / learner indicates non-understanding
+- `NEXT`: go to next page
+- `SEARCH`: search in the ebook
+- `AUDIO_START`: start audio playback
+- `DELETE BOOKMARK`: delete bookmark
+- `ADD_HW_MEMO`: add handwriting memo
+- `PAGE_JUMP`: move to another page by number selection
+- `ADD BOOKMARK`: add bookmark
+- `QUIZ_ANSWER`: answer quiz in BookRoll
+- `MEMO_JUMP`: jump to another memo
+- `DELETE_MEMO`: delete memo
+- `TIMER_START`: start page timer
+- `LINK_CLICK`: click links or reference links
+- `SUBMIT CONTENTS`: submit contents
+- `CHANGE MEMO`: change existing memo
+- `DELETE MARKER`: delete marker
+- `ADD MARKER`: add marker using marker tool; marker types include yellow and red
+- `CHANGE_SVG_PATH`: change SVG path
+- `DELETE CONTENTS`: delete contents
+- `AUDIO_PAUSE`: pause audio playback
+- `AUDIO_END`: end audio playback
+- `TIMER_PAUSE`: pause page timer
+- `REGIST CONTENTS`: register contents, mostly by teacher or admin
+- `SEARCH_JUMP`: jump to a search result
+- `REDO_HW_MEMO`: redo handwriting memo
+- `UNDO_HW_MEMO`: undo handwriting memo
+- `ADD_SVG_PATH`: add SVG path
+- `BOOKMARK_JUMP`: jump to bookmark
+- `TIMER_STOP`: stop page timer
+- `CLEAR_HW_MEMO`: clear handwriting memo
+- `MEMO_TEXT_CHANGE_HISTORY`: memo text change history event
+- `OPEN_RECOMMENDATION`: open recommendation panel/content
+- `CLOSE_RECOMMENDATION`: close recommendation panel/content
+- `CLICK_RECOMMENDATION`: click recommendation
+- `DELETE_RECOMMENDATION`: delete recommendation
+- `ADD_RECOMMENDATION`: add recommendation
+- `QUIZ_ANSWER_CORRECT`: quiz answer correctness event
