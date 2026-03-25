@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<style>
+text { font-family: Arial, sans-serif; fill: #222; }
+.small { font-size: 12px; }
+.label { font-size: 13px; }
+.title { font-size: 18px; font-weight: bold; }
+.axis { stroke: #333; stroke-width: 1; }
+.grid { stroke: #ddd; stroke-width: 1; }
+</style>
+<text x="260" y="30" class="title">Top operation counts after timestamp filtering</text>
+<line x1="260" y1="60" x2="260" y2="660" class="axis"/>
+<line x1="260.0" y1="60" x2="260.0" y2="660" class="grid"/>
+<text x="260.0" y="690" class="small" text-anchor="middle">0</text>
+<line x1="440.0" y1="60" x2="440.0" y2="660" class="grid"/>
+<text x="440.0" y="690" class="small" text-anchor="middle">4,987,417</text>
+<line x1="620.0" y1="60" x2="620.0" y2="660" class="grid"/>
+<text x="620.0" y="690" class="small" text-anchor="middle">9,974,834</text>
+<line x1="800.0" y1="60" x2="800.0" y2="660" class="grid"/>
+<text x="800.0" y="690" class="small" text-anchor="middle">14,962,252</text>
+<line x1="980.0" y1="60" x2="980.0" y2="660" class="grid"/>
+<text x="980.0" y="690" class="small" text-anchor="middle">19,949,669</text>
+<line x1="1160.0" y1="60" x2="1160.0" y2="660" class="grid"/>
+<text x="1160.0" y="690" class="small" text-anchor="middle">24,937,087</text>
+<rect x="260" y="60" width="900.0" height="28.0" fill="#4e79a7"/>
+<text x="250" y="79.6" class="label" text-anchor="end">(blank)</text>
+<text x="1168.0" y="79.6" class="small">24,937,087</text>
+<rect x="260" y="100.0" width="768.5140569947083" height="28.0" fill="#4e79a7"/>
+<text x="250" y="119.6" class="label" text-anchor="end">ADD_HW_MEMO</text>
+<text x="1036.5140569947084" y="119.6" class="small">21,293,891</text>
+<rect x="260" y="140.0" width="554.4384875426708" height="28.0" fill="#4e79a7"/>
+<text x="250" y="159.6" class="label" text-anchor="end">NEXT</text>
+<text x="822.4384875426708" y="159.6" class="small">15,362,312</text>
+<rect x="260" y="180.0" width="481.13687055749534" height="28.0" fill="#4e79a7"/>
+<text x="250" y="199.6" class="label" text-anchor="end">DELETE MARKER</text>
+<text x="749.1368705574953" y="199.6" class="small">13,331,280</text>
+<rect x="260" y="220.0" width="201.39004206866665" height="28.0" fill="#4e79a7"/>
+<text x="250" y="239.6" class="label" text-anchor="end">PREV</text>
+<text x="469.3900420686666" y="239.6" class="small">5,580,090</text>
+<rect x="260" y="260.0" width="152.77992573872" height="28.0" fill="#4e79a7"/>
+<text x="250" y="279.6" class="label" text-anchor="end">TIMER_STOP</text>
+<text x="420.77992573872" y="279.6" class="small">4,233,207</text>
+<rect x="260" y="300.0" width="109.2347594568684" height="28.0" fill="#4e79a7"/>
+<text x="250" y="319.6" class="label" text-anchor="end">CHANGE MEMO</text>
+<text x="377.2347594568684" y="319.6" class="small">3,026,663</text>
+<rect x="260" y="340.0" width="77.3785446551957" height="28.0" fill="#4e79a7"/>
+<text x="250" y="359.6" class="label" text-anchor="end">OPEN</text>
+<text x="345.3785446551957" y="359.6" class="small">2,143,995</text>
+<rect x="260" y="380.0" width="74.74633264101777" height="28.0" fill="#4e79a7"/>
+<text x="250" y="399.6" class="label" text-anchor="end">DELETE BOOKMARK</text>
+<text x="342.7463326410178" y="399.6" class="small">2,071,062</text>
+<rect x="260" y="420.0" width="59.58681541272242" height="28.0" fill="#4e79a7"/>
+<text x="250" y="439.6" class="label" text-anchor="end">ADD MARKER</text>
+<text x="327.58681541272244" y="439.6" class="small">1,651,024</text>
+<rect x="260" y="460.0" width="57.172664152793786" height="28.0" fill="#4e79a7"/>
+<text x="250" y="479.6" class="label" text-anchor="end">CLOSE</text>
+<text x="325.1726641527938" y="479.6" class="small">1,584,133</text>
+<rect x="260" y="500.0" width="55.97394354841847" height="28.0" fill="#4e79a7"/>
+<text x="250" y="519.6" class="label" text-anchor="end">PAGE_JUMP</text>
+<text x="323.97394354841845" y="519.6" class="small">1,550,919</text>
+<rect x="260" y="540.0" width="31.917388747129927" height="28.0" fill="#4e79a7"/>
+<text x="250" y="559.6" class="label" text-anchor="end">ADD BOOKMARK</text>
+<text x="299.9173887471299" y="559.6" class="small">884,363</text>
+<rect x="260" y="580.0" width="27.479336299384126" height="28.0" fill="#4e79a7"/>
+<text x="250" y="599.6" class="label" text-anchor="end">UNDO_HW_MEMO</text>
+<text x="295.4793362993841" y="599.6" class="small">761,394</text>
+<rect x="260" y="620.0" width="19.04429735518026" height="28.0" fill="#4e79a7"/>
+<text x="250" y="639.6" class="label" text-anchor="end">OPEN_RECOMMENDATION</text>
+<text x="287.0442973551803" y="639.6" class="small">527,677</text>
+</svg>
