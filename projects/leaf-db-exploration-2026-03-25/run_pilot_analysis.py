@@ -396,7 +396,7 @@ heatmap(features_sorted[:12], heat_cols, 'Top candidate friction contents: signa
 top_contents_bar(features_sorted[:12], 'Top candidate contents by provisional pilot friction score', 'fig4_top_friction_contents.svg')
 for i,content in enumerate(shortlist[:3], start=1):
     rows = [r for r in q6 if r['contents_id'] == content['contents_id']]
-    concentration_plot(rows, f'fig5_concentration_{i}.svg', f'User-event concentration: {content["contents_name"][:50]}')
+    concentration_plot(rows, f'User-event concentration: {content["contents_name"][:50]}', f'fig5_concentration_{i}.svg')
 
 # summary stats
 included = [r for r in q3_all if r['uniq_users'] >= 30 and r['uniq_events'] >= 300]
