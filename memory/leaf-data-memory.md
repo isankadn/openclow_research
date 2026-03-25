@@ -10,6 +10,13 @@ Detailed structure has not been provided yet.
 - If data is too sparse, too small, or too incomplete for the intended analysis, do not use that dataset for that analysis.
 - Report the insufficiency explicitly rather than forcing an analysis from weak data.
 
+## Cross-source user matching
+- Analysis student score data is in `analysis_development.course_student_scores`.
+- In ClickHouse BookRoll/xAPI data, student user ID / username is commonly stored in `actor_account_name`.
+- For BookRoll xAPI records, `actor_account_name` often looks like `2665@0122CF32-84AF-E55C-3CED-647BBC4F44A7`.
+- The value before `@` is the Moodle `user.id`.
+- That prefix can be used to match the same user across ClickHouse xAPI data and other Moodle-related relational data sources.
+
 ## BookRoll operation name definitions
 Use these as working definitions for operation/event names unless superseded by better official documentation.
 

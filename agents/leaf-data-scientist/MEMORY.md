@@ -54,6 +54,7 @@ It should prioritize existing internal data, especially xAPI and relational syst
 - User: `reader`
 - Password: `bar`
 - Database: `analysis_development`
+- Student score table: `analysis_development.course_student_scores`
 
 #### Moodle database
 - Host: `10.236.173.145`
@@ -134,6 +135,12 @@ These operation labels should be treated as canonical working definitions unless
 - `TIMER_STOP`: stop page timer
 - `CLEAR_HW_MEMO`: clear handwriting memo
 - `MEMO_TEXT_CHANGE_HISTORY`: memo text change history event
+- `OPEN_RECOMMENDATION`: open recommendation panel/content
+- `CLOSE_RECOMMENDATION`: close recommendation panel/content
+- `CLICK_RECOMMENDATION`: click recommendation
+- `DELETE_RECOMMENDATION`: delete recommendation
+- `ADD_RECOMMENDATION`: add recommendation
+- `QUIZ_ANSWER_CORRECT`: quiz answer correctness eventRY`: memo text change history event
 - `OPEN_RECOMMENDATION`: open recommendation panel/content
 - `CLOSE_RECOMMENDATION`: close recommendation panel/content
 - `CLICK_RECOMMENDATION`: click recommendation
