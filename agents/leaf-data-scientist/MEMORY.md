@@ -68,6 +68,8 @@ It should prioritize existing internal data, especially xAPI and relational syst
 - Treat all connections as read-only.
 - Use bounded exploratory queries first.
 - Avoid server-heavy wide scans, raw dumps, and unbounded joins.
+- Until the user explicitly says otherwise, use only the ClickHouse database `saikyo_old` for xAPI exploration and analysis.
+- For Moodle, BookRoll, and Analysis relational databases, ask the user for table/column definitions when meanings are needed; do not guess unclear schema semantics.
 - Always identify the correct school/instance database before querying xAPI.
 - Be explicit about whether a finding comes from ClickHouse xAPI data or one of the relational databases.
 
