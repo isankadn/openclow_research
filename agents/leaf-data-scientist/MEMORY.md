@@ -92,6 +92,14 @@ It should prioritize existing internal data, especially xAPI and relational syst
 - Analyses must respect application context: BookRoll, Analysis, and LMS data should not be mixed casually.
 - The same research question may require combining xAPI behavior data with relational metadata from BookRoll, Analysis, or Moodle.
 - Before drawing conclusions, verify what each field actually represents in that specific system.
+- In ClickHouse BookRoll/xAPI data, the student user identifier is commonly stored in `actor_account_name`.
+- For BookRoll xAPI records, `actor_account_name` often looks like `2665@0122CF32-84AF-E55C-3CED-647BBC4F44A7`.
+- The substring before `@` is the Moodle user ID.
+- That prefix can be used as the cross-source user key to match the same learner across xAPI/ClickHouse data and Moodle-linked relational sources.
+- In the Moodle database, course-related information is important for interpreting BookRoll content usage.
+- BookRoll contents basically belong to courses.
+- Courses vary by Japanese K-12 grade/level and by subject area (for example English, Japanese, etc.).
+- Content analyses should therefore consider course context, grade/level, and subject instead of treating all contents as interchangeable.
 
 ### Data sufficiency rule
 - Before using any dataset for analysis, first check how much relevant data is actually available.
@@ -137,12 +145,6 @@ These operation labels should be treated as canonical working definitions unless
 - `TIMER_STOP`: stop page timer
 - `CLEAR_HW_MEMO`: clear handwriting memo
 - `MEMO_TEXT_CHANGE_HISTORY`: memo text change history event
-- `OPEN_RECOMMENDATION`: open recommendation panel/content
-- `CLOSE_RECOMMENDATION`: close recommendation panel/content
-- `CLICK_RECOMMENDATION`: click recommendation
-- `DELETE_RECOMMENDATION`: delete recommendation
-- `ADD_RECOMMENDATION`: add recommendation
-- `QUIZ_ANSWER_CORRECT`: quiz answer correctness eventRY`: memo text change history event
 - `OPEN_RECOMMENDATION`: open recommendation panel/content
 - `CLOSE_RECOMMENDATION`: close recommendation panel/content
 - `CLICK_RECOMMENDATION`: click recommendation

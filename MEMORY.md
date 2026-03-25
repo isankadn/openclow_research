@@ -53,3 +53,5 @@ The attached CSV provided canonical working definitions for BookRoll-style opera
 - Until the user explicitly says otherwise, use only the ClickHouse database `saikyo_old` for xAPI exploration and analysis.
 - For Moodle, BookRoll, and Analysis relational databases, do not guess table meanings or column definitions when they are unclear.
 - If research work needs table/column meaning from those relational databases, ask the user for the relevant definitions.
+- In Moodle, course information is important context for BookRoll content analysis because BookRoll contents basically belong to courses.
+- Course analyses should consider Japanese K-12 grade/level and subject area rather than treating all contents as one undifferentiated pool.

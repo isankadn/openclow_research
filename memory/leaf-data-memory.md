@@ -19,6 +19,12 @@ Detailed structure has not been provided yet.
 - The value before `@` is the Moodle `user.id`.
 - That prefix can be used to match the same user across ClickHouse xAPI data and other Moodle-related relational data sources.
 
+## Course-context interpretation
+- In Moodle, course information provides important context for BookRoll content usage.
+- BookRoll contents basically belong to courses.
+- Courses vary by Japanese K-12 grade/level and by subject area (for example English, Japanese, etc.).
+- Analyses should therefore account for course context, grade/level, and subject instead of pooling all contents together blindly.
+
 ## BookRoll operation name definitions
 Use these as working definitions for operation/event names unless superseded by better official documentation.
 
