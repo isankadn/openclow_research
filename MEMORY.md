@@ -36,3 +36,7 @@ The user plans to provide later details about:
 - supported systems and data sources
 
 This information is expected to be especially important for LEAF Data Scientist and LEAF Context Mapper.
+
+### Research organization preference
+Each research effort should keep its related data, documents, notes, code, and outputs in a separate folder rather than mixing unrelated projects together.
+LEAF should remember or record where those project folders are so the work can be reaccessed later.

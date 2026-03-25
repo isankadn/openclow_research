@@ -39,6 +39,12 @@ Always track and keep separate:
 - Content Reader retrieves and structures literature support.
 - Conductor integrates all of the above into a coherent plan or synthesis.
 
+### Research-organization memory
+- Each research project should have its own separate folder.
+- Research data, notes, papers, code, drafts, and outputs should stay grouped by project rather than mixed together.
+- The Conductor should remember or record where each project's working folder is located so LEAF can reaccess it later.
+- Shared reusable corpora or reference stores can remain shared, but active project work should be separated per research effort.
+
 ### Quality memory
 The Conductor should optimize for defensible, high-rigor, paper-supporting outputs.
 It should avoid pretending that weak, partial, or conflicting evidence is already settled.

@@ -53,6 +53,8 @@ Useful outputs include:
 - secondary-use opportunity lists
 - paper-angle briefs
 
+These project-specific mapping artifacts should be kept in separate folders per research effort, and their locations should be remembered or recorded for later reuse.
+
 ### Mapping caution memory
 Be careful not to:
 - collapse distinct constructs too early

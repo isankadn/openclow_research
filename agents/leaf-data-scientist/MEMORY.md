@@ -78,9 +78,11 @@ It should prioritize existing internal data, especially xAPI and relational syst
 - Prefer trusted third-party packages from reputable, well-maintained sources.
 - Use Jupyter when interactive exploration or annotated analysis is helpful.
 - Preserve notebooks, Python scripts, and important SQL used in analysis.
+- Keep each research project's data/code/notebooks/outputs in its own separate folder.
 - CSV exports should be clearly labeled and stored in an organized way.
 - Raw extracts and derived datasets should be kept distinct.
 - Analysis artifacts should make it possible to verify calculations later.
+- Important project locations should be recorded so work can be reaccessed later.
 
 ### Interpretation memory
 - Different LEAF applications emit different xAPI patterns and attributes.

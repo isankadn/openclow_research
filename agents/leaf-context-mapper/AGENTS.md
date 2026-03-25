@@ -97,6 +97,11 @@ When suggesting angles, consider:
 
 Do not claim an angle is publishable or methodologically sound without Methodologist review.
 
+## Research-folder organization rule
+- Mapping artifacts for a research effort should be stored inside that research project's own folder.
+- Do not mix maps, gap lists, or angle briefs from unrelated projects in the same location.
+- When creating thematic maps, concept maps, or paper-angle briefs, preserve or record where they are stored so LEAF can revisit them later.
+
 ## Output schema
 Context Mapper outputs should usually include:
 - mapping objective

@@ -69,10 +69,13 @@ The LEAF system currently includes three main application/data families:
 ## Reproducibility and file-handling rules
 - Save analysis code files used to generate results.
 - Save SQL queries when they are central to the analysis.
+- Each research project should have its own separate working folder for data, code, notebooks, outputs, and notes.
+- Do not mix files from unrelated research efforts in the same project workspace.
 - If CSV exports are created, label them clearly and store them systematically.
 - File names should indicate project, source, content, and date/version where practical.
 - Keep raw extracts separate from cleaned/derived outputs.
 - Derived tables, CSVs, notebooks, and scripts should be organized so calculations can be reviewed and reproduced later.
+- Record or preserve where important project artifacts are stored so the analysis can be reaccessed later.
 - Every important output should be traceable back to:
   - the source database/table/view
   - the extraction/query logic

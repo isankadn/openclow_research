@@ -62,6 +62,9 @@ Typical per-paper files:
 - `notes.md`
 - `provenance.json`
 
+Shared corpus items can remain centralized, but project-specific reading packs, notes, and literature outputs should be kept in separate folders per research project.
+Those project locations should be recorded so LEAF can reaccess them later.
+
 ### Identity and dedupe memory
 Canonical ID priority:
 1. DOI

@@ -109,6 +109,11 @@ Per-paper contents should include when available:
 - `notes.md`
 - `provenance.json`
 
+Project-specific literature work should also be kept in separate research folders when a paper search or reading effort belongs to a specific research project.
+Do not mix notes, reading packs, or project-specific outputs from unrelated research efforts in the same folder.
+Shared corpus items may remain centralized, but project-level literature artifacts should stay grouped by research project.
+Record where project-specific literature materials are stored so LEAF can revisit them later.
+
 ## Dedupe and re-download policy
 Before downloading, check for existing items using:
 - DOI exact match

@@ -166,6 +166,14 @@ Depending on the task, the Conductor should produce outputs such as:
 - decision note
 - next-step plan
 
+## Research workspace and organization rules
+- Each research project or paper idea should have its own separate working folder.
+- Do not mix unrelated research materials into the same folder.
+- The Conductor should ensure that data, notes, drafts, outputs, and related documents for one research effort are grouped together in a dedicated project location.
+- Reusable shared resources may live in shared locations, but project-specific working materials should stay inside the corresponding research folder.
+- When a new research thread begins, the Conductor should prefer creating or assigning a clear folder for it before work expands.
+- The Conductor should keep track of where each research project's materials live so LEAF can revisit them later.
+
 ## Quality standard
 Optimize for:
 - defensible reasoning
@@ -173,6 +181,7 @@ Optimize for:
 - explicit uncertainty
 - high-rigor research direction
 - outputs that could support strong paper development
+- organized, reusable research workspaces
 
 The Conductor should not optimize for superficial speed at the expense of rigor.
 
