@@ -1,10 +1,10 @@
 {
   "dataset_sanity": {
-    "raw_rows": 7672218,
-    "uniq_record_ids": 7672218,
+    "raw_rows": 7672232,
+    "uniq_record_ids": 7672232,
     "duplicate_row_gap": 0,
     "min_ts": "2023-01-11 23:35:42.000",
-    "max_ts": "2026-03-30 17:00:29.000",
+    "max_ts": "2026-03-30 17:32:28.000",
     "uniq_users": 2312,
     "uniq_contents": 3969,
     "uniq_ops": 160,
@@ -28,7 +28,7 @@
       "rec_click_through_rate": 0.7824,
       "quiz_rate": 0,
       "median_gap": 6,
-      "pilot_friction_score": 10.874
+      "pilot_friction_score": 10.875
     },
     {
       "rank": 2,
@@ -43,7 +43,7 @@
       "rec_click_through_rate": 0,
       "quiz_rate": 0,
       "median_gap": 12,
-      "pilot_friction_score": 9.652
+      "pilot_friction_score": 9.655
     },
     {
       "rank": 3,
@@ -58,7 +58,7 @@
       "rec_click_through_rate": 0.6065,
       "quiz_rate": 0.1663,
       "median_gap": 4,
-      "pilot_friction_score": 7.68
+      "pilot_friction_score": 7.681
     },
     {
       "rank": 4,
@@ -73,7 +73,7 @@
       "rec_click_through_rate": 0,
       "quiz_rate": 0,
       "median_gap": 9.5,
-      "pilot_friction_score": 6.927
+      "pilot_friction_score": 6.93
     },
     {
       "rank": 5,
@@ -88,7 +88,7 @@
       "rec_click_through_rate": 0,
       "quiz_rate": 0,
       "median_gap": 9,
-      "pilot_friction_score": 6.905
+      "pilot_friction_score": 6.908
     }
   ]
 }

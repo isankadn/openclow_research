@@ -24,27 +24,27 @@ text { font-family: Arial, sans-serif; fill: #222; }
 <rect x="260" y="60" width="900.0" height="28.0" fill="#4e79a7"/>
 <text x="250" y="79.6" class="label" text-anchor="end">ADD_HW_MEMO</text>
 <text x="1168.0" y="79.6" class="small">3,262,859</text>
-<rect x="260" y="100.0" width="261.06010097279716" height="28.0" fill="#4e79a7"/>
+<rect x="260" y="100.0" width="261.06230762653246" height="28.0" fill="#4e79a7"/>
 <text x="250" y="119.6" class="label" text-anchor="end">NEXT</text>
-<text x="529.0601009727972" y="119.6" class="small">946,447</text>
+<text x="529.0623076265324" y="119.6" class="small">946,455</text>
 <rect x="260" y="140.0" width="157.10795348496518" height="28.0" fill="#4e79a7"/>
 <text x="250" y="159.6" class="label" text-anchor="end">(blank)</text>
 <text x="425.10795348496515" y="159.6" class="small">569,579</text>
 <rect x="260" y="180.0" width="122.98012264704053" height="28.0" fill="#4e79a7"/>
 <text x="250" y="199.6" class="label" text-anchor="end">OPEN</text>
 <text x="390.9801226470405" y="199.6" class="small">445,852</text>
-<rect x="260" y="220.0" width="121.05261060928468" height="28.0" fill="#4e79a7"/>
+<rect x="260" y="220.0" width="121.0531622727185" height="28.0" fill="#4e79a7"/>
 <text x="250" y="239.6" class="label" text-anchor="end">PAGE_JUMP</text>
-<text x="389.05261060928467" y="239.6" class="small">438,864</text>
+<text x="389.0531622727185" y="239.6" class="small">438,866</text>
 <rect x="260" y="260.0" width="113.87960681108194" height="28.0" fill="#4e79a7"/>
 <text x="250" y="279.6" class="label" text-anchor="end">ZOOM_IN</text>
 <text x="381.87960681108194" y="279.6" class="small">412,859</text>
-<rect x="260" y="300.0" width="77.4022414085316" height="28.0" fill="#4e79a7"/>
+<rect x="260" y="300.0" width="77.40306890368232" height="28.0" fill="#4e79a7"/>
 <text x="250" y="319.6" class="label" text-anchor="end">PREV</text>
-<text x="345.4022414085316" y="319.6" class="small">280,614</text>
-<rect x="260" y="340.0" width="61.24595025405633" height="28.0" fill="#4e79a7"/>
+<text x="345.4030689036823" y="319.6" class="small">280,617</text>
+<rect x="260" y="340.0" width="61.246226085773245" height="28.0" fill="#4e79a7"/>
 <text x="250" y="359.6" class="label" text-anchor="end">CLOSE</text>
-<text x="329.2459502540563" y="359.6" class="small">222,041</text>
+<text x="329.24622608577323" y="359.6" class="small">222,042</text>
 <rect x="260" y="380.0" width="46.97276223091467" height="28.0" fill="#4e79a7"/>
 <text x="250" y="399.6" class="label" text-anchor="end">#attain-grade</text>
 <text x="314.97276223091467" y="399.6" class="small">170,295</text>

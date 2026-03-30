@@ -32,7 +32,7 @@ text { font-family: Arial, sans-serif; fill: #222; }
 <rect x="1190.0" y="120.0" width="143.0" height="57.166666666666664" fill="rgb(102,205,153)"/>
 <text x="1262.5" y="156.68333333333334" class="small" text-anchor="middle">6.00</text>
 <rect x="1335.0" y="120.0" width="143.0" height="57.166666666666664" fill="rgb(255,140,0)"/>
-<text x="1407.5" y="156.68333333333334" class="small" text-anchor="middle">10.87</text>
+<text x="1407.5" y="156.68333333333334" class="small" text-anchor="middle">10.88</text>
 <text x="310" y="217.625" class="small" text-anchor="end">前期中間模範</text>
 <rect x="320.0" y="179.16666666666666" width="143.0" height="57.166666666666664" fill="rgb(23,155,231)"/>
 <text x="392.5" y="215.85" class="small" text-anchor="middle">0.10</text>
@@ -202,7 +202,7 @@ text { font-family: Arial, sans-serif; fill: #222; }
 <rect x="1190.0" y="711.6666666666666" width="143.0" height="57.166666666666664" fill="rgb(102,205,153)"/>
 <text x="1262.5" y="748.3499999999999" class="small" text-anchor="middle">6.00</text>
 <rect x="1335.0" y="711.6666666666666" width="143.0" height="57.166666666666664" fill="rgb(0,141,254)"/>
-<text x="1407.5" y="748.3499999999999" class="small" text-anchor="middle">3.82</text>
+<text x="1407.5" y="748.3499999999999" class="small" text-anchor="middle">3.83</text>
 <text x="310" y="809.2916666666666" class="small" text-anchor="end">【問題編】Sirius21国語発展Vol.3</text>
 <rect x="320.0" y="770.8333333333333" width="143.0" height="57.166666666666664" fill="rgb(255,140,0)"/>
 <text x="392.5" y="807.5166666666665" class="small" text-anchor="middle">0.42</text>
