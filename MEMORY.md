@@ -50,7 +50,7 @@ The limitation should be reported explicitly instead of forcing a weak result.
 The attached CSV provided canonical working definitions for BookRoll-style operation names. These definitions should be used as default interpretations in future analysis unless better official documentation is found.
 
 ### Current data-exploration operating rules
-- Until the user explicitly says otherwise, use only the ClickHouse database `saikyo_old` for xAPI exploration and analysis.
+- Until the user explicitly says otherwise, use only the ClickHouse database `saikyo_new` for xAPI exploration and analysis.
 - For Moodle, BookRoll, and Analysis relational databases, do not guess table meanings or column definitions when they are unclear.
 - If research work needs table/column meaning from those relational databases, ask the user for the relevant definitions.
 - In Moodle, course information is important context for BookRoll content analysis because BookRoll contents basically belong to courses.

@@ -9,7 +9,7 @@ Detailed structure has not been provided yet.
 - Before using any dataset for analysis, first check how much relevant usable data exists.
 - If data is too sparse, too small, or too incomplete for the intended analysis, do not use that dataset for that analysis.
 - Report the insufficiency explicitly rather than forcing an analysis from weak data.
-- Until the user explicitly says otherwise, use only the ClickHouse database `saikyo_old` for xAPI exploration and analysis.
+- Until the user explicitly says otherwise, use only the ClickHouse database `saikyo_new` for xAPI exploration and analysis.
 - For Moodle, BookRoll, and Analysis relational databases, ask the user for table/column definitions when they are needed for interpretation; do not guess unclear schema semantics.
 
 ## Cross-source user matching
