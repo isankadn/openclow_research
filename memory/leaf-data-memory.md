@@ -32,6 +32,11 @@ Detailed structure has not been provided yet.
 - `contents_id`: BookRoll content (PDF) ID. These IDs are unique among the databases.
 - `contents_name`: BookRoll content name.
 - `time_from_last_activity`: for a particular user, the time gap from that user’s previous action.
+- `platform`: platform name, such as BookRoll, Moodle, Logpalette, GOAL, SCROLL, etc.
+- `actor_name_role`: user role, such as teacher, student, admin, etc.
+- `context_id`: Moodle course ID.
+- `context_title`: Moodle course name.
+- `context_label`: Moodle course name.
 
 ## BookRoll operation name definitions
 Use the latest CSV at `/home/ubuntu/.openclaw/external-resources/new-operation-names.csv` as the current canonical working source unless superseded by better official documentation.

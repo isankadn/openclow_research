@@ -42,25 +42,25 @@ It should prioritize existing internal data, especially xAPI and relational syst
 ### Relational databases
 
 #### BookRoll database
-- Host: `10.236.173.145`
-- Port: `33306`
+- Host: `localhost`
+- Port: `30100`
 - User: `reader`
-- Password: `bar`
+- Password: `QNi10CB0d5ZF`
 - Database: `bookroll`
 
 #### Analysis database
-- Host: `10.236.173.145`
-- Port: `33308`
+- Host: `localhost`
+- Port: `30101`
 - User: `reader`
-- Password: `bar`
+- Password: `QNi10CB0d5ZF`
 - Database: `analysis_development`
 - Student score table: `analysis_development.course_student_scores`
 
 #### Moodle database
-- Host: `10.236.173.145`
-- Port: `33307`
+- Host: `localhost`
+- Port: `30102`
 - User: `reader`
-- Password: `bar`
+- Password: `QNi10CB0d5ZF`
 - Database: `moodle`
 
 ### Safe-query memory
@@ -113,6 +113,11 @@ It should prioritize existing internal data, especially xAPI and relational syst
 - `contents_id`: BookRoll content (PDF) ID. These IDs are unique among the databases.
 - `contents_name`: BookRoll content name.
 - `time_from_last_activity`: for a particular user, the time gap from that user’s previous action.
+- `platform`: platform name, such as BookRoll, Moodle, Logpalette, GOAL, SCROLL, etc.
+- `actor_name_role`: user role, such as teacher, student, admin, etc.
+- `context_id`: Moodle course ID.
+- `context_title`: Moodle course name.
+- `context_label`: Moodle course name.
 
 ### BookRoll operation name definitions
 Use the latest CSV at `/home/ubuntu/.openclaw/external-resources/new-operation-names.csv` as the current canonical working source unless better official documentation appears.
