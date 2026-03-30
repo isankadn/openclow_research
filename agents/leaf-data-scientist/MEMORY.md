@@ -115,47 +115,109 @@ It should prioritize existing internal data, especially xAPI and relational syst
 - `time_from_last_activity`: for a particular user, the time gap from that user’s previous action.
 
 ### BookRoll operation name definitions
-These operation labels should be treated as canonical working definitions unless better official documentation appears.
+Use the latest CSV at `/home/ubuntu/.openclaw/external-resources/new-operation-names.csv` as the current canonical working source unless better official documentation appears.
+This newer list supersedes the older saved operation-definition list when names or wording conflict.
+It includes both learner/content actions and `#...` dashboard/aggregate metric names.
 
-- `OPEN`: open the page/content
-- `GETIT`: content understood / learner indicates understanding
-- `ADD MEMO`: add text memo using keyboard
-- `CLOSE`: close the page
-- `PREV`: go to previous page
-- `NOTGETIT`: content not understood / learner indicates non-understanding
-- `NEXT`: go to next page
-- `SEARCH`: search in the ebook
-- `AUDIO_START`: start audio playback
-- `DELETE BOOKMARK`: delete bookmark
-- `ADD_HW_MEMO`: add handwriting memo
-- `PAGE_JUMP`: move to another page by number selection
-- `ADD BOOKMARK`: add bookmark
-- `QUIZ_ANSWER`: answer quiz in BookRoll
-- `MEMO_JUMP`: jump to another memo
-- `DELETE_MEMO`: delete memo
-- `TIMER_START`: start page timer
-- `LINK_CLICK`: click links or reference links
-- `SUBMIT CONTENTS`: submit contents
-- `CHANGE MEMO`: change existing memo
-- `DELETE MARKER`: delete marker
-- `ADD MARKER`: add marker using marker tool; marker types include yellow and red
-- `CHANGE_SVG_PATH`: change SVG path
-- `DELETE CONTENTS`: delete contents
-- `AUDIO_PAUSE`: pause audio playback
-- `AUDIO_END`: end audio playback
-- `TIMER_PAUSE`: pause page timer
-- `REGIST CONTENTS`: register contents, mostly by teacher or admin
-- `SEARCH_JUMP`: jump to a search result
-- `REDO_HW_MEMO`: redo handwriting memo
-- `UNDO_HW_MEMO`: undo handwriting memo
-- `ADD_SVG_PATH`: add SVG path
-- `BOOKMARK_JUMP`: jump to bookmark
-- `TIMER_STOP`: stop page timer
-- `CLEAR_HW_MEMO`: clear handwriting memo
-- `MEMO_TEXT_CHANGE_HISTORY`: memo text change history event
-- `OPEN_RECOMMENDATION`: open recommendation panel/content
-- `CLOSE_RECOMMENDATION`: close recommendation panel/content
-- `CLICK_RECOMMENDATION`: click recommendation
-- `DELETE_RECOMMENDATION`: delete recommendation
-- `ADD_RECOMMENDATION`: add recommendation
-- `QUIZ_ANSWER_CORRECT`: quiz answer correctness event
+- `OPEN`: Open new PDF content
+- `ZOOM_FIT`: Zoom the ebook reader to fit into user screen
+- `ADD_MEMO`: Add memo
+- `ADD_QUIZ`: Add quiz
+- `ZOOM_IN`: Click zoom in button
+- `CLOSE`: Close PDF content
+- `PREV`: Move to previous page
+- `LOGOUT`: Logout from the bookrooll application
+- `NEXT`: Move to next page
+- `ZOOM_OUT`: Click the Zoom out button
+- `SEARCH`: Search bookroll contents
+- `LOGIN`: Login to bookroll
+- `#browsing-time`: definition not provided in CSV
+- `EXCLUDE_CONTENTS`: Exclude contents from class
+- `#activity-view`: definition not provided in CSV
+- `CHANGE_SVG_TEXT`: Change SVG text
+- `ADD_HW_MEMO`: Add hand writing memo
+- `PAGE_JUMP`: Jump to another page
+- `CLEAR_HW_QUIZ`: Clear hand writing quiz
+- `ERASE_HW_MEMO`: Erase hand writing memo
+- `#daily-view-time`: definition not provided in CSV
+- `#page-view`: definition not provided in CSV
+- `MEMO_JUMP`: Jumo to another memo
+- `ADD_BOOKMARK`: Add a bookmark
+- `#character-count`: definition not provided in CSV
+- `EDIT_CONTENTS`: Edit content metadata
+- `CHANGE_HW_CANVAS`: Change hand writing
+- `DELETE_MEMO`: Delete memo
+- `TIMER_START`: Click and start timer on the page
+- `CLOSE_FILL_BLANK`: Close fill blank question
+- `ADD_HW_CANVAS`: Add handwriting canvas
+- `ADD_MARKER`: Add marker
+- `ANSWER_QUIZ`: Answer quiz
+- `REMOVE_FAVORITE`: Remove from Favorite
+- `#feedback`: definition not provided in CSV
+- `ADD_HW_QUIZ`: Add hand writing quiz
+- `START_FILL_BLANK`: Start fill blank question
+- `DELETE_CONTENTS`: Delete pdf contents
+- `#marker-list`: definition not provided in CSV
+- `EDIT_QUIZ`: Edit quiz
+- `#student-table`: definition not provided in CSV
+- `CHANGE_SVG_PATH`: Change SVG path
+- `OPEN_FILL_BLANK`: Open fill in black question
+- `CLICK_LINK`: Click link
+- `DELETE_QUIZ`: Delete quiz
+- `#memo-list`: definition not provided in CSV
+- `DELETE_HW_CANVAS`: Delete hand writing canvas
+- `CHANGE_MEMO`: Change memo
+- `UNDO_SVG_PATH`: Undo SVG path
+- `REDO_SVG_PATH`: Redo SVG path
+- `MEANING_SELECT`: Meaning select
+- `TRANSLATE`: Use translate
+- `#attain-grade`: definition not provided in CSV
+- `CLOSE_QUIZ`: Close quiz
+- `DELETE_SVG_TEXT`: Delete SVG text
+- `ZOOM_FULL`: Zoom in to full
+- `DELETE_MARKER`: Delete marker
+- `TIMER_PAUSE`: Pause timer
+- `DELETE_BOOKMARK`: Delete book mark
+- `SEARCH_JUMP`: Search jump
+- `DELETE_SVG_PATH`: Delete SVG path
+- `#memo-count`: definition not provided in CSV
+- `ADD_SVG_TEXT`: Add SVG text
+- `ADD_FAVORITE`: Add favorite
+- `OPEN_QUIZ`: Open quiz
+- `#student-view`: definition not provided in CSV
+- `#page-thumbnail`: definition not provided in CSV
+- `#student-chart`: definition not provided in CSV
+- `UNDO_HW_MEMO`: Undo hand writing memo
+- `REDO_HW_MEMO`: Redo hand writing memo
+- `ADD_SVG_PATH`: Add SVG path
+- `TIMER_STOP`: Stop timer
+- `CLEAR_HW_MEMO`: Clear hand writing memo
+- `#marker-count`: definition not provided in CSV
+- `#hourly-view-time`: definition not provided in CSV
+- `MEMO_TEXT_CHANGE_HISTORY`: Check memo text change history
+- `EDIT_QUESTIONNAIRE`: Edit questionnaire
+- `#weekly-view-time`: definition not provided in CSV
+- `ADD_QUESTIONNAIRE`: Add questionnaire
+- `OPEN_RECOMMENDATION`: Open recommendation
+- `CLOSE_RECOMMENDATION`: Close recommendation
+- `CLICK_RECOMMENDATION`: Click recommendation
+- `ANSWER_FILL_BLANK`: Answer fill in black question
+- `#select-past-senior`: definition not provided in CSV
+- `DELETE_RECOMMENDATION`: Delete recommendation
+- `DELETE_QUESTIONNAIRE`: Delete questionnaire
+- `#context-selector`: definition not provided in CSV
+- `REGISTER_CONTENTS`: Register contents
+- `ADD_RECOMMENDATION`: Add recommendation
+- `OPEN_QUESTIONNAIRE`: Open questionnaire
+- `CLOSE_QUESTIONNAIRE`: Close questionnaire
+- `ANSWER_QUESTIONNAIRE`: Answer questionnaire
+- `#select-old-dashboard`: definition not provided in CSV
+- `#monthly-view-time`: definition not provided in CSV
+- `EDIT_RECOMMENDATION`: Edit recommendation
+- `#select-current-peer`: definition not provided in CSV
+- `#download-page-stats`: definition not provided in CSV
+- `#select-past-senior-comparison`: definition not provided in CSV
+- `#save-comment-past-senior`: definition not provided in CSV
+- `#save-comment-current-peer`: definition not provided in CSV
+- `#select-current-peer-comparison`: definition not provided in CSV
+- Note: preserve CSV wording as given for now, including spelling issues such as `bookrooll`, `Jumo`, and `fill in black`, unless the user later wants a cleaned/normalized glossary.

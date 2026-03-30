@@ -47,7 +47,8 @@ If the data is too sparse, too small, or too incomplete for the intended analysi
 The limitation should be reported explicitly instead of forcing a weak result.
 
 ### BookRoll operation-name definitions
-The attached CSV provided canonical working definitions for BookRoll-style operation names. These definitions should be used as default interpretations in future analysis unless better official documentation is found.
+The latest canonical working source for BookRoll-style operation names is `/home/ubuntu/.openclaw/external-resources/new-operation-names.csv`.
+Use its definitions as the default interpretations in future analysis unless better official documentation is found.
 
 ### Current data-exploration operating rules
 - Until the user explicitly says otherwise, use only the ClickHouse database `saikyo_new` for xAPI exploration and analysis.
