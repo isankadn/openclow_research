@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<style>
+text { font-family: Arial, sans-serif; fill: #222; }
+.small { font-size: 12px; }
+.label { font-size: 13px; }
+.title { font-size: 18px; font-weight: bold; }
+.axis { stroke: #333; stroke-width: 1; }
+.grid { stroke: #ddd; stroke-width: 1; }
+</style>
+<text x="260" y="30" class="title">Top operation counts after timestamp filtering</text>
+<line x1="260" y1="60" x2="260" y2="660" class="axis"/>
+<line x1="260.0" y1="60" x2="260.0" y2="660" class="grid"/>
+<text x="260.0" y="690" class="small" text-anchor="middle">0</text>
+<line x1="440.0" y1="60" x2="440.0" y2="660" class="grid"/>
+<text x="440.0" y="690" class="small" text-anchor="middle">652,571</text>
+<line x1="620.0" y1="60" x2="620.0" y2="660" class="grid"/>
+<text x="620.0" y="690" class="small" text-anchor="middle">1,305,143</text>
+<line x1="800.0" y1="60" x2="800.0" y2="660" class="grid"/>
+<text x="800.0" y="690" class="small" text-anchor="middle">1,957,715</text>
+<line x1="980.0" y1="60" x2="980.0" y2="660" class="grid"/>
+<text x="980.0" y="690" class="small" text-anchor="middle">2,610,287</text>
+<line x1="1160.0" y1="60" x2="1160.0" y2="660" class="grid"/>
+<text x="1160.0" y="690" class="small" text-anchor="middle">3,262,859</text>
+<rect x="260" y="60" width="900.0" height="28.0" fill="#4e79a7"/>
+<text x="250" y="79.6" class="label" text-anchor="end">ADD_HW_MEMO</text>
+<text x="1168.0" y="79.6" class="small">3,262,859</text>
+<rect x="260" y="100.0" width="261.06010097279716" height="28.0" fill="#4e79a7"/>
+<text x="250" y="119.6" class="label" text-anchor="end">NEXT</text>
+<text x="529.0601009727972" y="119.6" class="small">946,447</text>
+<rect x="260" y="140.0" width="157.10795348496518" height="28.0" fill="#4e79a7"/>
+<text x="250" y="159.6" class="label" text-anchor="end">(blank)</text>
+<text x="425.10795348496515" y="159.6" class="small">569,579</text>
+<rect x="260" y="180.0" width="122.98012264704053" height="28.0" fill="#4e79a7"/>
+<text x="250" y="199.6" class="label" text-anchor="end">OPEN</text>
+<text x="390.9801226470405" y="199.6" class="small">445,852</text>
+<rect x="260" y="220.0" width="121.05261060928468" height="28.0" fill="#4e79a7"/>
+<text x="250" y="239.6" class="label" text-anchor="end">PAGE_JUMP</text>
+<text x="389.05261060928467" y="239.6" class="small">438,864</text>
+<rect x="260" y="260.0" width="113.87960681108194" height="28.0" fill="#4e79a7"/>
+<text x="250" y="279.6" class="label" text-anchor="end">ZOOM_IN</text>
+<text x="381.87960681108194" y="279.6" class="small">412,859</text>
+<rect x="260" y="300.0" width="77.4022414085316" height="28.0" fill="#4e79a7"/>
+<text x="250" y="319.6" class="label" text-anchor="end">PREV</text>
+<text x="345.4022414085316" y="319.6" class="small">280,614</text>
+<rect x="260" y="340.0" width="61.24595025405633" height="28.0" fill="#4e79a7"/>
+<text x="250" y="359.6" class="label" text-anchor="end">CLOSE</text>
+<text x="329.2459502540563" y="359.6" class="small">222,041</text>
+<rect x="260" y="380.0" width="46.97276223091467" height="28.0" fill="#4e79a7"/>
+<text x="250" y="399.6" class="label" text-anchor="end">#attain-grade</text>
+<text x="314.97276223091467" y="399.6" class="small">170,295</text>
+<rect x="260" y="420.0" width="44.34381013706078" height="28.0" fill="#4e79a7"/>
+<text x="250" y="439.6" class="label" text-anchor="end">UNDO_HW_MEMO</text>
+<text x="312.34381013706076" y="439.6" class="small">160,764</text>
+<rect x="260" y="460.0" width="28.842895141959858" height="28.0" fill="#4e79a7"/>
+<text x="250" y="479.6" class="label" text-anchor="end">ERASE_HW_MEMO</text>
+<text x="296.84289514195984" y="479.6" class="small">104,567</text>
+<rect x="260" y="500.0" width="26.057546464618913" height="28.0" fill="#4e79a7"/>
+<text x="250" y="519.6" class="label" text-anchor="end">ANSWER_QUIZ</text>
+<text x="294.0575464646189" y="519.6" class="small">94,469</text>
+<rect x="260" y="540.0" width="22.25079293956619" height="28.0" fill="#4e79a7"/>
+<text x="250" y="559.6" class="label" text-anchor="end">LOGIN</text>
+<text x="290.25079293956617" y="559.6" class="small">80,668</text>
+<rect x="260" y="580.0" width="20.316385108887633" height="28.0" fill="#4e79a7"/>
+<text x="250" y="599.6" class="label" text-anchor="end">ZOOM_OUT</text>
+<text x="288.31638510888763" y="599.6" class="small">73,655</text>
+<rect x="260" y="620.0" width="16.995095405593684" height="28.0" fill="#4e79a7"/>
+<text x="250" y="639.6" class="label" text-anchor="end">OPEN_QUIZ</text>
+<text x="284.9950954055937" y="639.6" class="small">61,614</text>
+</svg>
