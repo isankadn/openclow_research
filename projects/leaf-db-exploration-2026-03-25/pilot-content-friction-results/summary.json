@@ -28,7 +28,7 @@
       "rec_click_through_rate": 0.4913,
       "quiz_rate": 0,
       "median_gap": 0,
-      "pilot_friction_score": 13.538
+      "pilot_friction_score": 13.539
     },
     {
       "rank": 2,
@@ -88,7 +88,7 @@
       "rec_click_through_rate": 0,
       "quiz_rate": 0.1895,
       "median_gap": 1,
-      "pilot_friction_score": 8.609
+      "pilot_friction_score": 8.61
     }
   ]
 }

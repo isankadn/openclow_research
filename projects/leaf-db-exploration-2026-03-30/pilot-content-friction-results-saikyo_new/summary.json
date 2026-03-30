@@ -28,7 +28,7 @@
       "rec_click_through_rate": 0.7824,
       "quiz_rate": 0,
       "median_gap": 6,
-      "pilot_friction_score": 10.877
+      "pilot_friction_score": 10.874
     },
     {
       "rank": 2,
@@ -43,7 +43,7 @@
       "rec_click_through_rate": 0,
       "quiz_rate": 0,
       "median_gap": 12,
-      "pilot_friction_score": 9.659
+      "pilot_friction_score": 9.652
     },
     {
       "rank": 3,
@@ -58,7 +58,7 @@
       "rec_click_through_rate": 0.6065,
       "quiz_rate": 0.1663,
       "median_gap": 4,
-      "pilot_friction_score": 7.682
+      "pilot_friction_score": 7.68
     },
     {
       "rank": 4,
@@ -73,7 +73,7 @@
       "rec_click_through_rate": 0,
       "quiz_rate": 0,
       "median_gap": 9.5,
-      "pilot_friction_score": 6.933
+      "pilot_friction_score": 6.927
     },
     {
       "rank": 5,
@@ -88,7 +88,7 @@
       "rec_click_through_rate": 0,
       "quiz_rate": 0,
       "median_gap": 9,
-      "pilot_friction_score": 6.91
+      "pilot_friction_score": 6.905
     }
   ]
 }

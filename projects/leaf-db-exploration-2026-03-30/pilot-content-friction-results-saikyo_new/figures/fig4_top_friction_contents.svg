@@ -10,40 +10,40 @@ text { font-family: Arial, sans-serif; fill: #222; }
 <text x="80" y="30" class="title">Top candidate contents by provisional pilot friction score</text>
 <line x1="80" y1="60" x2="80" y2="480" class="axis"/>
 <line x1="80" y1="480" x2="1180" y2="480" class="axis"/>
-<rect x="93.75" y="60.0" width="64.16666666666667" height="420.0" fill="#f28e2b"/>
+<rect x="93.75" y="59.99999999999994" width="64.16666666666667" height="420.00000000000006" fill="#f28e2b"/>
 <text x="125.83333333333334" y="495" class="small" text-anchor="end" transform="rotate(-55 125.83333333333334,495)">0910箱ひげ図演習（店選び）</text>
-<text x="125.83333333333334" y="55.0" class="small" text-anchor="middle">10.88</text>
-<rect x="185.41666666666669" y="107.03934771494755" width="64.16666666666667" height="372.96065228505245" fill="#f28e2b"/>
+<text x="125.83333333333334" y="54.99999999999994" class="small" text-anchor="middle">10.87</text>
+<rect x="185.41666666666669" y="107.1906790531923" width="64.16666666666667" height="372.8093209468077" fill="#f28e2b"/>
 <text x="217.50000000000003" y="495" class="small" text-anchor="end" transform="rotate(-55 217.50000000000003,495)">前期中間模範</text>
-<text x="217.50000000000003" y="102.03934771494755" class="small" text-anchor="middle">9.66</text>
-<rect x="277.08333333333337" y="183.35934032311297" width="64.16666666666667" height="296.640659676887" fill="#f28e2b"/>
+<text x="217.50000000000003" y="102.1906790531923" class="small" text-anchor="middle">9.65</text>
+<rect x="277.08333333333337" y="183.35020333432453" width="64.16666666666667" height="296.64979666567547" fill="#f28e2b"/>
 <text x="309.1666666666667" y="495" class="small" text-anchor="end" transform="rotate(-55 309.1666666666667,495)">【1】 2018年度　本試験　英語【筆記】 第４問　Ａ</text>
-<text x="309.1666666666667" y="178.35934032311297" class="small" text-anchor="middle">7.68</text>
-<rect x="368.75000000000006" y="212.30287922800096" width="64.16666666666667" height="267.69712077199904" fill="#f28e2b"/>
+<text x="309.1666666666667" y="178.35020333432453" class="small" text-anchor="middle">7.68</text>
+<rect x="368.75000000000006" y="212.42825116032435" width="64.16666666666667" height="267.57174883967565" fill="#f28e2b"/>
 <text x="400.83333333333337" y="495" class="small" text-anchor="end" transform="rotate(-55 400.83333333333337,495)">前期中間模範</text>
-<text x="400.83333333333337" y="207.30287922800096" class="small" text-anchor="middle">6.93</text>
-<rect x="460.41666666666674" y="213.17175957912343" width="64.16666666666667" height="266.82824042087657" fill="#f28e2b"/>
+<text x="400.83333333333337" y="207.42825116032435" class="small" text-anchor="middle">6.93</text>
+<rect x="460.41666666666674" y="213.28594326711476" width="64.16666666666667" height="266.71405673288524" fill="#f28e2b"/>
 <text x="492.50000000000006" y="495" class="small" text-anchor="end" transform="rotate(-55 492.50000000000006,495)">R7 2年夏明けテスト解答用紙0826模範</text>
-<text x="492.50000000000006" y="208.17175957912343" class="small" text-anchor="middle">6.91</text>
-<rect x="552.0833333333334" y="274.3930855659123" width="64.16666666666667" height="205.60691443408766" fill="#f28e2b"/>
+<text x="492.50000000000006" y="208.28594326711476" class="small" text-anchor="middle">6.91</text>
+<rect x="552.0833333333334" y="274.4109935683206" width="64.16666666666667" height="205.5890064316794" fill="#f28e2b"/>
 <text x="584.1666666666667" y="495" class="small" text-anchor="end" transform="rotate(-55 584.1666666666667,495)">【2】 2018年度　本試験　英語【筆記】 第５問</text>
-<text x="584.1666666666667" y="269.3930855659123" class="small" text-anchor="middle">5.32</text>
-<rect x="643.75" y="284.83493103383785" width="64.16666666666667" height="195.16506896616212" fill="#f28e2b"/>
+<text x="584.1666666666667" y="269.4109935683206" class="small" text-anchor="middle">5.32</text>
+<rect x="643.75" y="284.93606582339316" width="64.16666666666667" height="195.06393417660684" fill="#f28e2b"/>
 <text x="675.8333333333334" y="495" class="small" text-anchor="end" transform="rotate(-55 675.8333333333334,495)">0612三平方の定理「演習」模範解答</text>
-<text x="675.8333333333334" y="279.83493103383785" class="small" text-anchor="middle">5.05</text>
-<rect x="735.4166666666666" y="288.79488745419826" width="64.16666666666667" height="191.20511254580177" fill="#f28e2b"/>
+<text x="675.8333333333334" y="279.93606582339316" class="small" text-anchor="middle">5.05</text>
+<rect x="735.4166666666666" y="288.7712885410406" width="64.16666666666667" height="191.22871145895945" fill="#f28e2b"/>
 <text x="767.5" y="495" class="small" text-anchor="end" transform="rotate(-55 767.5,495)">【1冬】 2018年度　本試験　英語【筆記】 第４問　Ａ</text>
-<text x="767.5" y="283.79488745419826" class="small" text-anchor="middle">4.95</text>
-<rect x="827.0833333333333" y="315.876491936448" width="64.16666666666667" height="164.12350806355198" fill="#f28e2b"/>
+<text x="767.5" y="283.7712885410406" class="small" text-anchor="middle">4.95</text>
+<rect x="827.0833333333333" y="315.9525096533222" width="64.16666666666667" height="164.04749034667782" fill="#f28e2b"/>
 <text x="859.1666666666666" y="495" class="small" text-anchor="end" transform="rotate(-55 859.1666666666666,495)">01_前期中間数学解説</text>
-<text x="859.1666666666666" y="310.876491936448" class="small" text-anchor="middle">4.25</text>
-<rect x="918.7499999999999" y="329.0482624891858" width="64.16666666666667" height="150.9517375108142" fill="#f28e2b"/>
+<text x="859.1666666666666" y="310.9525096533222" class="small" text-anchor="middle">4.25</text>
+<rect x="918.7499999999999" y="329.0824078635136" width="64.16666666666667" height="150.91759213648638" fill="#f28e2b"/>
 <text x="950.8333333333333" y="495" class="small" text-anchor="end" transform="rotate(-55 950.8333333333333,495)">R7夏休みの予習課題（中３）模範解答</text>
-<text x="950.8333333333333" y="324.0482624891858" class="small" text-anchor="middle">3.91</text>
-<rect x="1010.4166666666665" y="332.1829675968634" width="64.16666666666667" height="147.81703240313658" fill="#f28e2b"/>
+<text x="950.8333333333333" y="324.0824078635136" class="small" text-anchor="middle">3.91</text>
+<rect x="1010.4166666666665" y="332.2638297644356" width="64.16666666666667" height="147.7361702355644" fill="#f28e2b"/>
 <text x="1042.4999999999998" y="495" class="small" text-anchor="end" transform="rotate(-55 1042.4999999999998,495)">0612三平方の定理「演習」模範解答</text>
-<text x="1042.4999999999998" y="327.1829675968634" class="small" text-anchor="middle">3.83</text>
-<rect x="1102.0833333333333" y="332.7338582528786" width="64.16666666666667" height="147.2661417471214" fill="#f28e2b"/>
+<text x="1042.4999999999998" y="327.2638297644356" class="small" text-anchor="middle">3.82</text>
+<rect x="1102.0833333333333" y="332.74620581606416" width="64.16666666666667" height="147.2537941839358" fill="#f28e2b"/>
 <text x="1134.1666666666665" y="495" class="small" text-anchor="end" transform="rotate(-55 1134.1666666666665,495)">【問題編】Sirius21国語発展Vol.3</text>
-<text x="1134.1666666666665" y="327.7338582528786" class="small" text-anchor="middle">3.81</text>
+<text x="1134.1666666666665" y="327.74620581606416" class="small" text-anchor="middle">3.81</text>
 </svg>
