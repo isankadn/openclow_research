@@ -35,7 +35,7 @@ Detailed structure has not been provided yet.
 
 ## BookRoll operation name definitions
 Use the latest CSV at `/home/ubuntu/.openclaw/external-resources/new-operation-names.csv` as the current canonical working source unless superseded by better official documentation.
-This newer list supersedes the older saved operation-definition list when names or wording conflict.
+Use only the new operation names and definitions from that CSV going forward; do not retain or rely on older saved name variants.
 It includes both learner/content actions and `#...` dashboard/aggregate metric names.
 
 - `OPEN`: Open new PDF content

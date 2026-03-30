@@ -48,7 +48,8 @@ The limitation should be reported explicitly instead of forcing a weak result.
 
 ### BookRoll operation-name definitions
 The latest canonical working source for BookRoll-style operation names is `/home/ubuntu/.openclaw/external-resources/new-operation-names.csv`.
-Use its definitions as the default interpretations in future analysis unless better official documentation is found.
+Use only its new operation names and definitions in future analysis unless better official documentation is found.
+Do not retain or rely on the older saved operation-name variants.
 
 ### Current data-exploration operating rules
 - Until the user explicitly says otherwise, use only the ClickHouse database `saikyo_new` for xAPI exploration and analysis.
