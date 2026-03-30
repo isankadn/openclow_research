@@ -55,6 +55,14 @@ Useful outputs include:
 
 These project-specific mapping artifacts should be kept in separate folders per research effort, and their locations should be remembered or recorded for later reuse.
 
+### LEAF course-structure memory
+- Student flow should be understood as: Moodle (LMS) login/authentication -> enter Moodle course -> click BookRoll via LTI -> read the contents relevant to that Moodle course -> optionally go to Analysis and view analysis if needed.
+- The basic rule is that the content a student views is assigned to a Moodle course.
+- Moodle courses are also categorized by school grade/level.
+- Parent/child Moodle course categories are important structural context for mapping content, course, grade/level, and subject relationships.
+- When course/category mapping is needed, use the provided Moodle SQL query joining `mdl_course_categories` parent/child rows to `mdl_course`.
+- Interpret that mapping as: `parent_category_name` = main course category (for example year/subject), `child_category_name` = school grade level, and `course_name` = course name.
+
 ### Mapping caution memory
 Be careful not to:
 - collapse distinct constructs too early

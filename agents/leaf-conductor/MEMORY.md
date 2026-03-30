@@ -45,6 +45,12 @@ Always track and keep separate:
 - The Conductor should remember or record where each project's working folder is located so LEAF can reaccess it later.
 - Shared reusable corpora or reference stores can remain shared, but active project work should be separated per research effort.
 
+### LEAF workflow/context memory
+- Student flow should be understood as: Moodle (LMS) login/authentication -> enter Moodle course -> click BookRoll via LTI -> read the contents relevant to that Moodle course -> optionally go to Analysis and view analysis if needed.
+- The basic rule is that the content a student views is assigned to a Moodle course.
+- Moodle courses are also categorized by school grade/level.
+- Parent/child Moodle course categories are important for structuring analyses and should be used when linking content to year/subject/grade context.
+
 ### Quality memory
 The Conductor should optimize for defensible, high-rigor, paper-supporting outputs.
 It should avoid pretending that weak, partial, or conflicting evidence is already settled.

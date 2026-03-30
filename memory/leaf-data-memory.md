@@ -21,9 +21,40 @@ Detailed structure has not been provided yet.
 
 ## Course-context interpretation
 - In Moodle, course information provides important context for BookRoll content usage.
+- Student flow should be understood as: Moodle (LMS) login/authentication -> enter Moodle course -> click BookRoll via LTI -> read the contents relevant to that Moodle course -> optionally go to Analysis and view analysis if needed.
 - BookRoll contents basically belong to courses.
+- The basic rule is that the content a student views is assigned to a Moodle course.
+- Moodle courses are also categorized by school grade/level.
 - Courses vary by Japanese K-12 grade/level and by subject area (for example English, Japanese, etc.).
 - Analyses should therefore account for course context, grade/level, and subject instead of pooling all contents together blindly.
+
+## Moodle course-category mapping query
+Use this provided SQL when course/category mapping is needed:
+
+```sql
+SELECT
+  parent_cat.id AS parent_category_id,
+  parent_cat.name AS parent_category_name,
+  child_cat.id AS child_category_id,
+  child_cat.name AS child_category_name,
+  course.id AS course_id,
+  course.fullname AS course_name,
+  course.sortorder AS course_sortorder,
+  course.visible AS course_visible,
+  course.startdate AS course_startdate,
+  course.enddate AS course_enddate,
+  course.timecreated AS course_created
+FROM mdl_course_categories parent_cat
+JOIN mdl_course_categories child_cat ON child_cat.parent = parent_cat.id
+LEFT JOIN mdl_course course ON course.category = child_cat.id
+WHERE parent_cat.parent = 0
+ORDER BY parent_cat.sortorder, child_cat.sortorder, course.sortorder;
+```
+
+Interpretation of query outputs:
+- `parent_category_name`: main course category, such as year, subject, etc.
+- `child_category_name`: school grade level, etc.
+- `course_name`: course name.
 
 ## ClickHouse column interpretation notes
 - ClickHouse table column names should generally be interpreted literally unless the user provides a special definition.

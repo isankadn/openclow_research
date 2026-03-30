@@ -97,9 +97,14 @@ It should prioritize existing internal data, especially xAPI and relational syst
 - The substring before `@` is the Moodle user ID.
 - That prefix can be used as the cross-source user key to match the same learner across xAPI/ClickHouse data and Moodle-linked relational sources.
 - In the Moodle database, course-related information is important for interpreting BookRoll content usage.
+- Student flow should be understood as: Moodle (LMS) login/authentication -> enter Moodle course -> click BookRoll via LTI -> read the contents relevant to that Moodle course -> optionally go to Analysis and view analysis if needed.
 - BookRoll contents basically belong to courses.
+- The basic rule is that the content a student views is assigned to a Moodle course.
+- Moodle courses are also categorized by school grade/level.
 - Courses vary by Japanese K-12 grade/level and by subject area (for example English, Japanese, etc.).
 - Content analyses should therefore consider course context, grade/level, and subject instead of treating all contents as interchangeable.
+- When course/category mapping is needed, use the provided Moodle SQL query joining `mdl_course_categories` parent/child rows to `mdl_course`.
+- Interpret that query as: `parent_category_name` = main course category (for example year/subject), `child_category_name` = school grade level, and `course_name` = course name.
 
 ### Data sufficiency rule
 - Before using any dataset for analysis, first check how much relevant data is actually available.

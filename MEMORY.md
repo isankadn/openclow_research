@@ -56,5 +56,8 @@ Do not retain or rely on the older saved operation-name variants.
 - For Moodle, BookRoll, and Analysis relational databases, do not guess table meanings or column definitions when they are unclear.
 - If research work needs table/column meaning from those relational databases, ask the user for the relevant definitions.
 - In Moodle, course information is important context for BookRoll content analysis because BookRoll contents basically belong to courses.
+- Student flow should be understood as: Moodle (LMS) login/authentication -> enter Moodle course -> click BookRoll via LTI -> read course-linked BookRoll contents -> optionally view Analysis.
+- The basic rule is that the content a student views is assigned to a Moodle course, and Moodle courses are also categorized by school grade/level.
 - Course analyses should consider Japanese K-12 grade/level and subject area rather than treating all contents as one undifferentiated pool.
 - Saved `statements_mv` column definitions so far include: `platform` = platform name (for example BookRoll, Moodle, Logpalette, GOAL, SCROLL), `actor_name_role` = user role, `context_id` = Moodle course ID, and `context_title` / `context_label` = Moodle course name.
+- A provided Moodle SQL query can map parent categories, child categories, and course names, where parent category = main course category (for example year/subject), child category = school grade level, and course name = course title.
