@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="790" viewBox="0 0 1200 790">
+<style>
+text { font-family: Arial, Helvetica, sans-serif; fill: #1f2937; }
+.title { font-size: 30px; font-weight: 700; }
+.subtitle { font-size: 16px; fill: #4b5563; }
+.label { font-size: 16px; }
+.value { font-size: 16px; font-weight: 700; }
+.axis { stroke: #94a3b8; stroke-width: 1; }
+</style>
+<rect x="0" y="0" width="1200" height="790" fill="#ffffff"/>
+<text x="40" y="45" class="title">Top test names by score rows</text>
+<text x="40" y="75" class="subtitle">Most frequent named tests in the score table</text>
+<line x1="430" y1="95" x2="430" y2="750" class="axis"/>
+<rect x="430" y="102" width="600" height="28" rx="5" fill="#2563eb"/>
+<text x="40" y="116" class="label">2024年度 前期中間 IECI</text>
+<text x="1040" y="121" class="value">280</text>
+<rect x="430" y="162" width="597" height="28" rx="5" fill="#2563eb"/>
+<text x="40" y="176" class="label">IEC1 前期期末</text>
+<text x="1037" y="181" class="value">279</text>
+<rect x="430" y="222" width="595" height="28" rx="5" fill="#2563eb"/>
+<text x="40" y="236" class="label">EEC1 前期期末</text>
+<text x="1035" y="241" class="value">278</text>
+<rect x="430" y="282" width="595" height="28" rx="5" fill="#2563eb"/>
+<text x="40" y="296" class="label">2024年度 前期中間 EECI</text>
+<text x="1035" y="301" class="value">278</text>
+<rect x="430" y="342" width="595" height="28" rx="5" fill="#2563eb"/>
+<text x="40" y="356" class="label">EEC1 前期中間</text>
+<text x="1035" y="361" class="value">278</text>
+<rect x="430" y="402" width="595" height="28" rx="5" fill="#2563eb"/>
+<text x="40" y="416" class="label">IEC1 前期中間</text>
+<text x="1035" y="421" class="value">278</text>
+<rect x="430" y="462" width="587" height="28" rx="5" fill="#2563eb"/>
+<text x="40" y="476" class="label">2024年度 後期中間 IECI</text>
+<text x="1027" y="481" class="value">274</text>
+<rect x="430" y="522" width="587" height="28" rx="5" fill="#2563eb"/>
+<text x="40" y="536" class="label">2024年度 後期中間 EECI</text>
+<text x="1027" y="541" class="value">274</text>
+<rect x="430" y="582" width="587" height="28" rx="5" fill="#2563eb"/>
+<text x="40" y="596" class="label">2024年度 後期中間 IECI（問題投稿共有）</text>
+<text x="1027" y="601" class="value">274</text>
+<rect x="430" y="642" width="587" height="28" rx="5" fill="#2563eb"/>
+<text x="40" y="656" class="label">IEC1 後期期末</text>
+<text x="1027" y="661" class="value">274</text>
+</svg>

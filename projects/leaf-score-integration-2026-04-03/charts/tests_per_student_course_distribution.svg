@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<style>
+text { font-family: Arial, Helvetica, sans-serif; fill: #1f2937; }
+.title { font-size: 30px; font-weight: 700; }
+.subtitle { font-size: 16px; fill: #4b5563; }
+.label { font-size: 14px; }
+.value { font-size: 13px; }
+.axis { stroke: #94a3b8; stroke-width: 1; }
+</style>
+<rect x="0" y="0" width="1200" height="700" fill="#ffffff"/>
+<text x="40" y="45" class="title">Repeated-test structure</text>
+<text x="40" y="75" class="subtitle">How many score rows each student-course pair has</text>
+<line x1="90" y1="610" x2="1120" y2="610" class="axis"/>
+<line x1="90" y1="110" x2="90" y2="610" class="axis"/>
+<rect x="97" y="466" width="36" height="144" rx="4" fill="#059669"/>
+<text x="115.0" y="634" class="label" text-anchor="middle">1</text>
+<text x="115.0" y="458" class="value" text-anchor="middle">1,462</text>
+<rect x="148" y="130" width="36" height="480" rx="4" fill="#059669"/>
+<text x="166.0" y="634" class="label" text-anchor="middle">2</text>
+<text x="166.0" y="122" class="value" text-anchor="middle">4,866</text>
+<rect x="199" y="551" width="36" height="59" rx="4" fill="#059669"/>
+<text x="217.0" y="634" class="label" text-anchor="middle">3</text>
+<text x="217.0" y="543" class="value" text-anchor="middle">599</text>
+<rect x="250" y="445" width="36" height="165" rx="4" fill="#059669"/>
+<text x="268.0" y="634" class="label" text-anchor="middle">4</text>
+<text x="268.0" y="437" class="value" text-anchor="middle">1,682</text>
+<rect x="301" y="583" width="36" height="27" rx="4" fill="#059669"/>
+<text x="319.0" y="634" class="label" text-anchor="middle">5</text>
+<text x="319.0" y="575" class="value" text-anchor="middle">279</text>
+<rect x="352" y="551" width="36" height="59" rx="4" fill="#059669"/>
+<text x="370.0" y="634" class="label" text-anchor="middle">6</text>
+<text x="370.0" y="543" class="value" text-anchor="middle">599</text>
+<rect x="403" y="607" width="36" height="3" rx="4" fill="#059669"/>
+<text x="421.0" y="634" class="label" text-anchor="middle">7</text>
+<text x="421.0" y="599" class="value" text-anchor="middle">40</text>
+<rect x="454" y="535" width="36" height="75" rx="4" fill="#059669"/>
+<text x="472.0" y="634" class="label" text-anchor="middle">8</text>
+<text x="472.0" y="527" class="value" text-anchor="middle">767</text>
+<rect x="505" y="610" width="36" height="0" rx="4" fill="#059669"/>
+<text x="523.0" y="634" class="label" text-anchor="middle">9</text>
+<text x="523.0" y="602" class="value" text-anchor="middle">1</text>
+<rect x="556" y="610" width="36" height="0" rx="4" fill="#059669"/>
+<text x="574.0" y="634" class="label" text-anchor="middle">10</text>
+<text x="574.0" y="602" class="value" text-anchor="middle">4</text>
+<rect x="607" y="600" width="36" height="10" rx="4" fill="#059669"/>
+<text x="625.0" y="634" class="label" text-anchor="middle">11</text>
+<text x="625.0" y="592" class="value" text-anchor="middle">110</text>
+<rect x="658" y="610" width="36" height="0" rx="4" fill="#059669"/>
+<text x="676.0" y="634" class="label" text-anchor="middle">12</text>
+<text x="676.0" y="602" class="value" text-anchor="middle">2</text>
+<rect x="709" y="610" width="36" height="0" rx="4" fill="#059669"/>
+<text x="727.0" y="634" class="label" text-anchor="middle">13</text>
+<text x="727.0" y="602" class="value" text-anchor="middle">4</text>
+<rect x="760" y="599" width="36" height="11" rx="4" fill="#059669"/>
+<text x="778.0" y="634" class="label" text-anchor="middle">14</text>
+<text x="778.0" y="591" class="value" text-anchor="middle">116</text>
+<rect x="811" y="610" width="36" height="0" rx="4" fill="#059669"/>
+<text x="829.0" y="634" class="label" text-anchor="middle">15</text>
+<text x="829.0" y="602" class="value" text-anchor="middle">3</text>
+<rect x="862" y="599" width="36" height="11" rx="4" fill="#059669"/>
+<text x="880.0" y="634" class="label" text-anchor="middle">16</text>
+<text x="880.0" y="591" class="value" text-anchor="middle">119</text>
+<rect x="913" y="599" width="36" height="11" rx="4" fill="#059669"/>
+<text x="931.0" y="634" class="label" text-anchor="middle">17</text>
+<text x="931.0" y="591" class="value" text-anchor="middle">115</text>
+<rect x="964" y="610" width="36" height="0" rx="4" fill="#059669"/>
+<text x="982.0" y="634" class="label" text-anchor="middle">18</text>
+<text x="982.0" y="602" class="value" text-anchor="middle">1</text>
+<rect x="1015" y="599" width="36" height="11" rx="4" fill="#059669"/>
+<text x="1033.0" y="634" class="label" text-anchor="middle">19</text>
+<text x="1033.0" y="591" class="value" text-anchor="middle">117</text>
+<rect x="1066" y="599" width="36" height="11" rx="4" fill="#059669"/>
+<text x="1084.0" y="634" class="label" text-anchor="middle">20</text>
+<text x="1084.0" y="591" class="value" text-anchor="middle">116</text>
+</svg>
