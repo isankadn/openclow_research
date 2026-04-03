@@ -1,0 +1,2 @@
+rows_total,students,courses,tests,course_test_dates,min_test_date,max_test_date,avg_quiz,min_quiz,max_quiz
+42548,1722,216,862,900,2019-04-10,2025-03-05,63.06,0,100

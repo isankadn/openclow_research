@@ -63,3 +63,4 @@ Do not retain or rely on the older saved operation-name variants.
 - A provided Moodle SQL query can map parent categories, child categories, and course names, where parent category = main course category (for example year/subject), child category = school grade level, and course name = course title.
 - In `analysis_development.course_student_scores`, the user clarified that `name` is the test name, `course_name` is the course name, `course_id` is the course identifier, and `date_at` is the date the test was conducted.
 - This table is accessible read-only and currently returns data; a quick bounded check saw 67,672 rows total and 43,180 rows with non-null `date_at`.
+- The user explicitly wants analysis to be done locally via scripts/files in the workspace and does not want all raw data sent to AI.
