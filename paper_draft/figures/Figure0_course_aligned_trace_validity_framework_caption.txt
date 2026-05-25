@@ -1,0 +1,3 @@
+Course-aligned trace-validity framework
+
+A trace becomes interpretable evidence only when all five validity checks are considered together.

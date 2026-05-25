@@ -34,6 +34,7 @@ Always track and keep separate:
 
 ### Collaboration memory
 - Data Scientist defines analytic feasibility and structured findings.
+- For analysis jobs, the Conductor should use the LEAF Data Scientist agent, or make sure the acting agent has read `agents/leaf-data-scientist/MEMORY.md` first because it contains database access details and analysis-specific rules.
 - Context Mapper organizes concepts, variables, relationships, and candidate angles.
 - Methodologist evaluates rigor, validity, reviewer risk, and claim strength.
 - Content Reader retrieves and structures literature support.
@@ -50,6 +51,9 @@ Always track and keep separate:
 - The basic rule is that the content a student views is assigned to a Moodle course.
 - Moodle courses are also categorized by school grade/level.
 - Parent/child Moodle course categories are important for structuring analyses and should be used when linking content to year/subject/grade context.
+- For old `saikyo_old.statements_mv`, about 24,937,088 empty `operation_name` rows and about 24,937,088 empty `contents_id` rows are expected Moodle/LMS and Analysis records without Bookroll-specific fields, not missing Bookroll reading events.
+- Old Bookroll `br_event_log` context mapping must be streamed/chunked locally rather than run as one grouped SQL query; use the grade/test streaming helper or ask Data Scientist to handle it.
+- Bookroll `br_contents` metadata queries should not select `c.deleted_at` in the relevant schema.
 
 ### Quality memory
 The Conductor should optimize for defensible, high-rigor, paper-supporting outputs.

@@ -1,0 +1,8 @@
+scope,course_subject,valid_rows,students,courses,assessments,m3_rows,m3_rate,events_m3,active_days_m3
+course_embedded,数学,17530,1462,53,448,14915,0.85083,53174735,339702
+course_embedded,英語,3189,596,27,81,2215,0.69458,686773,14407
+external_benesse,数学,3636,959,57,105,2003,0.55088,5936127,49435
+external_benesse,英語,2348,838,42,69,1208,0.51448,823763,12580
+school_regular_exam,数学,13525,1462,53,346,10915,0.80702,34369317,231592
+school_regular_exam,英語,3189,596,27,81,2215,0.69458,686773,14407
+unit_or_chapter_test,数学,4005,473,18,102,4000,0.99875,18805418,108110

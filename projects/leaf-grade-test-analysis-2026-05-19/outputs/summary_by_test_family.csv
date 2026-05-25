@@ -1,0 +1,7 @@
+test_family,clean_score_rows,duplicate_extra_rows,students,courses,test_names
+school_regular_exam,28258,0,1468,94,468
+external_benesse,8261,0,959,129,231
+unit_or_chapter_test,4074,0,478,18,102
+unclear,1864,0,270,40,42
+break_after_test,718,0,478,18,18
+generic_test,5,0,5,1,1

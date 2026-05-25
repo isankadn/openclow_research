@@ -1,0 +1,3 @@
+Active-days robustness in strict student-course models
+
+Adjusted 3-month models unless window is shown; points are standardized beta with 95% CI.

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="901" height="75" viewBox="27.5 81.5 901 75" role="img" aria-labelledby="title desc">
+  <title id="title">Data construction for validity-aware modeling</title>
+  <desc id="desc">Rows are filtered by temporal availability, usable outcome scale, strong-cell coverage, course-embedded scope, and fixed-effect identification.</desc>
+  <style>
+    text{font-family:Arial,Helvetica,sans-serif}
+    .num{font-size:20px;font-weight:700;fill:#1f2933}
+    .lab{font-size:12px;fill:#40505f}
+    .box{fill:#f7f9fb;stroke:#c8d1dc;stroke-width:1}
+    .arrow{stroke:#7b8794;fill:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+  </style>
+
+  <rect x="28" y="82" width="130" height="74" rx="8" class="box"/>
+  <text x="93" y="110" class="num" text-anchor="middle">67,672</text>
+  <text x="93" y="136" class="lab" text-anchor="middle">score records</text>
+
+  <path d="M 163 119 L 175 119 M 171 114 L 177 119 L 171 124" class="arrow"/>
+
+  <rect x="182" y="82" width="130" height="74" rx="8" class="box"/>
+  <text x="247" y="110" class="num" text-anchor="middle">43,180</text>
+  <text x="247" y="136" class="lab" text-anchor="middle">dated records</text>
+
+  <path d="M 317 119 L 329 119 M 325 114 L 331 119 L 325 124" class="arrow"/>
+
+  <rect x="336" y="82" width="130" height="74" rx="8" class="box"/>
+  <text x="401" y="110" class="num" text-anchor="middle">42,548</text>
+  <text x="401" y="136" class="lab" text-anchor="middle">valid outcomes</text>
+
+  <path d="M 471 119 L 483 119 M 479 114 L 485 119 L 479 124" class="arrow"/>
+
+  <rect x="490" y="82" width="130" height="74" rx="8" class="box"/>
+  <text x="555" y="106" class="num" text-anchor="middle">27,409</text>
+  <text x="555" y="129" class="lab" text-anchor="middle">
+    <tspan x="555" dy="0">strong-cell</tspan>
+    <tspan x="555" dy="14">valid rows</tspan>
+  </text>
+
+  <path d="M 625 119 L 637 119 M 633 114 L 639 119 L 633 124" class="arrow"/>
+
+  <rect x="644" y="82" width="130" height="74" rx="8" class="box"/>
+  <text x="709" y="106" class="num" text-anchor="middle">20,719</text>
+  <text x="709" y="129" class="lab" text-anchor="middle">
+    <tspan x="709" dy="0">course-embedded</tspan>
+    <tspan x="709" dy="14">rows</tspan>
+  </text>
+
+  <path d="M 779 119 L 791 119 M 787 114 L 793 119 L 787 124" class="arrow"/>
+
+  <rect x="798" y="82" width="130" height="74" rx="8" class="box"/>
+  <text x="863" y="110" class="num" text-anchor="middle">17,713</text>
+  <text x="863" y="136" class="lab" text-anchor="middle">strict FE rows</text>
+</svg>

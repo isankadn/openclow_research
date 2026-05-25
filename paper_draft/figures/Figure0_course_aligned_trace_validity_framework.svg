@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="923" height="125" viewBox="27.5 93.5 923 125" role="img" aria-labelledby="title desc">
+  <title id="title">Course-aligned trace-validity framework</title>
+  <desc id="desc">Five connected validity checks: course alignment, temporal precedence, behavioral interpretability, assessment fit, and aggregation validity.</desc>
+  <style>
+    text{font-family:Arial,Helvetica,sans-serif}
+    .card-title{font-size:14px;font-weight:700;fill:#1f2933}
+    .card-body{font-size:12px;fill:#40505f}
+    .arrow{stroke:#7b8794;fill:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+    .card{stroke:#c8d1dc;stroke-width:1}
+  </style>
+
+  <rect x="28" y="94" width="170" height="124" rx="8" fill="#e8f1fb" class="card"/>
+  <text x="113" y="128" class="card-title" text-anchor="middle">Course alignment</text>
+  <text x="113" y="162" class="card-body" text-anchor="middle">
+    <tspan x="113" dy="0">Same course /</tspan>
+    <tspan x="113" dy="18">material context</tspan>
+  </text>
+
+  <path d="M 205 156 H 213 M 209 151 L 215 156 L 209 161" class="arrow"/>
+
+  <rect x="216" y="94" width="170" height="124" rx="8" fill="#eef7ed" class="card"/>
+  <text x="301" y="128" class="card-title" text-anchor="middle">Temporal precedence</text>
+  <text x="301" y="162" class="card-body" text-anchor="middle">
+    <tspan x="301" dy="0">Activity before</tspan>
+    <tspan x="301" dy="18">assessment</tspan>
+  </text>
+
+  <path d="M 393 156 H 401 M 397 151 L 403 156 L 397 161" class="arrow"/>
+
+  <rect x="404" y="94" width="170" height="124" rx="8" fill="#fff4df" class="card"/>
+  <text x="489" y="121" class="card-title" text-anchor="middle">
+    <tspan x="489" dy="0">Behavioral</tspan>
+    <tspan x="489" dy="18">interpretability</tspan>
+  </text>
+  <text x="489" y="164" class="card-body" text-anchor="middle">
+    <tspan x="489" dy="0">Trace plausibly</tspan>
+    <tspan x="489" dy="18">reflects study</tspan>
+  </text>
+
+  <path d="M 581 156 H 589 M 585 151 L 591 156 L 585 161" class="arrow"/>
+
+  <rect x="592" y="94" width="170" height="124" rx="8" fill="#f2edfb" class="card"/>
+  <text x="677" y="128" class="card-title" text-anchor="middle">Assessment fit</text>
+  <text x="677" y="162" class="card-body" text-anchor="middle">
+    <tspan x="677" dy="0">Course-embedded</tspan>
+    <tspan x="677" dy="18">vs course-linked</tspan>
+  </text>
+
+  <path d="M 769 156 H 777 M 773 151 L 779 156 L 773 161" class="arrow"/>
+
+  <rect x="780" y="94" width="170" height="124" rx="8" fill="#f8eeee" class="card"/>
+  <text x="865" y="128" class="card-title" text-anchor="middle">Aggregation validity</text>
+  <text x="865" y="162" class="card-body" text-anchor="middle">
+    <tspan x="865" dy="0">Right grain for</tspan>
+    <tspan x="865" dy="18">learner/course/test</tspan>
+  </text>
+</svg>

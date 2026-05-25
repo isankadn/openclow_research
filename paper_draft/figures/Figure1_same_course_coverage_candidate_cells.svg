@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="768" viewBox="0 0 1120 768">
+<style>text{font-family:Arial,Helvetica,sans-serif}.title{font-size:20px;font-weight:700}.sub{font-size:12px;fill:#555}.label{font-size:12px;fill:#222}.axis{font-size:11px;fill:#444}.val{font-size:11px;fill:#222}</style>
+<rect width="100%" height="100%" fill="white"/>
+<text x="24" y="34" class="title">Same-Course Trace Coverage in Candidate Cells</text>
+<text x="24" y="56" class="sub">3-month pre-test Bookroll/xAPI coverage; labels are translated to avoid font-dependent rendering</text>
+<line x1="315.0" y1="70" x2="315.0" y2="724" stroke="#e6e6e6"/>
+<text x="315.0" y="748" class="axis" text-anchor="middle">0%</text>
+<line x1="490.0" y1="70" x2="490.0" y2="724" stroke="#e6e6e6"/>
+<text x="490.0" y="748" class="axis" text-anchor="middle">25%</text>
+<line x1="665.0" y1="70" x2="665.0" y2="724" stroke="#e6e6e6"/>
+<text x="665.0" y="748" class="axis" text-anchor="middle">50%</text>
+<line x1="840.0" y1="70" x2="840.0" y2="724" stroke="#e6e6e6"/>
+<text x="840.0" y="748" class="axis" text-anchor="middle">75%</text>
+<line x1="1015.0" y1="70" x2="1015.0" y2="724" stroke="#e6e6e6"/>
+<text x="1015.0" y="748" class="axis" text-anchor="middle">100%</text>
+<text x="303" y="87" class="label" text-anchor="end">JH1 Math, regular exam</text>
+<rect x="315" y="70" width="700.0" height="18" fill="#2E7D32" opacity="0.85"/>
+<text x="1023.0" y="85" class="val">100%</text>
+<text x="303" y="125" class="label" text-anchor="end">JH1 English, regular exam</text>
+<rect x="315" y="108" width="503.4" height="18" fill="#2E7D32" opacity="0.85"/>
+<text x="826.4" y="123" class="val">72%</text>
+<text x="303" y="163" class="label" text-anchor="end">JH2 Math, regular exam</text>
+<rect x="315" y="146" width="697.3" height="18" fill="#2E7D32" opacity="0.85"/>
+<text x="1020.3" y="161" class="val">100%</text>
+<text x="303" y="201" class="label" text-anchor="end">JH2 English, regular exam</text>
+<rect x="315" y="184" width="558.0" height="18" fill="#2E7D32" opacity="0.85"/>
+<text x="881.0" y="199" class="val">80%</text>
+<text x="303" y="239" class="label" text-anchor="end">JH3 Math, regular exam</text>
+<rect x="315" y="222" width="697.8" height="18" fill="#2E7D32" opacity="0.85"/>
+<text x="1020.8" y="237" class="val">100%</text>
+<text x="303" y="277" class="label" text-anchor="end">JH3 English, regular exam</text>
+<rect x="315" y="260" width="389.3" height="18" fill="#2E7D32" opacity="0.85"/>
+<text x="712.3" y="275" class="val">56%</text>
+<text x="303" y="315" class="label" text-anchor="end">SH1 Math, regular exam</text>
+<rect x="315" y="298" width="431.3" height="18" fill="#2E7D32" opacity="0.85"/>
+<text x="754.3" y="313" class="val">62%</text>
+<text x="303" y="353" class="label" text-anchor="end">SH2 Math, regular exam</text>
+<rect x="315" y="336" width="505.1" height="18" fill="#2E7D32" opacity="0.85"/>
+<text x="828.1" y="351" class="val">72%</text>
+<text x="303" y="391" class="label" text-anchor="end">JH1 Math, unit/chapter</text>
+<rect x="315" y="374" width="700.0" height="18" fill="#2E7D32" opacity="0.85"/>
+<text x="1023.0" y="389" class="val">100%</text>
+<text x="303" y="429" class="label" text-anchor="end">JH2 Math, unit/chapter</text>
+<rect x="315" y="412" width="695.5" height="18" fill="#2E7D32" opacity="0.85"/>
+<text x="1018.5" y="427" class="val">99%</text>
+<text x="303" y="467" class="label" text-anchor="end">JH3 Math, unit/chapter</text>
+<rect x="315" y="450" width="693.1" height="18" fill="#2E7D32" opacity="0.85"/>
+<text x="1016.1" y="465" class="val">99%</text>
+<text x="303" y="505" class="label" text-anchor="end">JH1 Math, external Benesse</text>
+<rect x="315" y="488" width="376.9" height="18" fill="#607D8B" opacity="0.85"/>
+<text x="700.0" y="503" class="val">54%</text>
+<text x="303" y="543" class="label" text-anchor="end">JH1 English, external Benesse</text>
+<rect x="315" y="526" width="362.0" height="18" fill="#607D8B" opacity="0.85"/>
+<text x="685.0" y="541" class="val">52%</text>
+<text x="303" y="581" class="label" text-anchor="end">JH2 Math, external Benesse</text>
+<rect x="315" y="564" width="385.9" height="18" fill="#607D8B" opacity="0.85"/>
+<text x="708.9" y="579" class="val">55%</text>
+<text x="303" y="619" class="label" text-anchor="end">JH2 English, external Benesse</text>
+<rect x="315" y="602" width="358.7" height="18" fill="#607D8B" opacity="0.85"/>
+<text x="681.7" y="617" class="val">51%</text>
+<text x="303" y="657" class="label" text-anchor="end">JH3 Math, external Benesse</text>
+<rect x="315" y="640" width="396.4" height="18" fill="#607D8B" opacity="0.85"/>
+<text x="719.4" y="655" class="val">57%</text>
+<text x="665.0" y="764" class="axis" text-anchor="middle">Rows with same-course pre-test trace activity</text>
+</svg>

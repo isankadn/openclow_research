@@ -1,0 +1,7 @@
+scope,subject,feature,beta_std,se_cluster_student,p_cluster_student,se_cluster_assessment,p_cluster_assessment,se_two_way_student_assessment,p_two_way_student_assessment,rows,students,student_courses,assessments,student_clusters,assessment_clusters,student_assessment_clusters
+school_regular_exam,数学,log_events,-0.083850,0.027435,0.002241,0.022978,0.000263,0.027491,0.002288,10968,850,1400,309,850,309,10968
+school_regular_exam,数学,log_active_days,0.080349,0.021303,0.000162,0.016861,0.000002,0.021232,0.000154,10968,850,1400,309,850,309,10968
+school_regular_exam,数学,navigation_rate,0.016575,0.020918,0.428143,0.017223,0.335869,0.020385,0.416162,10968,850,1400,309,850,309,10968
+school_regular_exam,数学,memo_rate,0.024269,0.014501,0.094208,0.013044,0.062812,0.014969,0.104946,10968,850,1400,309,850,309,10968
+school_regular_exam,数学,marker_rate,0.019987,0.010988,0.068915,0.011378,0.078975,0.012009,0.096048,10968,850,1400,309,850,309,10968
+school_regular_exam,数学,content_session_rate,0.003562,0.011304,0.752683,0.009739,0.714547,0.010137,0.725293,10968,850,1400,309,850,309,10968

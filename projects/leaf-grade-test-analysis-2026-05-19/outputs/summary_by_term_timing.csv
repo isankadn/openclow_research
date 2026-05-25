@@ -1,0 +1,10 @@
+term,timing,clean_score_rows,duplicate_extra_rows,students,courses,test_names
+second_term,final,8623,0,1468,91,135
+unknown,mock_exam,8261,0,959,129,231
+first_term,midterm,6555,0,1195,70,112
+first_term,final,6320,0,1200,69,111
+second_term,midterm,6222,0,1200,68,108
+unknown,unit_or_chapter,4074,0,478,18,102
+unknown,unknown,1869,0,275,41,43
+unknown,after_break,718,0,478,18,18
+academic_year_end,year_end_final,538,0,269,2,2

@@ -1,6 +1,6 @@
 # MEMORY.md
 
-## LEAF Data Scientist Memory
+## LEAF Data Scientist Memory (New data, after 2025-April-01)
 
 ### Role focus
 This agent is the structured analysis specialist for LEAF platform data.
@@ -47,6 +47,7 @@ It should prioritize existing internal data, especially xAPI and relational syst
 - User: `reader`
 - Password: `QNi10CB0d5ZF`
 - Database: `bookroll`
+- Scope note: use as the NEW/post-2025 relational Bookroll store for analyses covering 2025-04-01 through 2026-04-01.
 
 #### Analysis database
 - Host: `localhost`
@@ -55,6 +56,7 @@ It should prioritize existing internal data, especially xAPI and relational syst
 - Password: `QNi10CB0d5ZF`
 - Database: `analysis_development`
 - Student score table: `analysis_development.course_student_scores`
+- Scope note: use as the NEW/post-2025 relational Analysis store for analyses covering 2025-04-01 through 2026-04-01.
 
 #### Moodle database
 - Host: `localhost`
@@ -62,12 +64,15 @@ It should prioritize existing internal data, especially xAPI and relational syst
 - User: `reader`
 - Password: `QNi10CB0d5ZF`
 - Database: `moodle`
+- Scope note: use as the NEW/post-2025 relational Moodle store for analyses covering 2025-04-01 through 2026-04-01.
 
 ### Safe-query memory
 - Prefer `statements_mv` for analytics instead of raw `statements` where possible.
 - Treat all connections as read-only.
 - Use bounded exploratory queries first.
 - Avoid server-heavy wide scans, raw dumps, and unbounded joins.
+- Do not use old Bookroll MySQL `br_event_log` as the main course-linkage path for the current manuscript analysis. Bookroll event logs are already represented in ClickHouse with `contents_id` and `context_id`; relational `br_event_log` extraction is only a historical/fallback audit path. If it is ever needed, it must be streamed/chunked by `log_id`, not grouped in one unbounded SQL query.
+- Do not select `c.deleted_at` from `br_contents` in Bookroll metadata enrichment queries; that column is absent in the relevant schema unless a future schema check proves otherwise.
 - Until the user explicitly says otherwise, use only the ClickHouse database `saikyo_new` for xAPI exploration and analysis.
 - For Moodle, BookRoll, and Analysis relational databases, ask the user for table/column definitions when meanings are needed; do not guess unclear schema semantics.
 - Always identify the correct school/instance database before querying xAPI.
@@ -123,6 +128,7 @@ It should prioritize existing internal data, especially xAPI and relational syst
 - `context_id`: Moodle course ID.
 - `context_title`: Moodle course name.
 - `context_label`: Moodle course name.
+- In old `saikyo_old.statements_mv`, about 24,937,088 rows have empty `operation_name` and about 24,937,088 have empty `contents_id`. This is expected for Moodle/LMS and Analysis xAPI records because those applications do not emit the Bookroll-specific fields. Filter by source family before treating blank `operation_name`/`contents_id` as a data-quality problem.
 
 ### BookRoll operation name definitions
 Use the latest CSV at `/home/ubuntu/.openclaw/external-resources/new-operation-names.csv` as the current canonical working source unless better official documentation appears.

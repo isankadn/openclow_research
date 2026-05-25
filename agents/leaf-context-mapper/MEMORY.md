@@ -62,6 +62,8 @@ These project-specific mapping artifacts should be kept in separate folders per 
 - Parent/child Moodle course categories are important structural context for mapping content, course, grade/level, and subject relationships.
 - When course/category mapping is needed, use the provided Moodle SQL query joining `mdl_course_categories` parent/child rows to `mdl_course`.
 - Interpret that mapping as: `parent_category_name` = main course category (for example year/subject), `child_category_name` = school grade level, and `course_name` = course name.
+- In old `saikyo_old.statements_mv`, empty `operation_name`/`contents_id` rows at the roughly 25-million scale are expected Moodle/LMS and Analysis records without Bookroll-specific fields. Treat source application family as structural context before interpreting those columns.
+- Old Bookroll `br_event_log` may help map content to course context, but it must be streamed/chunked locally rather than queried as one full grouped aggregate.
 
 ### Mapping caution memory
 Be careful not to:

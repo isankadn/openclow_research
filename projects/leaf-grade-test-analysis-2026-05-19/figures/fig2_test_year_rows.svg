@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="398" viewBox="0 0 1200 398">
+<style>text{font-family:Arial,sans-serif;fill:#222}.title{font-size:22px;font-weight:700}.label{font-size:13px}.value{font-size:13px;font-weight:700}.muted{fill:#666;font-size:12px}</style>
+<text x="24" y="34" class="title">Clean Score Rows by Test Conduct Year</text>
+<text x="328" y="84" text-anchor="end" class="label">2024</text>
+<rect x="340" y="66" width="740" height="24" fill="#2f6fbb"/>
+<text x="1088" y="84" class="value">19,551</text>
+<text x="328" y="128" text-anchor="end" class="label">2023</text>
+<rect x="340" y="110" width="601" height="24" fill="#2f6fbb"/>
+<text x="949" y="128" class="value">15,901</text>
+<text x="328" y="172" text-anchor="end" class="label">2025</text>
+<rect x="340" y="154" width="115" height="24" fill="#2f6fbb"/>
+<text x="463" y="172" class="value">3,041</text>
+<text x="328" y="216" text-anchor="end" class="label">2021</text>
+<rect x="340" y="198" width="54" height="24" fill="#2f6fbb"/>
+<text x="402" y="216" class="value">1,431</text>
+<text x="328" y="260" text-anchor="end" class="label">2019</text>
+<rect x="340" y="242" width="48" height="24" fill="#2f6fbb"/>
+<text x="396" y="260" class="value">1,292</text>
+<text x="328" y="304" text-anchor="end" class="label">2020</text>
+<rect x="340" y="286" width="47" height="24" fill="#2f6fbb"/>
+<text x="395" y="304" class="value">1,252</text>
+<text x="328" y="348" text-anchor="end" class="label">2022</text>
+<rect x="340" y="330" width="26" height="24" fill="#2f6fbb"/>
+<text x="374" y="348" class="value">712</text>
+</svg>

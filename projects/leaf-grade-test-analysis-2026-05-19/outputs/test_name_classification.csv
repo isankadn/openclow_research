@@ -1,0 +1,863 @@
+name,test_name_normalized,test_family,term,timing,subject_hint_from_name,score_component,classification_confidence,clean_score_rows,duplicate_extra_rows,students,courses,years,course_subjects,grade_levels
+EEC1　後期中間,EEC1 後期中間,school_regular_exam,second_term,midterm,英語,unspecified_or_single_score,high,285,0,285,1,2023,英語,高1
+EEC1　後期期末,EEC1 後期期末,school_regular_exam,second_term,final,英語,unspecified_or_single_score,high,285,0,285,1,2024,英語,高1
+IEC1　後期中間,IEC1 後期中間,school_regular_exam,second_term,midterm,英語,unspecified_or_single_score,high,285,0,285,1,2023,英語,高1
+IEC1　後期期末,IEC1 後期期末,school_regular_exam,second_term,final,英語,unspecified_or_single_score,high,285,0,285,1,2024,英語,高1
+EEC1　前期期末,EEC1 前期期末,school_regular_exam,first_term,final,英語,unspecified_or_single_score,high,284,0,284,1,2023,英語,高1
+IEC1　前期期末,IEC1 前期期末,school_regular_exam,first_term,final,英語,unspecified_or_single_score,high,284,0,284,1,2023,英語,高1
+2024年度 前期中間 EECI,2024年度 前期中間 EECI,school_regular_exam,first_term,midterm,英語,unspecified_or_single_score,high,280,0,280,1,2024,英語,高1
+2024年度 前期中間 IECI,2024年度 前期中間 IECI,school_regular_exam,first_term,midterm,英語,unspecified_or_single_score,high,280,0,280,1,2024,英語,高1
+2024年度 前期期末 IECI,2024年度 前期期末 IECI,school_regular_exam,first_term,final,英語,unspecified_or_single_score,high,280,0,280,1,2024,英語,高1
+2024年度 後期中間 EECI,2024年度 後期中間 EECI,school_regular_exam,second_term,midterm,英語,unspecified_or_single_score,high,280,0,280,1,2024,英語,高1
+2024年度 後期中間 IECI,2024年度 後期中間 IECI,school_regular_exam,second_term,midterm,英語,unspecified_or_single_score,high,280,0,280,1,2024,英語,高1
+2024年度 後期期末 IECI,2024年度 後期期末 IECI,school_regular_exam,second_term,final,英語,unspecified_or_single_score,high,280,0,280,1,2025,英語,高1
+2024年度 前期中間 EECII,2024年度 前期中間 EECII,school_regular_exam,first_term,midterm,英語,unspecified_or_single_score,high,279,0,279,1,2024,英語,高2
+2024年度 前期中間 IECII,2024年度 前期中間 IECII,school_regular_exam,first_term,midterm,英語,unspecified_or_single_score,high,279,0,279,1,2024,英語,高2
+2024年度 前期期末 EECII,2024年度 前期期末 EECII,school_regular_exam,first_term,final,英語,unspecified_or_single_score,high,279,0,279,1,2024,英語,高2
+2024年度 前期期末 IECII,2024年度 前期期末 IECII,school_regular_exam,first_term,final,英語,unspecified_or_single_score,high,279,0,279,1,2024,英語,高2
+2024年度 後期中間 EECII,2024年度 後期中間 EECII,school_regular_exam,second_term,midterm,英語,unspecified_or_single_score,high,279,0,279,1,2024,英語,高2
+2024年度 後期中間 IECII,2024年度 後期中間 IECII,school_regular_exam,second_term,midterm,英語,unspecified_or_single_score,high,279,0,279,1,2024,英語,高2
+2024年度 後期期末 EECII,2024年度 後期期末 EECII,school_regular_exam,second_term,final,英語,unspecified_or_single_score,high,279,0,279,1,2025,英語,高2
+2024年度 後期期末 IECII,2024年度 後期期末 IECII,school_regular_exam,second_term,final,英語,unspecified_or_single_score,high,279,0,279,1,2025,英語,高2
+EEC1　前期中間,EEC1 前期中間,school_regular_exam,first_term,midterm,英語,unspecified_or_single_score,high,278,0,278,1,2023,英語,高1
+IEC1　前期中間,IEC1 前期中間,school_regular_exam,first_term,midterm,英語,unspecified_or_single_score,high,278,0,278,1,2023,英語,高1
+2024年度 後期中間 IECI（問題投稿共有）,2024年度 後期中間 IECI（問題投稿共有）,school_regular_exam,second_term,midterm,英語,unspecified_or_single_score,high,274,0,274,1,2024,英語,高1
+EEC2　前期期末,EEC2 前期期末,school_regular_exam,first_term,final,英語,unspecified_or_single_score,high,272,0,272,1,2023,英語,高2
+EEC2　後期中間,EEC2 後期中間,school_regular_exam,second_term,midterm,英語,unspecified_or_single_score,high,272,0,272,1,2023,英語,高2
+EEC2　後期期末,EEC2 後期期末,school_regular_exam,second_term,final,英語,unspecified_or_single_score,high,272,0,272,1,2024,英語,高2
+IEC2　前期期末,IEC2 前期期末,school_regular_exam,first_term,final,英語,unspecified_or_single_score,high,272,0,272,1,2023,英語,高2
+IEC2　後期中間,IEC2 後期中間,school_regular_exam,second_term,midterm,英語,unspecified_or_single_score,high,272,0,272,1,2023,英語,高2
+IEC2　後期期末,IEC2 後期期末,school_regular_exam,second_term,final,英語,unspecified_or_single_score,high,272,0,272,1,2024,英語,高2
+高1　数A　後期期末　数学,高1 数A 後期期末 数学,school_regular_exam,second_term,final,数学,unspecified_or_single_score,high,270,0,270,1,2023,数学,高1
+2024年度 前期中間 EECIII,2024年度 前期中間 EECIII,school_regular_exam,first_term,midterm,英語,unspecified_or_single_score,high,269,0,269,1,2024,英語,高3
+2024年度 前期中間 IECIII,2024年度 前期中間 IECIII,school_regular_exam,first_term,midterm,英語,unspecified_or_single_score,high,269,0,269,1,2024,英語,高3
+2024年度 前期期末 EECIII,2024年度 前期期末 EECIII,school_regular_exam,first_term,final,英語,unspecified_or_single_score,high,269,0,269,1,2024,英語,高3
+2024年度 前期期末 IECIII,2024年度 前期期末 IECIII,school_regular_exam,first_term,final,英語,unspecified_or_single_score,high,269,0,269,1,2024,英語,高3
+2024年度 学年末 EECIII,2024年度 学年末 EECIII,school_regular_exam,academic_year_end,year_end_final,英語,unspecified_or_single_score,high,269,0,269,1,2024,英語,高3
+2024年度 学年末 IECIII,2024年度 学年末 IECIII,school_regular_exam,academic_year_end,year_end_final,英語,unspecified_or_single_score,high,269,0,269,1,2024,英語,高3
+高1　EECⅠ　後期期末　英語,高1 EECⅠ 後期期末 英語,school_regular_exam,second_term,final,英語,unspecified_or_single_score,high,268,0,268,1,2023,英語,高1
+高1　IECⅠ　後期期末　英語,高1 IECⅠ 後期期末 英語,school_regular_exam,second_term,final,英語,unspecified_or_single_score,high,267,0,267,1,2023,英語,高1
+高1　数Ⅰ　後期期末　数学,高1 数Ⅰ 後期期末 数学,school_regular_exam,second_term,final,数学,unspecified_or_single_score,high,266,0,266,1,2023,数学,高1
+高2　EEC２　後期期末　英語,高2 EEC２ 後期期末 英語,school_regular_exam,second_term,final,英語,unspecified_or_single_score,high,266,0,266,1,2023,英語,高2
+高2　IEC２　後期期末　英語,高2 IEC２ 後期期末 英語,school_regular_exam,second_term,final,英語,unspecified_or_single_score,high,266,0,266,1,2023,英語,高2
+高2　後期期末　数学　数Ⅱ,高2 後期期末 数学 数Ⅱ,school_regular_exam,second_term,final,数学,unspecified_or_single_score,high,265,0,265,1,2023,数学,高2
+EEC2　前期中間,EEC2 前期中間,school_regular_exam,first_term,midterm,英語,unspecified_or_single_score,high,264,0,264,1,2023,英語,高2
+IEC2　前期中間,IEC2 前期中間,school_regular_exam,first_term,midterm,英語,unspecified_or_single_score,high,263,0,263,1,2023,英語,高2
+高2　後期期末　数学　数B,高2 後期期末 数学 数B,school_regular_exam,second_term,final,数学,unspecified_or_single_score,high,262,0,262,1,2023,数学,高2
+12理系　発展　数①,12理系 発展 数①,unclear,unknown,unknown,数学,math_part_1,low,109,0,44,3,2023|2024,数学,高2
+12理系　発展　数②,12理系 発展 数②,unclear,unknown,unknown,数学,math_part_2,low,109,0,44,3,2023|2024,数学,高2
+34理系　発展　数①,34理系 発展 数①,unclear,unknown,unknown,数学,math_part_1,low,99,0,44,3,2023|2024,数学,高2
+34理系　発展　数②,34理系 発展 数②,unclear,unknown,unknown,数学,math_part_2,low,99,0,44,3,2023|2024,数学,高2
+567文系　発展　数①,567文系 発展 数①,unclear,unknown,unknown,数学,math_part_1,low,84,0,39,3,2023|2024,数学,高2
+567文系　発展　数②,567文系 発展 数②,unclear,unknown,unknown,数学,math_part_2,low,84,0,39,3,2023|2024,数学,高2
+12理系　標準　数①,12理系 標準 数①,unclear,unknown,unknown,数学,math_part_1,low,72,0,39,3,2023|2024,数学,高2
+12理系　標準　数②,12理系 標準 数②,unclear,unknown,unknown,数学,math_part_2,low,72,0,39,3,2023|2024,数学,高2
+567文系　標準　数①,567文系 標準 数①,unclear,unknown,unknown,数学,math_part_1,low,65,0,40,3,2023|2024,数学,高2
+567文系　標準　数②,567文系 標準 数②,unclear,unknown,unknown,数学,math_part_2,low,65,0,40,3,2023|2024,数学,高2
+34理系　標準　数①,34理系 標準 数①,unclear,unknown,unknown,数学,math_part_1,low,59,0,37,3,2023|2024,数学,高2
+34理系　標準　数②,34理系 標準 数②,unclear,unknown,unknown,数学,math_part_2,low,59,0,37,3,2023|2024,数学,高2
+567文系　基礎2　数①,567文系 基礎2 数①,unclear,unknown,unknown,数学,math_part_1,low,53,0,22,3,2023|2024,数学,高2
+567文系　基礎2　数②,567文系 基礎2 数②,unclear,unknown,unknown,数学,math_part_2,low,53,0,22,3,2023|2024,数学,高2
+2024年度 567文発展 前期中間 数①,2024年度 567文発展 前期中間 数①,school_regular_exam,first_term,midterm,数学,math_part_1,high,50,0,50,1,2024,数学,高2
+2024年度 567文発展 前期中間 数②,2024年度 567文発展 前期中間 数②,school_regular_exam,first_term,midterm,数学,math_part_2,high,50,0,50,1,2024,数学,高2
+2024年度 567文発展 前期期末 数①,2024年度 567文発展 前期期末 数①,school_regular_exam,first_term,final,数学,math_part_1,high,50,0,50,1,2024,数学,高2
+2024年度 567文発展 前期期末 数②,2024年度 567文発展 前期期末 数②,school_regular_exam,first_term,final,数学,math_part_2,high,50,0,50,1,2024,数学,高2
+2024年度 567文発展 後期中間 数①,2024年度 567文発展 後期中間 数①,school_regular_exam,second_term,midterm,数学,math_part_1,high,50,0,50,1,2024,数学,高2
+2024年度 567文発展 後期中間 数②,2024年度 567文発展 後期中間 数②,school_regular_exam,second_term,midterm,数学,math_part_2,high,50,0,50,1,2024,数学,高2
+2024年度 567文発展 後期期末 数①,2024年度 567文発展 後期期末 数①,school_regular_exam,second_term,final,数学,math_part_1,high,50,0,50,1,2025,数学,高2
+2024年度 567文発展 後期期末 数②,2024年度 567文発展 後期期末 数②,school_regular_exam,second_term,final,数学,math_part_2,high,50,0,50,1,2025,数学,高2
+12外進　前期中間　数A,12外進 前期中間 数A,school_regular_exam,first_term,midterm,数学,unspecified_or_single_score,high,42,0,42,1,2023,数学,高1
+12外進　前期中間　数Ⅰ,12外進 前期中間 数Ⅰ,school_regular_exam,first_term,midterm,数学,unspecified_or_single_score,high,42,0,42,1,2023,数学,高1
+12外進　前期期末　数A,12外進 前期期末 数A,school_regular_exam,first_term,final,数学,unspecified_or_single_score,high,42,0,42,1,2023,数学,高1
+12外進　前期期末　数Ⅰ,12外進 前期期末 数Ⅰ,school_regular_exam,first_term,final,数学,unspecified_or_single_score,high,42,0,42,1,2023,数学,高1
+12外進　後期中間　数①,12外進 後期中間 数①,school_regular_exam,second_term,midterm,数学,math_part_1,high,42,0,42,1,2023,数学,高1
+12外進　後期中間　数②,12外進 後期中間 数②,school_regular_exam,second_term,midterm,数学,math_part_2,high,42,0,42,1,2023,数学,高1
+12外進　後期期末　数①,12外進 後期期末 数①,school_regular_exam,second_term,final,数学,math_part_1,high,42,0,42,1,2024,数学,高1
+12外進　後期期末　数②,12外進 後期期末 数②,school_regular_exam,second_term,final,数学,math_part_2,high,42,0,42,1,2024,数学,高1
+12理系　発展　数C,12理系 発展 数C,unclear,unknown,unknown,数学,unspecified_or_single_score,low,42,0,42,1,2023,数学,高2
+12理系　発展　数Ⅱ,12理系 発展 数Ⅱ,unclear,unknown,unknown,数学,unspecified_or_single_score,low,42,0,42,1,2023,数学,高2
+34外進　前期中間　数A,34外進 前期中間 数A,school_regular_exam,first_term,midterm,数学,unspecified_or_single_score,high,42,0,42,1,2023,数学,高1
+34外進　前期中間　数Ⅰ,34外進 前期中間 数Ⅰ,school_regular_exam,first_term,midterm,数学,unspecified_or_single_score,high,42,0,42,1,2023,数学,高1
+34外進　前期期末　数A,34外進 前期期末 数A,school_regular_exam,first_term,final,数学,unspecified_or_single_score,high,42,0,42,1,2023,数学,高1
+34外進　前期期末　数Ⅰ,34外進 前期期末 数Ⅰ,school_regular_exam,first_term,final,数学,unspecified_or_single_score,high,42,0,42,1,2023,数学,高1
+34外進　後期中間　数①,34外進 後期中間 数①,school_regular_exam,second_term,midterm,数学,math_part_1,high,42,0,42,1,2023,数学,高1
+34外進　後期中間　数②,34外進 後期中間 数②,school_regular_exam,second_term,midterm,数学,math_part_2,high,42,0,42,1,2023,数学,高1
+34外進　後期期末　数①,34外進 後期期末 数①,school_regular_exam,second_term,final,数学,math_part_1,high,42,0,42,1,2024,数学,高1
+34外進　後期期末　数②,34外進 後期期末 数②,school_regular_exam,second_term,final,数学,math_part_2,high,42,0,42,1,2024,数学,高1
+2024年度 12外進 前期中間 数①,2024年度 12外進 前期中間 数①,school_regular_exam,first_term,midterm,数学,math_part_1,high,41,0,41,1,2024,数学,高1
+2024年度 12外進 前期中間 数②,2024年度 12外進 前期中間 数②,school_regular_exam,first_term,midterm,数学,math_part_2,high,41,0,41,1,2024,数学,高1
+2024年度 12外進 前期期末 数①,2024年度 12外進 前期期末 数①,school_regular_exam,first_term,final,数学,math_part_1,high,41,0,41,1,2024,数学,高1
+2024年度 12外進 前期期末 数②,2024年度 12外進 前期期末 数②,school_regular_exam,first_term,final,数学,math_part_2,high,41,0,41,1,2024,数学,高1
+2024年度 12外進 後期中間 数①,2024年度 12外進 後期中間 数①,school_regular_exam,second_term,midterm,数学,math_part_1,high,41,0,41,1,2024,数学,高1
+2024年度 12外進 後期中間 数②,2024年度 12外進 後期中間 数②,school_regular_exam,second_term,midterm,数学,math_part_2,high,41,0,41,1,2024,数学,高1
+2024年度 12外進 後期期末 数①,2024年度 12外進 後期期末 数①,school_regular_exam,second_term,final,数学,math_part_1,high,41,0,41,1,2025,数学,高1
+2024年度 12外進 後期期末 数②,2024年度 12外進 後期期末 数②,school_regular_exam,second_term,final,数学,math_part_2,high,41,0,41,1,2025,数学,高1
+2024年度 34外進 前期中間 数①,2024年度 34外進 前期中間 数①,school_regular_exam,first_term,midterm,数学,math_part_1,high,41,0,41,1,2024,数学,高1
+2024年度 34外進 前期中間 数②,2024年度 34外進 前期中間 数②,school_regular_exam,first_term,midterm,数学,math_part_2,high,41,0,41,1,2024,数学,高1
+2024年度 34外進 前期期末 数①,2024年度 34外進 前期期末 数①,school_regular_exam,first_term,final,数学,math_part_1,high,41,0,41,1,2024,数学,高1
+2024年度 34外進 前期期末 数②,2024年度 34外進 前期期末 数②,school_regular_exam,first_term,final,数学,math_part_2,high,41,0,41,1,2024,数学,高1
+2024年度 34外進 後期中間 数①,2024年度 34外進 後期中間 数①,school_regular_exam,second_term,midterm,数学,math_part_1,high,41,0,41,1,2024,数学,高1
+2024年度 34外進 後期中間 数②,2024年度 34外進 後期中間 数②,school_regular_exam,second_term,midterm,数学,math_part_2,high,41,0,41,1,2024,数学,高1
+2024年度 34外進 後期期末 数①,2024年度 34外進 後期期末 数①,school_regular_exam,second_term,final,数学,math_part_1,high,41,0,41,1,2025,数学,高1
+2024年度 34外進 後期期末 数②,2024年度 34外進 後期期末 数②,school_regular_exam,second_term,final,数学,math_part_2,high,41,0,41,1,2025,数学,高1
+2024年度 567外進1 前期中間 数①,2024年度 567外進1 前期中間 数①,school_regular_exam,first_term,midterm,数学,math_part_1,high,41,0,41,1,2024,数学,高1
+2024年度 567外進1 前期中間 数②,2024年度 567外進1 前期中間 数②,school_regular_exam,first_term,midterm,数学,math_part_2,high,41,0,41,1,2024,数学,高1
+2024年度 567外進1 前期期末 数①,2024年度 567外進1 前期期末 数①,school_regular_exam,first_term,final,数学,math_part_1,high,41,0,41,1,2024,数学,高1
+2024年度 567外進1 前期期末 数②,2024年度 567外進1 前期期末 数②,school_regular_exam,first_term,final,数学,math_part_2,high,41,0,41,1,2024,数学,高1
+2024年度 567外進1 後期中間 数①,2024年度 567外進1 後期中間 数①,school_regular_exam,second_term,midterm,数学,math_part_1,high,41,0,41,1,2024,数学,高1
+2024年度 567外進1 後期中間 数②,2024年度 567外進1 後期中間 数②,school_regular_exam,second_term,midterm,数学,math_part_2,high,41,0,41,1,2024,数学,高1
+2024年度 567外進1 後期期末 数①,2024年度 567外進1 後期期末 数①,school_regular_exam,second_term,final,数学,math_part_1,high,41,0,41,1,2025,数学,高1
+2024年度 567外進1 後期期末 数②,2024年度 567外進1 後期期末 数②,school_regular_exam,second_term,final,数学,math_part_2,high,41,0,41,1,2025,数学,高1
+2024年度 567外進2 前期中間 数①,2024年度 567外進2 前期中間 数①,school_regular_exam,first_term,midterm,数学,math_part_1,high,41,0,41,1,2024,数学,高1
+2024年度 567外進2 前期中間 数②,2024年度 567外進2 前期中間 数②,school_regular_exam,first_term,midterm,数学,math_part_2,high,41,0,41,1,2024,数学,高1
+2024年度 567外進2 前期期末 数①,2024年度 567外進2 前期期末 数①,school_regular_exam,first_term,final,数学,math_part_1,high,41,0,41,1,2024,数学,高1
+2024年度 567外進2 前期期末 数②,2024年度 567外進2 前期期末 数②,school_regular_exam,first_term,final,数学,math_part_2,high,41,0,41,1,2024,数学,高1
+2024年度 567外進2 後期中間 数①,2024年度 567外進2 後期中間 数①,school_regular_exam,second_term,midterm,数学,math_part_1,high,41,0,41,1,2024,数学,高1
+2024年度 567外進2 後期中間 数②,2024年度 567外進2 後期中間 数②,school_regular_exam,second_term,midterm,数学,math_part_2,high,41,0,41,1,2024,数学,高1
+2024年度 567外進2 後期期末 数①,2024年度 567外進2 後期期末 数①,school_regular_exam,second_term,final,数学,math_part_1,high,41,0,41,1,2025,数学,高1
+2024年度 567外進2 後期期末 数②,2024年度 567外進2 後期期末 数②,school_regular_exam,second_term,final,数学,math_part_2,high,41,0,41,1,2025,数学,高1
+12内進　前期期末　数A,12内進 前期期末 数A,school_regular_exam,first_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2023,数学,高1
+12内進　前期期末　数Ⅰ,12内進 前期期末 数Ⅰ,school_regular_exam,first_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2023,数学,高1
+12内進　後期中間　数①,12内進 後期中間 数①,school_regular_exam,second_term,midterm,数学,math_part_1,high,40,0,40,1,2023,数学,高1
+12内進　後期中間　数②,12内進 後期中間 数②,school_regular_exam,second_term,midterm,数学,math_part_2,high,40,0,40,1,2023,数学,高1
+12内進　後期期末　数①,12内進 後期期末 数①,school_regular_exam,second_term,final,数学,math_part_1,high,40,0,40,1,2024,数学,高1
+12内進　後期期末　数②,12内進 後期期末 数②,school_regular_exam,second_term,final,数学,math_part_2,high,40,0,40,1,2024,数学,高1
+12理系　基礎　数①,12理系 基礎 数①,unclear,unknown,unknown,数学,math_part_1,low,40,0,21,3,2023|2024,数学,高2
+12理系　基礎　数②,12理系 基礎 数②,unclear,unknown,unknown,数学,math_part_2,low,40,0,21,3,2023|2024,数学,高2
+1A 後期期末　数学,1A 後期期末 数学,school_regular_exam,second_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2023,数学,中1
+1A 後期期末　英語,1A 後期期末 英語,school_regular_exam,second_term,final,英語,unspecified_or_single_score,high,40,0,40,1,2023,英語,中1
+1B 後期期末　数学,1B 後期期末 数学,school_regular_exam,second_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2023,数学,中1
+1B 後期期末　英語,1B 後期期末 英語,school_regular_exam,second_term,final,英語,unspecified_or_single_score,high,40,0,40,1,2023,英語,中1
+1C 後期期末　数学,1C 後期期末 数学,school_regular_exam,second_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2023,数学,中1
+1C 後期期末　英語,1C 後期期末 英語,school_regular_exam,second_term,final,英語,unspecified_or_single_score,high,40,0,40,1,2023,英語,中1
+2019年度 3A ベネッセ模試 第1回 数学,2019年度 3A ベネッセ模試 第1回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,40,0,40,1,2019,数学,中3
+2019年度 3A ベネッセ模試 第1回 英語,2019年度 3A ベネッセ模試 第1回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,40,0,40,1,2019,英語,中3
+2019年度 3B ベネッセ模試 第2回 数学,2019年度 3B ベネッセ模試 第2回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,40,0,40,1,2019,数学,中3
+2019年度 3B ベネッセ模試 第2回 英語,2019年度 3B ベネッセ模試 第2回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,40,0,40,1,2019,英語,中3
+2020年度 1A ベネッセ模試 第1回 数学,2020年度 1A ベネッセ模試 第1回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,40,0,40,1,2020,数学,中1
+2020年度 1A ベネッセ模試 第2回 数学,2020年度 1A ベネッセ模試 第2回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,40,0,40,1,2020,数学,中1
+2020年度 1A ベネッセ模試 第2回 英語,2020年度 1A ベネッセ模試 第2回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,40,0,40,1,2020,英語,中1
+2020年度 1B ベネッセ模試 第1回 数学,2020年度 1B ベネッセ模試 第1回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,40,0,40,1,2020,数学,中1
+2020年度 1C ベネッセ模試 第1回 数学,2020年度 1C ベネッセ模試 第1回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,40,0,40,1,2020,数学,中1
+2020年度 3A ベネッセ模試 第1回 数学,2020年度 3A ベネッセ模試 第1回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,40,0,40,1,2020,数学,中3
+2020年度 3A ベネッセ模試 第1回 英語,2020年度 3A ベネッセ模試 第1回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,40,0,40,1,2020,英語,中3
+2021年度 1A ベネッセ模試 第1回 数学,2021年度 1A ベネッセ模試 第1回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,40,0,40,1,2021,数学,中1
+2021年度 1A ベネッセ模試 第1回 英語,2021年度 1A ベネッセ模試 第1回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,40,0,40,1,2021,英語,中1
+2021年度 1A ベネッセ模試 第2回 数学,2021年度 1A ベネッセ模試 第2回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,40,0,40,1,2021,数学,中1
+2021年度 1A ベネッセ模試 第2回 英語,2021年度 1A ベネッセ模試 第2回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,40,0,40,1,2021,英語,中1
+2021年度 1B ベネッセ模試 第1回 数学,2021年度 1B ベネッセ模試 第1回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,40,0,40,1,2021,数学,中1
+2021年度 1B ベネッセ模試 第1回 英語,2021年度 1B ベネッセ模試 第1回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,40,0,40,1,2021,英語,中1
+2021年度 1B ベネッセ模試 第2回 数学,2021年度 1B ベネッセ模試 第2回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,40,0,40,1,2021,数学,中1
+2021年度 1B ベネッセ模試 第2回 英語,2021年度 1B ベネッセ模試 第2回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,40,0,40,1,2021,英語,中1
+2021年度 1C ベネッセ模試 第1回 数学,2021年度 1C ベネッセ模試 第1回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,40,0,40,1,2021,数学,中1
+2021年度 1C ベネッセ模試 第1回 英語,2021年度 1C ベネッセ模試 第1回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,40,0,40,1,2021,英語,中1
+2021年度 1C ベネッセ模試 第2回 数学,2021年度 1C ベネッセ模試 第2回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,40,0,40,1,2021,数学,中1
+2021年度 1C ベネッセ模試 第2回 英語,2021年度 1C ベネッセ模試 第2回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,40,0,40,1,2021,英語,中1
+2021年度 2A ベネッセ模試 第1回 数学,2021年度 2A ベネッセ模試 第1回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,40,0,40,1,2021,数学,中2
+2021年度 2A ベネッセ模試 第1回 英語,2021年度 2A ベネッセ模試 第1回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,40,0,40,1,2021,英語,中2
+2021年度 2A ベネッセ模試 第2回 数学,2021年度 2A ベネッセ模試 第2回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,40,0,40,1,2021,数学,中2
+2021年度 2A ベネッセ模試 第2回 英語,2021年度 2A ベネッセ模試 第2回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,40,0,40,1,2021,英語,中2
+2021年度 2B ベネッセ模試 第1回 数学,2021年度 2B ベネッセ模試 第1回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,40,0,40,1,2021,数学,中2
+2021年度 2B ベネッセ模試 第1回 英語,2021年度 2B ベネッセ模試 第1回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,40,0,40,1,2021,英語,中2
+2021年度 2B ベネッセ模試 第2回 数学,2021年度 2B ベネッセ模試 第2回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,40,0,40,1,2021,数学,中2
+2021年度 2B ベネッセ模試 第2回 英語,2021年度 2B ベネッセ模試 第2回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,40,0,40,1,2021,英語,中2
+2021年度 2C ベネッセ模試 第1回 数学,2021年度 2C ベネッセ模試 第1回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,40,0,40,1,2021,数学,中2
+2021年度 2C ベネッセ模試 第1回 英語,2021年度 2C ベネッセ模試 第1回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,40,0,40,1,2021,英語,中2
+2021年度 2C ベネッセ模試 第2回 数学,2021年度 2C ベネッセ模試 第2回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,40,0,40,1,2021,数学,中2
+2021年度 2C ベネッセ模試 第2回 英語,2021年度 2C ベネッセ模試 第2回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,40,0,40,1,2021,英語,中2
+2021年度 3B ベネッセ模試 第1回 数学,2021年度 3B ベネッセ模試 第1回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,40,0,40,1,2021,数学,中3
+2021年度 3B ベネッセ模試 第2回 数学,2021年度 3B ベネッセ模試 第2回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,40,0,40,1,2021,数学,中3
+2021年度 3B ベネッセ模試 第2回 英語,2021年度 3B ベネッセ模試 第2回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,40,0,40,1,2021,英語,中3
+2022年度 1A ベネッセ模試 第1回 数学,2022年度 1A ベネッセ模試 第1回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,40,0,40,1,2022,数学,中1
+2022年度 1A ベネッセ模試 第1回 英語,2022年度 1A ベネッセ模試 第1回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,40,0,40,1,2022,英語,中1
+2022年度 1B ベネッセ模試 第1回 数学,2022年度 1B ベネッセ模試 第1回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,40,0,40,1,2022,数学,中1
+2022年度 1B ベネッセ模試 第1回 英語,2022年度 1B ベネッセ模試 第1回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,40,0,40,1,2022,英語,中1
+2022年度 1C ベネッセ模試 第1回 数学,2022年度 1C ベネッセ模試 第1回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,40,0,40,1,2022,数学,中1
+2022年度 1C ベネッセ模試 第1回 英語,2022年度 1C ベネッセ模試 第1回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,40,0,40,1,2022,英語,中1
+2022年度 2C ベネッセ模試 第1回 数学,2022年度 2C ベネッセ模試 第1回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,40,0,40,1,2022,数学,中2
+2022年度 2C ベネッセ模試 第1回 英語,2022年度 2C ベネッセ模試 第1回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,40,0,40,1,2022,英語,中2
+2022年度 3A ベネッセ模試 第1回 数学,2022年度 3A ベネッセ模試 第1回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,40,0,40,1,2022,数学,中3
+2022年度 3A ベネッセ模試 第1回 英語,2022年度 3A ベネッセ模試 第1回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,40,0,40,1,2022,英語,中3
+2023年度　1A Bライン 1年1章　正の数・負の数,2023年度 1A Bライン 1年1章 正の数・負の数,unit_or_chapter_test,unknown,unit_or_chapter,数学,unspecified_or_single_score,medium,40,0,40,1,2023,数学,中1
+2023年度　1A Bライン 1年2章　文字の式,2023年度 1A Bライン 1年2章 文字の式,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2023,数学,中1
+2023年度　1A Bライン 1年3章　方程式,2023年度 1A Bライン 1年3章 方程式,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2023,数学,中1
+2023年度　1A Bライン 1年4章　変化と対応,2023年度 1A Bライン 1年4章 変化と対応,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2023,数学,中1
+2023年度　1A Bライン 1年5章　平面図形,2023年度 1A Bライン 1年5章 平面図形,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2023,数学,中1
+2023年度　1A Bライン 1年6章　空間図形,2023年度 1A Bライン 1年6章 空間図形,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2023,数学,中1
+2023年度　1A Bライン 1年7章　データの活用,2023年度 1A Bライン 1年7章 データの活用,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2023,数学,中1
+2023年度　1A Bライン 2年1章　冬明けテスト 兼 式の計算,2023年度 1A Bライン 2年1章 冬明けテスト 兼 式の計算,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中1
+2023年度　1A Bライン 2年2章　連立方程式,2023年度 1A Bライン 2年2章 連立方程式,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中1
+2023年度　1A ベネッセ模試 第1回　国語,2023年度 1A ベネッセ模試 第1回 国語,external_benesse,unknown,mock_exam,国語,unspecified_or_single_score,high,40,0,40,1,2023,国語,中1
+2023年度　1A ベネッセ模試 第1回　数学,2023年度 1A ベネッセ模試 第1回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,40,0,40,1,2023,数学,中1
+2023年度　1A ベネッセ模試 第1回　英語,2023年度 1A ベネッセ模試 第1回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,40,0,40,1,2023,英語,中1
+2023年度　1A ベネッセ模試 第2回　国語,2023年度 1A ベネッセ模試 第2回 国語,external_benesse,unknown,mock_exam,国語,unspecified_or_single_score,high,40,0,40,1,2023,国語,中1
+2023年度　1A ベネッセ模試 第2回　数学,2023年度 1A ベネッセ模試 第2回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,40,0,40,1,2023,数学,中1
+2023年度　1A ベネッセ模試 第2回　英語,2023年度 1A ベネッセ模試 第2回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,40,0,40,1,2023,英語,中1
+2023年度　1A 前期中間　数S,2023年度 1A 前期中間 数S,school_regular_exam,first_term,midterm,数学,unspecified_or_single_score,high,40,0,40,1,2023,数学,中1
+2023年度　1A 前期中間　数学,2023年度 1A 前期中間 数学,school_regular_exam,first_term,midterm,数学,unspecified_or_single_score,high,40,0,40,1,2023,数学,中1
+2023年度　1A 前期中間　英語,2023年度 1A 前期中間 英語,school_regular_exam,first_term,midterm,英語,unspecified_or_single_score,high,40,0,40,1,2023,英語,中1
+2023年度　1A 前期期末　数S,2023年度 1A 前期期末 数S,school_regular_exam,first_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2023,数学,中1
+2023年度　1A 前期期末　数学,2023年度 1A 前期期末 数学,school_regular_exam,first_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2023,数学,中1
+2023年度　1A 前期期末　英語,2023年度 1A 前期期末 英語,school_regular_exam,first_term,final,英語,unspecified_or_single_score,high,40,0,40,1,2023,英語,中1
+2023年度　1A 夏休み明けテスト　数学,2023年度 1A 夏休み明けテスト 数学,break_after_test,unknown,after_break,数学,unspecified_or_single_score,medium,40,0,40,1,2023,数学,中1
+2023年度　1A 後期中間　数S,2023年度 1A 後期中間 数S,school_regular_exam,second_term,midterm,数学,unspecified_or_single_score,high,40,0,40,1,2023,数学,中1
+2023年度　1A 後期中間　数学,2023年度 1A 後期中間 数学,school_regular_exam,second_term,midterm,数学,unspecified_or_single_score,high,40,0,40,1,2023,数学,中1
+2023年度　1A 後期中間　英語,2023年度 1A 後期中間 英語,school_regular_exam,second_term,midterm,英語,unspecified_or_single_score,high,40,0,40,1,2023,英語,中1
+2023年度　1A 後期期末　数S,2023年度 1A 後期期末 数S,school_regular_exam,second_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中1
+2023年度　1A 後期期末　数学,2023年度 1A 後期期末 数学,school_regular_exam,second_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中1
+2023年度　1A 後期期末　英語,2023年度 1A 後期期末 英語,school_regular_exam,second_term,final,英語,unspecified_or_single_score,high,40,0,40,1,2024,英語,中1
+2023年度　1B Bライン 1年1章　正の数・負の数,2023年度 1B Bライン 1年1章 正の数・負の数,unit_or_chapter_test,unknown,unit_or_chapter,数学,unspecified_or_single_score,medium,40,0,40,1,2023,数学,中1
+2023年度　1B Bライン 1年2章　文字の式,2023年度 1B Bライン 1年2章 文字の式,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2023,数学,中1
+2023年度　1B Bライン 1年3章　方程式,2023年度 1B Bライン 1年3章 方程式,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2023,数学,中1
+2023年度　1B Bライン 1年4章　変化と対応,2023年度 1B Bライン 1年4章 変化と対応,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2023,数学,中1
+2023年度　1B Bライン 1年5章　平面図形,2023年度 1B Bライン 1年5章 平面図形,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2023,数学,中1
+2023年度　1B Bライン 1年6章　空間図形,2023年度 1B Bライン 1年6章 空間図形,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2023,数学,中1
+2023年度　1B Bライン 1年7章　データの活用,2023年度 1B Bライン 1年7章 データの活用,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2023,数学,中1
+2023年度　1B Bライン 2年1章　冬明けテスト 兼 式の計算,2023年度 1B Bライン 2年1章 冬明けテスト 兼 式の計算,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中1
+2023年度　1B Bライン 2年2章　連立方程式,2023年度 1B Bライン 2年2章 連立方程式,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中1
+2023年度　1B ベネッセ模試 第1回　国語,2023年度 1B ベネッセ模試 第1回 国語,external_benesse,unknown,mock_exam,国語,unspecified_or_single_score,high,40,0,40,1,2023,国語,中1
+2023年度　1B ベネッセ模試 第1回　数学,2023年度 1B ベネッセ模試 第1回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,40,0,40,1,2023,数学,中1
+2023年度　1B ベネッセ模試 第1回　英語,2023年度 1B ベネッセ模試 第1回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,40,0,40,1,2023,英語,中1
+2023年度　1B ベネッセ模試 第2回　国語,2023年度 1B ベネッセ模試 第2回 国語,external_benesse,unknown,mock_exam,国語,unspecified_or_single_score,high,40,0,40,1,2023,国語,中1
+2023年度　1B ベネッセ模試 第2回　数学,2023年度 1B ベネッセ模試 第2回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,40,0,40,1,2023,数学,中1
+2023年度　1B ベネッセ模試 第2回　英語,2023年度 1B ベネッセ模試 第2回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,40,0,40,1,2023,英語,中1
+2023年度　1B 前期中間　数S,2023年度 1B 前期中間 数S,school_regular_exam,first_term,midterm,数学,unspecified_or_single_score,high,40,0,40,1,2023,数学,中1
+2023年度　1B 前期中間　数学,2023年度 1B 前期中間 数学,school_regular_exam,first_term,midterm,数学,unspecified_or_single_score,high,40,0,40,1,2023,数学,中1
+2023年度　1B 前期中間　英語,2023年度 1B 前期中間 英語,school_regular_exam,first_term,midterm,英語,unspecified_or_single_score,high,40,0,40,1,2023,英語,中1
+2023年度　1B 前期期末　数S,2023年度 1B 前期期末 数S,school_regular_exam,first_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2023,数学,中1
+2023年度　1B 前期期末　数学,2023年度 1B 前期期末 数学,school_regular_exam,first_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2023,数学,中1
+2023年度　1B 前期期末　英語,2023年度 1B 前期期末 英語,school_regular_exam,first_term,final,英語,unspecified_or_single_score,high,40,0,40,1,2023,英語,中1
+2023年度　1B 夏休み明けテスト　数学,2023年度 1B 夏休み明けテスト 数学,break_after_test,unknown,after_break,数学,unspecified_or_single_score,medium,40,0,40,1,2023,数学,中1
+2023年度　1B 後期中間　数S,2023年度 1B 後期中間 数S,school_regular_exam,second_term,midterm,数学,unspecified_or_single_score,high,40,0,40,1,2023,数学,中1
+2023年度　1B 後期中間　数学,2023年度 1B 後期中間 数学,school_regular_exam,second_term,midterm,数学,unspecified_or_single_score,high,40,0,40,1,2023,数学,中1
+2023年度　1B 後期中間　英語,2023年度 1B 後期中間 英語,school_regular_exam,second_term,midterm,英語,unspecified_or_single_score,high,40,0,40,1,2023,英語,中1
+2023年度　1B 後期期末　数S,2023年度 1B 後期期末 数S,school_regular_exam,second_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中1
+2023年度　1B 後期期末　数学,2023年度 1B 後期期末 数学,school_regular_exam,second_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中1
+2023年度　1B 後期期末　英語,2023年度 1B 後期期末 英語,school_regular_exam,second_term,final,英語,unspecified_or_single_score,high,40,0,40,1,2024,英語,中1
+2023年度　1C Bライン 1年1章　正の数・負の数,2023年度 1C Bライン 1年1章 正の数・負の数,unit_or_chapter_test,unknown,unit_or_chapter,数学,unspecified_or_single_score,medium,40,0,40,1,2023,数学,中1
+2023年度　1C Bライン 1年2章　文字の式,2023年度 1C Bライン 1年2章 文字の式,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2023,数学,中1
+2023年度　1C Bライン 1年3章　方程式,2023年度 1C Bライン 1年3章 方程式,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2023,数学,中1
+2023年度　1C Bライン 1年4章　変化と対応,2023年度 1C Bライン 1年4章 変化と対応,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2023,数学,中1
+2023年度　1C Bライン 1年5章　平面図形,2023年度 1C Bライン 1年5章 平面図形,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2023,数学,中1
+2023年度　1C Bライン 1年6章　空間図形,2023年度 1C Bライン 1年6章 空間図形,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2023,数学,中1
+2023年度　1C Bライン 1年7章　データの活用,2023年度 1C Bライン 1年7章 データの活用,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2023,数学,中1
+2023年度　1C Bライン 2年1章　冬明けテスト 兼 式の計算,2023年度 1C Bライン 2年1章 冬明けテスト 兼 式の計算,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中1
+2023年度　1C Bライン 2年2章　連立方程式,2023年度 1C Bライン 2年2章 連立方程式,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中1
+2023年度　1C ベネッセ模試 第1回　国語,2023年度 1C ベネッセ模試 第1回 国語,external_benesse,unknown,mock_exam,国語,unspecified_or_single_score,high,40,0,40,1,2023,国語,中1
+2023年度　1C ベネッセ模試 第1回　数学,2023年度 1C ベネッセ模試 第1回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,40,0,40,1,2023,数学,中1
+2023年度　1C ベネッセ模試 第1回　英語,2023年度 1C ベネッセ模試 第1回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,40,0,40,1,2023,英語,中1
+2023年度　1C ベネッセ模試 第2回　国語,2023年度 1C ベネッセ模試 第2回 国語,external_benesse,unknown,mock_exam,国語,unspecified_or_single_score,high,40,0,40,1,2023,国語,中1
+2023年度　1C ベネッセ模試 第2回　数学,2023年度 1C ベネッセ模試 第2回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,40,0,40,1,2023,数学,中1
+2023年度　1C ベネッセ模試 第2回　英語,2023年度 1C ベネッセ模試 第2回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,40,0,40,1,2023,英語,中1
+2023年度　1C 前期中間　数S,2023年度 1C 前期中間 数S,school_regular_exam,first_term,midterm,数学,unspecified_or_single_score,high,40,0,40,1,2023,数学,中1
+2023年度　1C 前期中間　数学,2023年度 1C 前期中間 数学,school_regular_exam,first_term,midterm,数学,unspecified_or_single_score,high,40,0,40,1,2023,数学,中1
+2023年度　1C 前期中間　英語,2023年度 1C 前期中間 英語,school_regular_exam,first_term,midterm,英語,unspecified_or_single_score,high,40,0,40,1,2023,英語,中1
+2023年度　1C 前期期末　数S,2023年度 1C 前期期末 数S,school_regular_exam,first_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2023,数学,中1
+2023年度　1C 前期期末　数学,2023年度 1C 前期期末 数学,school_regular_exam,first_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2023,数学,中1
+2023年度　1C 夏休み明けテスト　数学,2023年度 1C 夏休み明けテスト 数学,break_after_test,unknown,after_break,数学,unspecified_or_single_score,medium,40,0,40,1,2023,数学,中1
+2023年度　1C 後期中間　数S,2023年度 1C 後期中間 数S,school_regular_exam,second_term,midterm,数学,unspecified_or_single_score,high,40,0,40,1,2023,数学,中1
+2023年度　1C 後期中間　数学,2023年度 1C 後期中間 数学,school_regular_exam,second_term,midterm,数学,unspecified_or_single_score,high,40,0,40,1,2023,数学,中1
+2023年度　1C 後期中間　英語,2023年度 1C 後期中間 英語,school_regular_exam,second_term,midterm,英語,unspecified_or_single_score,high,40,0,40,1,2023,英語,中1
+2023年度　1C 後期期末　数S,2023年度 1C 後期期末 数S,school_regular_exam,second_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中1
+2023年度　1C 後期期末　数学,2023年度 1C 後期期末 数学,school_regular_exam,second_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中1
+2023年度　1C 後期期末　英語,2023年度 1C 後期期末 英語,school_regular_exam,second_term,final,英語,unspecified_or_single_score,high,40,0,40,1,2024,英語,中1
+2023年度　2A Bライン　2年3章 一次関数,2023年度 2A Bライン 2年3章 一次関数,unit_or_chapter_test,unknown,unit_or_chapter,数学,unspecified_or_single_score,medium,40,0,40,1,2023,数学,中2
+2023年度　2A Bライン　2年4章 図形の調べ方,2023年度 2A Bライン 2年4章 図形の調べ方,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2023,数学,中2
+2023年度　2A Bライン　2年5章 図形の性質と証明,2023年度 2A Bライン 2年5章 図形の性質と証明,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2023,数学,中2
+2023年度　2A Bライン　2年6・7章 確率・箱ひげ図,2023年度 2A Bライン 2年6・7章 確率・箱ひげ図,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2023,数学,中2
+2023年度　2A Bライン　3年1章 展開・因数分解,2023年度 2A Bライン 3年1章 展開・因数分解,unit_or_chapter_test,unknown,unit_or_chapter,数学,unspecified_or_single_score,medium,40,0,40,1,2023,数学,中2
+2023年度　2A Bライン　3年2章 平方根,2023年度 2A Bライン 3年2章 平方根,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2023,数学,中2
+2023年度　2A Bライン　3年3章 二次方程式,2023年度 2A Bライン 3年3章 二次方程式,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中2
+2023年度　2A Bライン　3年4章 二次関数,2023年度 2A Bライン 3年4章 二次関数,unit_or_chapter_test,unknown,unit_or_chapter,数学,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中2
+2023年度　2A ベネッセ模試 第1回　国語,2023年度 2A ベネッセ模試 第1回 国語,external_benesse,unknown,mock_exam,国語,unspecified_or_single_score,high,40,0,40,1,2023,国語,中2
+2023年度　2A ベネッセ模試 第1回　数学,2023年度 2A ベネッセ模試 第1回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,40,0,40,1,2023,数学,中2
+2023年度　2A ベネッセ模試 第1回　英語,2023年度 2A ベネッセ模試 第1回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,40,0,40,1,2023,英語,中2
+2023年度　2A 前期期末　数S,2023年度 2A 前期期末 数S,school_regular_exam,first_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2023,数学,中2
+2023年度　2A 前期期末　数学,2023年度 2A 前期期末 数学,school_regular_exam,first_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2023,数学,中2
+2023年度　2A 前期期末　英語,2023年度 2A 前期期末 英語,school_regular_exam,first_term,final,英語,unspecified_or_single_score,high,40,0,40,1,2023,英語,中2
+2023年度　2A 夏休み明けテスト　数学,2023年度 2A 夏休み明けテスト 数学,break_after_test,unknown,after_break,数学,unspecified_or_single_score,medium,40,0,40,1,2023,数学,中2
+2023年度　2A 後期中間　英語,2023年度 2A 後期中間 英語,school_regular_exam,second_term,midterm,英語,unspecified_or_single_score,high,40,0,40,1,2023,英語,中2
+2023年度　2A 後期期末　数S,2023年度 2A 後期期末 数S,school_regular_exam,second_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中2
+2023年度　2A 後期期末　数学,2023年度 2A 後期期末 数学,school_regular_exam,second_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中2
+2023年度　2A 後期期末　英語,2023年度 2A 後期期末 英語,school_regular_exam,second_term,final,英語,unspecified_or_single_score,high,40,0,40,1,2024,英語,中2
+2023年度　2B Bライン　2年3章 一次関数,2023年度 2B Bライン 2年3章 一次関数,unit_or_chapter_test,unknown,unit_or_chapter,数学,unspecified_or_single_score,medium,40,0,40,1,2023,数学,中2
+2023年度　2B Bライン　2年4章 図形の調べ方,2023年度 2B Bライン 2年4章 図形の調べ方,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2023,数学,中2
+2023年度　2B Bライン　2年5章 図形の性質と証明,2023年度 2B Bライン 2年5章 図形の性質と証明,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2023,数学,中2
+2023年度　2B Bライン　2年6・7章 確率・箱ひげ図,2023年度 2B Bライン 2年6・7章 確率・箱ひげ図,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2023,数学,中2
+2023年度　2B Bライン　3年1章 展開・因数分解,2023年度 2B Bライン 3年1章 展開・因数分解,unit_or_chapter_test,unknown,unit_or_chapter,数学,unspecified_or_single_score,medium,40,0,40,1,2023,数学,中2
+2023年度　2B Bライン　3年2章 平方根,2023年度 2B Bライン 3年2章 平方根,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2023,数学,中2
+2023年度　2B Bライン　3年3章 二次方程式,2023年度 2B Bライン 3年3章 二次方程式,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中2
+2023年度　2B Bライン　3年4章 二次関数,2023年度 2B Bライン 3年4章 二次関数,unit_or_chapter_test,unknown,unit_or_chapter,数学,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中2
+2023年度　2B 前期期末　数S,2023年度 2B 前期期末 数S,school_regular_exam,first_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2023,数学,中2
+2023年度　2B 前期期末　数学,2023年度 2B 前期期末 数学,school_regular_exam,first_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2023,数学,中2
+2023年度　2B 前期期末　英語,2023年度 2B 前期期末 英語,school_regular_exam,first_term,final,英語,unspecified_or_single_score,high,40,0,40,1,2023,英語,中2
+2023年度　2B 夏休み明けテスト　数学,2023年度 2B 夏休み明けテスト 数学,break_after_test,unknown,after_break,数学,unspecified_or_single_score,medium,40,0,40,1,2023,数学,中2
+2023年度　2B 後期中間　数S,2023年度 2B 後期中間 数S,school_regular_exam,second_term,midterm,数学,unspecified_or_single_score,high,40,0,40,1,2023,数学,中2
+2023年度　2B 後期中間　数学,2023年度 2B 後期中間 数学,school_regular_exam,second_term,midterm,数学,unspecified_or_single_score,high,40,0,40,1,2023,数学,中2
+2023年度　2B 後期中間　英語,2023年度 2B 後期中間 英語,school_regular_exam,second_term,midterm,英語,unspecified_or_single_score,high,40,0,40,1,2023,英語,中2
+2023年度　2B 後期期末　数S,2023年度 2B 後期期末 数S,school_regular_exam,second_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中2
+2023年度　2B 後期期末　数学,2023年度 2B 後期期末 数学,school_regular_exam,second_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中2
+2023年度　2B 後期期末　英語,2023年度 2B 後期期末 英語,school_regular_exam,second_term,final,英語,unspecified_or_single_score,high,40,0,40,1,2024,英語,中2
+2023年度　2C Bライン　2年3章 一次関数,2023年度 2C Bライン 2年3章 一次関数,unit_or_chapter_test,unknown,unit_or_chapter,数学,unspecified_or_single_score,medium,40,0,40,1,2023,数学,中2
+2023年度　2C Bライン　2年4章 図形の調べ方,2023年度 2C Bライン 2年4章 図形の調べ方,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2023,数学,中2
+2023年度　2C Bライン　2年5章 図形の性質と証明,2023年度 2C Bライン 2年5章 図形の性質と証明,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2023,数学,中2
+2023年度　2C Bライン　2年6・7章 確率・箱ひげ図,2023年度 2C Bライン 2年6・7章 確率・箱ひげ図,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2023,数学,中2
+2023年度　2C Bライン　3年1章 展開・因数分解,2023年度 2C Bライン 3年1章 展開・因数分解,unit_or_chapter_test,unknown,unit_or_chapter,数学,unspecified_or_single_score,medium,40,0,40,1,2023,数学,中2
+2023年度　2C Bライン　3年2章 平方根,2023年度 2C Bライン 3年2章 平方根,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2023,数学,中2
+2023年度　2C Bライン　3年3章 二次方程式,2023年度 2C Bライン 3年3章 二次方程式,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中2
+2023年度　2C Bライン　3年4章 二次関数,2023年度 2C Bライン 3年4章 二次関数,unit_or_chapter_test,unknown,unit_or_chapter,数学,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中2
+2023年度　2C ベネッセ模試 第1回　国語,2023年度 2C ベネッセ模試 第1回 国語,external_benesse,unknown,mock_exam,国語,unspecified_or_single_score,high,40,0,40,1,2023,国語,中2
+2023年度　2C ベネッセ模試 第1回　数学,2023年度 2C ベネッセ模試 第1回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,40,0,40,1,2023,数学,中2
+2023年度　2C ベネッセ模試 第1回　英語,2023年度 2C ベネッセ模試 第1回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,40,0,40,1,2023,英語,中2
+2023年度　2C ベネッセ模試 第2回　国語,2023年度 2C ベネッセ模試 第2回 国語,external_benesse,unknown,mock_exam,国語,unspecified_or_single_score,high,40,0,40,1,2023,国語,中2
+2023年度　2C ベネッセ模試 第2回　数学,2023年度 2C ベネッセ模試 第2回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,40,0,40,1,2023,数学,中2
+2023年度　2C ベネッセ模試 第2回　英語,2023年度 2C ベネッセ模試 第2回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,40,0,40,1,2023,英語,中2
+2023年度　2C 前期中間　数S,2023年度 2C 前期中間 数S,school_regular_exam,first_term,midterm,数学,unspecified_or_single_score,high,40,0,40,1,2023,数学,中2
+2023年度　2C 前期中間　数学,2023年度 2C 前期中間 数学,school_regular_exam,first_term,midterm,数学,unspecified_or_single_score,high,40,0,40,1,2023,数学,中2
+2023年度　2C 前期期末　数S,2023年度 2C 前期期末 数S,school_regular_exam,first_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2023,数学,中2
+2023年度　2C 前期期末　数学,2023年度 2C 前期期末 数学,school_regular_exam,first_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2023,数学,中2
+2023年度　2C 前期期末　英語,2023年度 2C 前期期末 英語,school_regular_exam,first_term,final,英語,unspecified_or_single_score,high,40,0,40,1,2023,英語,中2
+2023年度　2C 夏休み明けテスト　数学,2023年度 2C 夏休み明けテスト 数学,break_after_test,unknown,after_break,数学,unspecified_or_single_score,medium,40,0,40,1,2023,数学,中2
+2023年度　2C 後期中間　数S,2023年度 2C 後期中間 数S,school_regular_exam,second_term,midterm,数学,unspecified_or_single_score,high,40,0,40,1,2023,数学,中2
+2023年度　2C 後期中間　数学,2023年度 2C 後期中間 数学,school_regular_exam,second_term,midterm,数学,unspecified_or_single_score,high,40,0,40,1,2023,数学,中2
+2023年度　2C 後期中間　英語,2023年度 2C 後期中間 英語,school_regular_exam,second_term,midterm,英語,unspecified_or_single_score,high,40,0,40,1,2023,英語,中2
+2023年度　2C 後期期末　数S,2023年度 2C 後期期末 数S,school_regular_exam,second_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中2
+2023年度　2C 後期期末　数学,2023年度 2C 後期期末 数学,school_regular_exam,second_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中2
+2023年度　2C 後期期末　英語,2023年度 2C 後期期末 英語,school_regular_exam,second_term,final,英語,unspecified_or_single_score,high,40,0,40,1,2024,英語,中2
+2023年度　3A Bライン 3年5章　図形と相似,2023年度 3A Bライン 3年5章 図形と相似,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2023,数学,中3
+2023年度　3A Bライン 3年6章　円の性質,2023年度 3A Bライン 3年6章 円の性質,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2023,数学,中3
+2023年度　3A Bライン 3年7章　三平方の定理,2023年度 3A Bライン 3年7章 三平方の定理,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2023,数学,中3
+2023年度　3A 前期中間　数S,2023年度 3A 前期中間 数S,school_regular_exam,first_term,midterm,数学,unspecified_or_single_score,high,40,0,40,1,2023,数学,中3
+2023年度　3A 前期中間　英語,2023年度 3A 前期中間 英語,school_regular_exam,first_term,midterm,英語,unspecified_or_single_score,high,40,0,40,1,2023,英語,中3
+2023年度　3A 前期期末　数S,2023年度 3A 前期期末 数S,school_regular_exam,first_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2023,数学,中3
+2023年度　3A 前期期末　数学,2023年度 3A 前期期末 数学,school_regular_exam,first_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2023,数学,中3
+2023年度　3A 前期期末　英語,2023年度 3A 前期期末 英語,school_regular_exam,first_term,final,英語,unspecified_or_single_score,high,40,0,40,1,2023,英語,中3
+2023年度　3A 夏休み明けテスト　数学,2023年度 3A 夏休み明けテスト 数学,break_after_test,unknown,after_break,数学,unspecified_or_single_score,medium,40,0,40,1,2023,数学,中3
+2023年度　3A 後期中間　数学,2023年度 3A 後期中間 数学,school_regular_exam,second_term,midterm,数学,unspecified_or_single_score,high,40,0,40,1,2023,数学,中3
+2023年度　3A 後期中間　英語,2023年度 3A 後期中間 英語,school_regular_exam,second_term,midterm,英語,unspecified_or_single_score,high,40,0,40,1,2023,英語,中3
+2023年度　3A 後期期末　数S,2023年度 3A 後期期末 数S,school_regular_exam,second_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中3
+2023年度　3A 後期期末　数学,2023年度 3A 後期期末 数学,school_regular_exam,second_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中3
+2023年度　3A 後期期末　英語,2023年度 3A 後期期末 英語,school_regular_exam,second_term,final,英語,unspecified_or_single_score,high,40,0,40,1,2024,英語,中3
+2023年度　3C 後期期末　数S,2023年度 3C 後期期末 数S,school_regular_exam,second_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中3
+2023年度　3C 後期期末　数学,2023年度 3C 後期期末 数学,school_regular_exam,second_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中3
+2023年度　3C 後期期末　英語,2023年度 3C 後期期末 英語,school_regular_exam,second_term,final,英語,unspecified_or_single_score,high,40,0,40,1,2024,英語,中3
+2024年度 1A Bライン 2年第1章 式の計算,2024年度 1A Bライン 2年第1章 式の計算,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中1
+2024年度 1A Bライン 第1章 正の数・負の数,2024年度 1A Bライン 第1章 正の数・負の数,unit_or_chapter_test,unknown,unit_or_chapter,数学,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中1
+2024年度 1A Bライン 第2章 文字の式,2024年度 1A Bライン 第2章 文字の式,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中1
+2024年度 1A Bライン 第3章 方程式・不等式,2024年度 1A Bライン 第3章 方程式・不等式,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中1
+2024年度 1A Bライン 第5章 平面図形,2024年度 1A Bライン 第5章 平面図形,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中1
+2024年度 1A Bライン 第6章 空間図形,2024年度 1A Bライン 第6章 空間図形,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中1
+2024年度 1A ベネッセ模試 第1回 国語,2024年度 1A ベネッセ模試 第1回 国語,external_benesse,unknown,mock_exam,国語,unspecified_or_single_score,high,40,0,40,1,2024,国語,中1
+2024年度 1A ベネッセ模試 第1回 数学,2024年度 1A ベネッセ模試 第1回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中1
+2024年度 1A ベネッセ模試 第1回 英語,2024年度 1A ベネッセ模試 第1回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,40,0,40,1,2024,英語,中1
+2024年度 1A 前期中間 数S,2024年度 1A 前期中間 数S,school_regular_exam,first_term,midterm,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中1
+2024年度 1A 前期中間 数学,2024年度 1A 前期中間 数学,school_regular_exam,first_term,midterm,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中1
+2024年度 1A 前期中間 英語,2024年度 1A 前期中間 英語,school_regular_exam,first_term,midterm,英語,unspecified_or_single_score,high,40,0,40,1,2024,英語,中1
+2024年度 1A 前期期末 数S,2024年度 1A 前期期末 数S,school_regular_exam,first_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中1
+2024年度 1A 前期期末 数学,2024年度 1A 前期期末 数学,school_regular_exam,first_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中1
+2024年度 1A 前期期末 英語,2024年度 1A 前期期末 英語,school_regular_exam,first_term,final,英語,unspecified_or_single_score,high,40,0,40,1,2024,英語,中1
+2024年度 1A 夏休み明けテスト,2024年度 1A 夏休み明けテスト,break_after_test,unknown,after_break,unknown,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中1
+2024年度 1A 後期中間 数S,2024年度 1A 後期中間 数S,school_regular_exam,second_term,midterm,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中1
+2024年度 1A 後期中間 数学,2024年度 1A 後期中間 数学,school_regular_exam,second_term,midterm,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中1
+2024年度 1A 後期中間 英語,2024年度 1A 後期中間 英語,school_regular_exam,second_term,midterm,英語,unspecified_or_single_score,high,40,0,40,1,2024,英語,中1
+2024年度 1A 後期期末 数S,2024年度 1A 後期期末 数S,school_regular_exam,second_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2025,数学,中1
+2024年度 1A 後期期末 数学,2024年度 1A 後期期末 数学,school_regular_exam,second_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2025,数学,中1
+2024年度 1A 後期期末 英語,2024年度 1A 後期期末 英語,school_regular_exam,second_term,final,英語,unspecified_or_single_score,high,40,0,40,1,2025,英語,中1
+2024年度 1B Bライン 2年第1章 式の計算,2024年度 1B Bライン 2年第1章 式の計算,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中1
+2024年度 1B Bライン 第1章 正の数・負の数,2024年度 1B Bライン 第1章 正の数・負の数,unit_or_chapter_test,unknown,unit_or_chapter,数学,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中1
+2024年度 1B Bライン 第2章 文字の式,2024年度 1B Bライン 第2章 文字の式,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中1
+2024年度 1B Bライン 第3章 方程式・不等式,2024年度 1B Bライン 第3章 方程式・不等式,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中1
+2024年度 1B Bライン 第5章 平面図形,2024年度 1B Bライン 第5章 平面図形,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中1
+2024年度 1B Bライン 第6章 空間図形,2024年度 1B Bライン 第6章 空間図形,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中1
+2024年度 1B ベネッセ模試 第1回 国語,2024年度 1B ベネッセ模試 第1回 国語,external_benesse,unknown,mock_exam,国語,unspecified_or_single_score,high,40,0,40,1,2024,国語,中1
+2024年度 1B ベネッセ模試 第1回 数学,2024年度 1B ベネッセ模試 第1回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中1
+2024年度 1B ベネッセ模試 第1回 英語,2024年度 1B ベネッセ模試 第1回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,40,0,40,1,2024,英語,中1
+2024年度 1B ベネッセ模試 第2回 国語,2024年度 1B ベネッセ模試 第2回 国語,external_benesse,unknown,mock_exam,国語,unspecified_or_single_score,high,40,0,40,1,2024,国語,中1
+2024年度 1B ベネッセ模試 第2回 数学,2024年度 1B ベネッセ模試 第2回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中1
+2024年度 1B ベネッセ模試 第2回 英語,2024年度 1B ベネッセ模試 第2回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,40,0,40,1,2024,英語,中1
+2024年度 1B 前期中間 数S,2024年度 1B 前期中間 数S,school_regular_exam,first_term,midterm,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中1
+2024年度 1B 前期中間 数学,2024年度 1B 前期中間 数学,school_regular_exam,first_term,midterm,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中1
+2024年度 1B 前期中間 英語,2024年度 1B 前期中間 英語,school_regular_exam,first_term,midterm,英語,unspecified_or_single_score,high,40,0,40,1,2024,英語,中1
+2024年度 1B 前期期末 数S,2024年度 1B 前期期末 数S,school_regular_exam,first_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中1
+2024年度 1B 前期期末 数学,2024年度 1B 前期期末 数学,school_regular_exam,first_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中1
+2024年度 1B 前期期末 英語,2024年度 1B 前期期末 英語,school_regular_exam,first_term,final,英語,unspecified_or_single_score,high,40,0,40,1,2024,英語,中1
+2024年度 1B 夏休み明けテスト,2024年度 1B 夏休み明けテスト,break_after_test,unknown,after_break,unknown,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中1
+2024年度 1B 後期中間 数S,2024年度 1B 後期中間 数S,school_regular_exam,second_term,midterm,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中1
+2024年度 1B 後期中間 数学,2024年度 1B 後期中間 数学,school_regular_exam,second_term,midterm,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中1
+2024年度 1B 後期中間 英語,2024年度 1B 後期中間 英語,school_regular_exam,second_term,midterm,英語,unspecified_or_single_score,high,40,0,40,1,2024,英語,中1
+2024年度 1B 後期期末 数S,2024年度 1B 後期期末 数S,school_regular_exam,second_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2025,数学,中1
+2024年度 1B 後期期末 数学,2024年度 1B 後期期末 数学,school_regular_exam,second_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2025,数学,中1
+2024年度 1B 後期期末 英語,2024年度 1B 後期期末 英語,school_regular_exam,second_term,final,英語,unspecified_or_single_score,high,40,0,40,1,2025,英語,中1
+2024年度 1C Bライン 2年第1章 式の計算,2024年度 1C Bライン 2年第1章 式の計算,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中1
+2024年度 1C Bライン 第1章 正の数・負の数,2024年度 1C Bライン 第1章 正の数・負の数,unit_or_chapter_test,unknown,unit_or_chapter,数学,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中1
+2024年度 1C Bライン 第2章 文字の式,2024年度 1C Bライン 第2章 文字の式,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中1
+2024年度 1C Bライン 第3章 方程式・不等式,2024年度 1C Bライン 第3章 方程式・不等式,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中1
+2024年度 1C Bライン 第5章 平面図形,2024年度 1C Bライン 第5章 平面図形,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中1
+2024年度 1C Bライン 第6章 空間図形,2024年度 1C Bライン 第6章 空間図形,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中1
+2024年度 1C ベネッセ模試 第1回 国語,2024年度 1C ベネッセ模試 第1回 国語,external_benesse,unknown,mock_exam,国語,unspecified_or_single_score,high,40,0,40,1,2024,国語,中1
+2024年度 1C ベネッセ模試 第1回 数学,2024年度 1C ベネッセ模試 第1回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中1
+2024年度 1C ベネッセ模試 第1回 英語,2024年度 1C ベネッセ模試 第1回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,40,0,40,1,2024,英語,中1
+2024年度 1C ベネッセ模試 第2回 国語,2024年度 1C ベネッセ模試 第2回 国語,external_benesse,unknown,mock_exam,国語,unspecified_or_single_score,high,40,0,40,1,2024,国語,中1
+2024年度 1C ベネッセ模試 第2回 数学,2024年度 1C ベネッセ模試 第2回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中1
+2024年度 1C ベネッセ模試 第2回 英語,2024年度 1C ベネッセ模試 第2回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,40,0,40,1,2024,英語,中1
+2024年度 1C 前期中間 数S,2024年度 1C 前期中間 数S,school_regular_exam,first_term,midterm,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中1
+2024年度 1C 前期中間 数学,2024年度 1C 前期中間 数学,school_regular_exam,first_term,midterm,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中1
+2024年度 1C 前期中間 英語,2024年度 1C 前期中間 英語,school_regular_exam,first_term,midterm,英語,unspecified_or_single_score,high,40,0,40,1,2024,英語,中1
+2024年度 1C 前期期末 数S,2024年度 1C 前期期末 数S,school_regular_exam,first_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中1
+2024年度 1C 前期期末 数学,2024年度 1C 前期期末 数学,school_regular_exam,first_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中1
+2024年度 1C 前期期末 英語,2024年度 1C 前期期末 英語,school_regular_exam,first_term,final,英語,unspecified_or_single_score,high,40,0,40,1,2024,英語,中1
+2024年度 1C 夏休み明けテスト,2024年度 1C 夏休み明けテスト,break_after_test,unknown,after_break,unknown,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中1
+2024年度 1C 後期中間 数S,2024年度 1C 後期中間 数S,school_regular_exam,second_term,midterm,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中1
+2024年度 1C 後期中間 数学,2024年度 1C 後期中間 数学,school_regular_exam,second_term,midterm,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中1
+2024年度 1C 後期中間 英語,2024年度 1C 後期中間 英語,school_regular_exam,second_term,midterm,英語,unspecified_or_single_score,high,40,0,40,1,2024,英語,中1
+2024年度 1C 後期期末 数S,2024年度 1C 後期期末 数S,school_regular_exam,second_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2025,数学,中1
+2024年度 1C 後期期末 数学,2024年度 1C 後期期末 数学,school_regular_exam,second_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2025,数学,中1
+2024年度 1C 後期期末 英語,2024年度 1C 後期期末 英語,school_regular_exam,second_term,final,英語,unspecified_or_single_score,high,40,0,40,1,2025,英語,中1
+2024年度 2A Bライン 3年第1章  式の展開と因数分解,2024年度 2A Bライン 3年第1章 式の展開と因数分解,unit_or_chapter_test,unknown,unit_or_chapter,数学,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中2
+2024年度 2A Bライン 第3章 一次関数,2024年度 2A Bライン 第3章 一次関数,unit_or_chapter_test,unknown,unit_or_chapter,数学,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中2
+2024年度 2A Bライン 第4章 図形の調べ方,2024年度 2A Bライン 第4章 図形の調べ方,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中2
+2024年度 2A Bライン 第5章 図形の性質と証明,2024年度 2A Bライン 第5章 図形の性質と証明,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中2
+2024年度 2A Bライン 第6・7章 確率・箱ひげ図,2024年度 2A Bライン 第6・7章 確率・箱ひげ図,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中2
+2024年度 2A 前期中間 数S,2024年度 2A 前期中間 数S,school_regular_exam,first_term,midterm,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中2
+2024年度 2A 前期中間 数学,2024年度 2A 前期中間 数学,school_regular_exam,first_term,midterm,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中2
+2024年度 2A 前期中間 英語,2024年度 2A 前期中間 英語,school_regular_exam,first_term,midterm,英語,unspecified_or_single_score,high,40,0,40,1,2024,英語,中2
+2024年度 2A 前期期末 数S,2024年度 2A 前期期末 数S,school_regular_exam,first_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中2
+2024年度 2A 前期期末 数学,2024年度 2A 前期期末 数学,school_regular_exam,first_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中2
+2024年度 2A 前期期末 英語,2024年度 2A 前期期末 英語,school_regular_exam,first_term,final,英語,unspecified_or_single_score,high,40,0,40,1,2024,英語,中2
+2024年度 2A 夏休み明けテスト,2024年度 2A 夏休み明けテスト,break_after_test,unknown,after_break,unknown,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中2
+2024年度 2A 後期中間 数S,2024年度 2A 後期中間 数S,school_regular_exam,second_term,midterm,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中2
+2024年度 2A 後期中間 数学,2024年度 2A 後期中間 数学,school_regular_exam,second_term,midterm,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中2
+2024年度 2A 後期中間 英語,2024年度 2A 後期中間 英語,school_regular_exam,second_term,midterm,英語,unspecified_or_single_score,high,40,0,40,1,2024,英語,中2
+2024年度 2A 後期期末 数S,2024年度 2A 後期期末 数S,school_regular_exam,second_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2025,数学,中2
+2024年度 2A 後期期末 数学,2024年度 2A 後期期末 数学,school_regular_exam,second_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2025,数学,中2
+2024年度 2A 後期期末 英語,2024年度 2A 後期期末 英語,school_regular_exam,second_term,final,英語,unspecified_or_single_score,high,40,0,40,1,2025,英語,中2
+2024年度 2B Bライン 3年第1章  式の展開と因数分解,2024年度 2B Bライン 3年第1章 式の展開と因数分解,unit_or_chapter_test,unknown,unit_or_chapter,数学,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中2
+2024年度 2B Bライン 第3章 一次関数,2024年度 2B Bライン 第3章 一次関数,unit_or_chapter_test,unknown,unit_or_chapter,数学,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中2
+2024年度 2B Bライン 第4章 図形の調べ方,2024年度 2B Bライン 第4章 図形の調べ方,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中2
+2024年度 2B Bライン 第5章 図形の性質と証明,2024年度 2B Bライン 第5章 図形の性質と証明,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中2
+2024年度 2B Bライン 第6・7章 確率・箱ひげ図,2024年度 2B Bライン 第6・7章 確率・箱ひげ図,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中2
+2024年度 2B ベネッセ模試 第1回 国語,2024年度 2B ベネッセ模試 第1回 国語,external_benesse,unknown,mock_exam,国語,unspecified_or_single_score,high,40,0,40,1,2024,国語,中2
+2024年度 2B ベネッセ模試 第1回 数学,2024年度 2B ベネッセ模試 第1回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中2
+2024年度 2B ベネッセ模試 第1回 英語,2024年度 2B ベネッセ模試 第1回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,40,0,40,1,2024,英語,中2
+2024年度 2B ベネッセ模試 第2回 国語,2024年度 2B ベネッセ模試 第2回 国語,external_benesse,unknown,mock_exam,国語,unspecified_or_single_score,high,40,0,40,1,2024,国語,中2
+2024年度 2B ベネッセ模試 第2回 数学,2024年度 2B ベネッセ模試 第2回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中2
+2024年度 2B ベネッセ模試 第2回 英語,2024年度 2B ベネッセ模試 第2回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,40,0,40,1,2024,英語,中2
+2024年度 2B 前期中間 数S,2024年度 2B 前期中間 数S,school_regular_exam,first_term,midterm,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中2
+2024年度 2B 前期中間 数学,2024年度 2B 前期中間 数学,school_regular_exam,first_term,midterm,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中2
+2024年度 2B 前期中間 英語,2024年度 2B 前期中間 英語,school_regular_exam,first_term,midterm,英語,unspecified_or_single_score,high,40,0,40,1,2024,英語,中2
+2024年度 2B 前期期末 数S,2024年度 2B 前期期末 数S,school_regular_exam,first_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中2
+2024年度 2B 前期期末 数学,2024年度 2B 前期期末 数学,school_regular_exam,first_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中2
+2024年度 2B 前期期末 英語,2024年度 2B 前期期末 英語,school_regular_exam,first_term,final,英語,unspecified_or_single_score,high,40,0,40,1,2024,英語,中2
+2024年度 2B 夏休み明けテスト,2024年度 2B 夏休み明けテスト,break_after_test,unknown,after_break,unknown,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中2
+2024年度 2B 後期中間 数S,2024年度 2B 後期中間 数S,school_regular_exam,second_term,midterm,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中2
+2024年度 2B 後期中間 数学,2024年度 2B 後期中間 数学,school_regular_exam,second_term,midterm,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中2
+2024年度 2B 後期中間 英語,2024年度 2B 後期中間 英語,school_regular_exam,second_term,midterm,英語,unspecified_or_single_score,high,40,0,40,1,2024,英語,中2
+2024年度 2B 後期期末 数S,2024年度 2B 後期期末 数S,school_regular_exam,second_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2025,数学,中2
+2024年度 2B 後期期末 数学,2024年度 2B 後期期末 数学,school_regular_exam,second_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2025,数学,中2
+2024年度 2B 後期期末 英語,2024年度 2B 後期期末 英語,school_regular_exam,second_term,final,英語,unspecified_or_single_score,high,40,0,40,1,2025,英語,中2
+2024年度 2C Bライン 3年第1章  式の展開と因数分解,2024年度 2C Bライン 3年第1章 式の展開と因数分解,unit_or_chapter_test,unknown,unit_or_chapter,数学,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中2
+2024年度 2C Bライン 第3章 一次関数,2024年度 2C Bライン 第3章 一次関数,unit_or_chapter_test,unknown,unit_or_chapter,数学,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中2
+2024年度 2C Bライン 第4章 図形の調べ方,2024年度 2C Bライン 第4章 図形の調べ方,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中2
+2024年度 2C Bライン 第5章 図形の性質と証明,2024年度 2C Bライン 第5章 図形の性質と証明,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中2
+2024年度 2C Bライン 第6・7章 確率・箱ひげ図,2024年度 2C Bライン 第6・7章 確率・箱ひげ図,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中2
+2024年度 2C ベネッセ模試 第1回 国語,2024年度 2C ベネッセ模試 第1回 国語,external_benesse,unknown,mock_exam,国語,unspecified_or_single_score,high,40,0,40,1,2024,国語,中2
+2024年度 2C ベネッセ模試 第1回 数学,2024年度 2C ベネッセ模試 第1回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中2
+2024年度 2C ベネッセ模試 第1回 英語,2024年度 2C ベネッセ模試 第1回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,40,0,40,1,2024,英語,中2
+2024年度 2C 前期中間 数S,2024年度 2C 前期中間 数S,school_regular_exam,first_term,midterm,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中2
+2024年度 2C 前期中間 数学,2024年度 2C 前期中間 数学,school_regular_exam,first_term,midterm,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中2
+2024年度 2C 前期中間 英語,2024年度 2C 前期中間 英語,school_regular_exam,first_term,midterm,英語,unspecified_or_single_score,high,40,0,40,1,2024,英語,中2
+2024年度 2C 前期期末 数S,2024年度 2C 前期期末 数S,school_regular_exam,first_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中2
+2024年度 2C 前期期末 数学,2024年度 2C 前期期末 数学,school_regular_exam,first_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中2
+2024年度 2C 前期期末 英語,2024年度 2C 前期期末 英語,school_regular_exam,first_term,final,英語,unspecified_or_single_score,high,40,0,40,1,2024,英語,中2
+2024年度 2C 夏休み明けテスト,2024年度 2C 夏休み明けテスト,break_after_test,unknown,after_break,unknown,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中2
+2024年度 2C 後期中間 数S,2024年度 2C 後期中間 数S,school_regular_exam,second_term,midterm,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中2
+2024年度 2C 後期中間 数学,2024年度 2C 後期中間 数学,school_regular_exam,second_term,midterm,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中2
+2024年度 2C 後期中間 英語,2024年度 2C 後期中間 英語,school_regular_exam,second_term,midterm,英語,unspecified_or_single_score,high,40,0,40,1,2024,英語,中2
+2024年度 2C 後期期末 数S,2024年度 2C 後期期末 数S,school_regular_exam,second_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2025,数学,中2
+2024年度 2C 後期期末 数学,2024年度 2C 後期期末 数学,school_regular_exam,second_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2025,数学,中2
+2024年度 2C 後期期末 英語,2024年度 2C 後期期末 英語,school_regular_exam,second_term,final,英語,unspecified_or_single_score,high,40,0,40,1,2025,英語,中2
+2024年度 3A Bライン 第5章 図形と相似,2024年度 3A Bライン 第5章 図形と相似,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中3
+2024年度 3A Bライン 第6章 円の性質,2024年度 3A Bライン 第6章 円の性質,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中3
+2024年度 3A Bライン 第7章 三平方の定理,2024年度 3A Bライン 第7章 三平方の定理,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中3
+2024年度 3A ベネッセ模試 第1回 国語,2024年度 3A ベネッセ模試 第1回 国語,external_benesse,unknown,mock_exam,国語,unspecified_or_single_score,high,40,0,40,1,2024,国語,中3
+2024年度 3A ベネッセ模試 第1回 数学,2024年度 3A ベネッセ模試 第1回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中3
+2024年度 3A ベネッセ模試 第1回 英語,2024年度 3A ベネッセ模試 第1回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,40,0,40,1,2024,英語,中3
+2024年度 3A ベネッセ模試 第2回 国語,2024年度 3A ベネッセ模試 第2回 国語,external_benesse,unknown,mock_exam,国語,unspecified_or_single_score,high,40,0,40,1,2024,国語,中3
+2024年度 3A ベネッセ模試 第2回 数学,2024年度 3A ベネッセ模試 第2回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中3
+2024年度 3A ベネッセ模試 第2回 英語,2024年度 3A ベネッセ模試 第2回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,40,0,40,1,2024,英語,中3
+2024年度 3A 前期中間 数S,2024年度 3A 前期中間 数S,school_regular_exam,first_term,midterm,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中3
+2024年度 3A 前期中間 数学,2024年度 3A 前期中間 数学,school_regular_exam,first_term,midterm,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中3
+2024年度 3A 前期中間 英語,2024年度 3A 前期中間 英語,school_regular_exam,first_term,midterm,英語,unspecified_or_single_score,high,40,0,40,1,2024,英語,中3
+2024年度 3A 前期期末 数S,2024年度 3A 前期期末 数S,school_regular_exam,first_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中3
+2024年度 3A 前期期末 数学,2024年度 3A 前期期末 数学,school_regular_exam,first_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中3
+2024年度 3A 前期期末 英語,2024年度 3A 前期期末 英語,school_regular_exam,first_term,final,英語,unspecified_or_single_score,high,40,0,40,1,2024,英語,中3
+2024年度 3A 夏休み明けテスト,2024年度 3A 夏休み明けテスト,break_after_test,unknown,after_break,unknown,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中3
+2024年度 3A 後期中間 数S,2024年度 3A 後期中間 数S,school_regular_exam,second_term,midterm,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中3
+2024年度 3A 後期中間 数学,2024年度 3A 後期中間 数学,school_regular_exam,second_term,midterm,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中3
+2024年度 3A 後期中間 英語,2024年度 3A 後期中間 英語,school_regular_exam,second_term,midterm,英語,unspecified_or_single_score,high,40,0,40,1,2024,英語,中3
+2024年度 3A 後期期末 数S,2024年度 3A 後期期末 数S,school_regular_exam,second_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2025,数学,中3
+2024年度 3A 後期期末 数学,2024年度 3A 後期期末 数学,school_regular_exam,second_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2025,数学,中3
+2024年度 3A 後期期末 英語,2024年度 3A 後期期末 英語,school_regular_exam,second_term,final,英語,unspecified_or_single_score,high,40,0,40,1,2025,英語,中3
+2024年度 3B Bライン 第5章 図形と相似,2024年度 3B Bライン 第5章 図形と相似,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中3
+2024年度 3B Bライン 第6章 円の性質,2024年度 3B Bライン 第6章 円の性質,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中3
+2024年度 3B Bライン 第7章 三平方の定理,2024年度 3B Bライン 第7章 三平方の定理,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中3
+2024年度 3B ベネッセ模試 第1回 国語,2024年度 3B ベネッセ模試 第1回 国語,external_benesse,unknown,mock_exam,国語,unspecified_or_single_score,high,40,0,40,1,2024,国語,中3
+2024年度 3B ベネッセ模試 第1回 数学,2024年度 3B ベネッセ模試 第1回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中3
+2024年度 3B ベネッセ模試 第1回 英語,2024年度 3B ベネッセ模試 第1回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,40,0,40,1,2024,英語,中3
+2024年度 3B ベネッセ模試 第2回 国語,2024年度 3B ベネッセ模試 第2回 国語,external_benesse,unknown,mock_exam,国語,unspecified_or_single_score,high,40,0,40,1,2024,国語,中3
+2024年度 3B ベネッセ模試 第2回 数学,2024年度 3B ベネッセ模試 第2回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中3
+2024年度 3B ベネッセ模試 第2回 英語,2024年度 3B ベネッセ模試 第2回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,40,0,40,1,2024,英語,中3
+2024年度 3B 前期中間 数S,2024年度 3B 前期中間 数S,school_regular_exam,first_term,midterm,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中3
+2024年度 3B 前期中間 数学,2024年度 3B 前期中間 数学,school_regular_exam,first_term,midterm,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中3
+2024年度 3B 前期中間 英語,2024年度 3B 前期中間 英語,school_regular_exam,first_term,midterm,英語,unspecified_or_single_score,high,40,0,40,1,2024,英語,中3
+2024年度 3B 前期期末 数S,2024年度 3B 前期期末 数S,school_regular_exam,first_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中3
+2024年度 3B 前期期末 数学,2024年度 3B 前期期末 数学,school_regular_exam,first_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中3
+2024年度 3B 前期期末 英語,2024年度 3B 前期期末 英語,school_regular_exam,first_term,final,英語,unspecified_or_single_score,high,40,0,40,1,2024,英語,中3
+2024年度 3B 夏休み明けテスト,2024年度 3B 夏休み明けテスト,break_after_test,unknown,after_break,unknown,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中3
+2024年度 3B 後期中間 数S,2024年度 3B 後期中間 数S,school_regular_exam,second_term,midterm,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中3
+2024年度 3B 後期中間 数学,2024年度 3B 後期中間 数学,school_regular_exam,second_term,midterm,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中3
+2024年度 3B 後期中間 英語,2024年度 3B 後期中間 英語,school_regular_exam,second_term,midterm,英語,unspecified_or_single_score,high,40,0,40,1,2024,英語,中3
+2024年度 3B 後期期末 数S,2024年度 3B 後期期末 数S,school_regular_exam,second_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2025,数学,中3
+2024年度 3B 後期期末 数学,2024年度 3B 後期期末 数学,school_regular_exam,second_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2025,数学,中3
+2024年度 3B 後期期末 英語,2024年度 3B 後期期末 英語,school_regular_exam,second_term,final,英語,unspecified_or_single_score,high,40,0,40,1,2025,英語,中3
+2024年度 3C Bライン 第5章 図形と相似,2024年度 3C Bライン 第5章 図形と相似,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中3
+2024年度 3C Bライン 第6章 円の性質,2024年度 3C Bライン 第6章 円の性質,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中3
+2024年度 3C Bライン 第7章 三平方の定理,2024年度 3C Bライン 第7章 三平方の定理,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中3
+2024年度 3C ベネッセ模試 第1回 国語,2024年度 3C ベネッセ模試 第1回 国語,external_benesse,unknown,mock_exam,国語,unspecified_or_single_score,high,40,0,40,1,2024,国語,中3
+2024年度 3C ベネッセ模試 第1回 数学,2024年度 3C ベネッセ模試 第1回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中3
+2024年度 3C ベネッセ模試 第1回 英語,2024年度 3C ベネッセ模試 第1回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,40,0,40,1,2024,英語,中3
+2024年度 3C 前期中間 数S,2024年度 3C 前期中間 数S,school_regular_exam,first_term,midterm,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中3
+2024年度 3C 前期中間 数学,2024年度 3C 前期中間 数学,school_regular_exam,first_term,midterm,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中3
+2024年度 3C 前期中間 英語,2024年度 3C 前期中間 英語,school_regular_exam,first_term,midterm,英語,unspecified_or_single_score,high,40,0,40,1,2024,英語,中3
+2024年度 3C 前期期末 数S,2024年度 3C 前期期末 数S,school_regular_exam,first_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中3
+2024年度 3C 前期期末 数学,2024年度 3C 前期期末 数学,school_regular_exam,first_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中3
+2024年度 3C 前期期末 英語,2024年度 3C 前期期末 英語,school_regular_exam,first_term,final,英語,unspecified_or_single_score,high,40,0,40,1,2024,英語,中3
+2024年度 3C 夏休み明けテスト,2024年度 3C 夏休み明けテスト,break_after_test,unknown,after_break,unknown,unspecified_or_single_score,medium,40,0,40,1,2024,数学,中3
+2024年度 3C 後期中間 数S,2024年度 3C 後期中間 数S,school_regular_exam,second_term,midterm,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中3
+2024年度 3C 後期中間 数学,2024年度 3C 後期中間 数学,school_regular_exam,second_term,midterm,数学,unspecified_or_single_score,high,40,0,40,1,2024,数学,中3
+2024年度 3C 後期中間 英語,2024年度 3C 後期中間 英語,school_regular_exam,second_term,midterm,英語,unspecified_or_single_score,high,40,0,40,1,2024,英語,中3
+2024年度 3C 後期期末 数S,2024年度 3C 後期期末 数S,school_regular_exam,second_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2025,数学,中3
+2024年度 3C 後期期末 数学,2024年度 3C 後期期末 数学,school_regular_exam,second_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2025,数学,中3
+2024年度 3C 後期期末 英語,2024年度 3C 後期期末 英語,school_regular_exam,second_term,final,英語,unspecified_or_single_score,high,40,0,40,1,2025,英語,中3
+34内進　前期期末　数A,34内進 前期期末 数A,school_regular_exam,first_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2023,数学,高1
+34内進　前期期末　数Ⅰ,34内進 前期期末 数Ⅰ,school_regular_exam,first_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2023,数学,高1
+34内進　後期中間　数①,34内進 後期中間 数①,school_regular_exam,second_term,midterm,数学,math_part_1,high,40,0,40,1,2023,数学,高1
+34内進　後期中間　数②,34内進 後期中間 数②,school_regular_exam,second_term,midterm,数学,math_part_2,high,40,0,40,1,2023,数学,高1
+34内進　後期期末　数①,34内進 後期期末 数①,school_regular_exam,second_term,final,数学,math_part_1,high,40,0,40,1,2024,数学,高1
+34内進　後期期末　数②,34内進 後期期末 数②,school_regular_exam,second_term,final,数学,math_part_2,high,40,0,40,1,2024,数学,高1
+34理系　発展　数C,34理系 発展 数C,unclear,unknown,unknown,数学,unspecified_or_single_score,low,40,0,40,1,2023,数学,高2
+34理系　発展　数Ⅱ,34理系 発展 数Ⅱ,unclear,unknown,unknown,数学,unspecified_or_single_score,low,40,0,40,1,2023,数学,高2
+3A 後期期末　数学,3A 後期期末 数学,school_regular_exam,second_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2023,数学,中3
+3A 後期期末　英語,3A 後期期末 英語,school_regular_exam,second_term,final,英語,unspecified_or_single_score,high,40,0,40,1,2023,英語,中3
+567内進　前期中間　数A,567内進 前期中間 数A,school_regular_exam,first_term,midterm,数学,unspecified_or_single_score,high,40,0,40,1,2023,数学,高1
+567内進　前期中間　数Ⅰ,567内進 前期中間 数Ⅰ,school_regular_exam,first_term,midterm,数学,unspecified_or_single_score,high,40,0,40,1,2023,数学,高1
+567内進　前期期末　数A,567内進 前期期末 数A,school_regular_exam,first_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2023,数学,高1
+567内進　前期期末　数Ⅰ,567内進 前期期末 数Ⅰ,school_regular_exam,first_term,final,数学,unspecified_or_single_score,high,40,0,40,1,2023,数学,高1
+567内進　後期中間　数①,567内進 後期中間 数①,school_regular_exam,second_term,midterm,数学,math_part_1,high,40,0,40,1,2023,数学,高1
+567内進　後期中間　数②,567内進 後期中間 数②,school_regular_exam,second_term,midterm,数学,math_part_2,high,40,0,40,1,2023,数学,高1
+567内進　後期期末　数①,567内進 後期期末 数①,school_regular_exam,second_term,final,数学,math_part_1,high,40,0,40,1,2024,数学,高1
+567内進　後期期末　数②,567内進 後期期末 数②,school_regular_exam,second_term,final,数学,math_part_2,high,40,0,40,1,2024,数学,高1
+567外進1　後期期末　数①,567外進1 後期期末 数①,school_regular_exam,second_term,final,数学,math_part_1,high,40,0,40,1,2024,数学,高1
+567外進1　後期期末　数②,567外進1 後期期末 数②,school_regular_exam,second_term,final,数学,math_part_2,high,40,0,40,1,2024,数学,高1
+12内進　前期中間　数A,12内進 前期中間 数A,school_regular_exam,first_term,midterm,数学,unspecified_or_single_score,high,39,0,39,1,2023,数学,高1
+12内進　前期中間　数Ⅰ,12内進 前期中間 数Ⅰ,school_regular_exam,first_term,midterm,数学,unspecified_or_single_score,high,39,0,39,1,2023,数学,高1
+2019年度 3C ベネッセ模試 第1回 数学,2019年度 3C ベネッセ模試 第1回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,39,0,39,1,2019,数学,中3
+2019年度 3C ベネッセ模試 第1回 英語,2019年度 3C ベネッセ模試 第1回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,39,0,39,1,2019,英語,中3
+2020年度 1B ベネッセ模試 第2回 数学,2020年度 1B ベネッセ模試 第2回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,39,0,39,1,2020,数学,中1
+2020年度 1B ベネッセ模試 第2回 英語,2020年度 1B ベネッセ模試 第2回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,39,0,39,1,2020,英語,中1
+2020年度 3B ベネッセ模試 第1回 数学,2020年度 3B ベネッセ模試 第1回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,39,0,39,1,2020,数学,中3
+2020年度 3B ベネッセ模試 第1回 英語,2020年度 3B ベネッセ模試 第1回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,39,0,39,1,2020,英語,中3
+2020年度 3B ベネッセ模試 第2回 数学,2020年度 3B ベネッセ模試 第2回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,39,0,39,1,2020,数学,中3
+2020年度 3B ベネッセ模試 第2回 英語,2020年度 3B ベネッセ模試 第2回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,39,0,39,1,2020,英語,中3
+2020年度 3C ベネッセ模試 第1回 数学,2020年度 3C ベネッセ模試 第1回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,39,0,39,1,2020,数学,中3
+2020年度 3C ベネッセ模試 第1回 英語,2020年度 3C ベネッセ模試 第1回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,39,0,39,1,2020,英語,中3
+2021年度 3A ベネッセ模試 第1回 数学,2021年度 3A ベネッセ模試 第1回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,39,0,39,1,2021,数学,中3
+2021年度 3A ベネッセ模試 第1回 英語,2021年度 3A ベネッセ模試 第1回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,39,0,39,1,2021,英語,中3
+2021年度 3A ベネッセ模試 第2回 数学,2021年度 3A ベネッセ模試 第2回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,39,0,39,1,2021,数学,中3
+2021年度 3A ベネッセ模試 第2回 英語,2021年度 3A ベネッセ模試 第2回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,39,0,39,1,2021,英語,中3
+2021年度 3B ベネッセ模試 第1回 英語,2021年度 3B ベネッセ模試 第1回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,39,0,39,1,2021,英語,中3
+2021年度 3C ベネッセ模試 第1回 数学,2021年度 3C ベネッセ模試 第1回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,39,0,39,1,2021,数学,中3
+2021年度 3C ベネッセ模試 第1回 英語,2021年度 3C ベネッセ模試 第1回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,39,0,39,1,2021,英語,中3
+2021年度 3C ベネッセ模試 第2回 数学,2021年度 3C ベネッセ模試 第2回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,39,0,39,1,2021,数学,中3
+2021年度 3C ベネッセ模試 第2回 英語,2021年度 3C ベネッセ模試 第2回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,39,0,39,1,2021,英語,中3
+2022年度 2A ベネッセ模試 第1回 数学,2022年度 2A ベネッセ模試 第1回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,39,0,39,1,2022,数学,中2
+2022年度 2A ベネッセ模試 第1回 英語,2022年度 2A ベネッセ模試 第1回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,39,0,39,1,2022,英語,中2
+2022年度 2B ベネッセ模試 第1回 数学,2022年度 2B ベネッセ模試 第1回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,39,0,39,1,2022,数学,中2
+2022年度 2B ベネッセ模試 第1回 英語,2022年度 2B ベネッセ模試 第1回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,39,0,39,1,2022,英語,中2
+2022年度 3B ベネッセ模試 第1回 数学,2022年度 3B ベネッセ模試 第1回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,39,0,39,1,2022,数学,中3
+2022年度 3B ベネッセ模試 第1回 英語,2022年度 3B ベネッセ模試 第1回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,39,0,39,1,2022,英語,中3
+2022年度 3C ベネッセ模試 第1回 数学,2022年度 3C ベネッセ模試 第1回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,39,0,39,1,2022,数学,中3
+2022年度 3C ベネッセ模試 第1回 英語,2022年度 3C ベネッセ模試 第1回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,39,0,39,1,2022,英語,中3
+2023年度　1C 前期期末　英語,2023年度 1C 前期期末 英語,school_regular_exam,first_term,final,英語,unspecified_or_single_score,high,39,0,39,1,2023,英語,中1
+2023年度　2A ベネッセ模試 第2回　国語,2023年度 2A ベネッセ模試 第2回 国語,external_benesse,unknown,mock_exam,国語,unspecified_or_single_score,high,39,0,39,1,2023,国語,中2
+2023年度　2A ベネッセ模試 第2回　数学,2023年度 2A ベネッセ模試 第2回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,39,0,39,1,2023,数学,中2
+2023年度　2A ベネッセ模試 第2回　英語,2023年度 2A ベネッセ模試 第2回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,39,0,39,1,2023,英語,中2
+2023年度　2A 前期中間　数S,2023年度 2A 前期中間 数S,school_regular_exam,first_term,midterm,数学,unspecified_or_single_score,high,39,0,39,1,2023,数学,中2
+2023年度　2A 前期中間　数学,2023年度 2A 前期中間 数学,school_regular_exam,first_term,midterm,数学,unspecified_or_single_score,high,39,0,39,1,2023,数学,中2
+2023年度　2A 前期中間　英語,2023年度 2A 前期中間 英語,school_regular_exam,first_term,midterm,英語,unspecified_or_single_score,high,39,0,39,1,2023,英語,中2
+2023年度　2A 後期中間　数S,2023年度 2A 後期中間 数S,school_regular_exam,second_term,midterm,数学,unspecified_or_single_score,high,39,0,39,1,2023,数学,中2
+2023年度　2A 後期中間　数学,2023年度 2A 後期中間 数学,school_regular_exam,second_term,midterm,数学,unspecified_or_single_score,high,39,0,39,1,2023,数学,中2
+2023年度　2B ベネッセ模試 第1回　国語,2023年度 2B ベネッセ模試 第1回 国語,external_benesse,unknown,mock_exam,国語,unspecified_or_single_score,high,39,0,39,1,2023,国語,中2
+2023年度　2B ベネッセ模試 第1回　数学,2023年度 2B ベネッセ模試 第1回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,39,0,39,1,2023,数学,中2
+2023年度　2B ベネッセ模試 第1回　英語,2023年度 2B ベネッセ模試 第1回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,39,0,39,1,2023,英語,中2
+2023年度　2B ベネッセ模試 第2回　国語,2023年度 2B ベネッセ模試 第2回 国語,external_benesse,unknown,mock_exam,国語,unspecified_or_single_score,high,39,0,39,1,2023,国語,中2
+2023年度　2B ベネッセ模試 第2回　数学,2023年度 2B ベネッセ模試 第2回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,39,0,39,1,2023,数学,中2
+2023年度　2B ベネッセ模試 第2回　英語,2023年度 2B ベネッセ模試 第2回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,39,0,39,1,2023,英語,中2
+2023年度　2B 前期中間　数S,2023年度 2B 前期中間 数S,school_regular_exam,first_term,midterm,数学,unspecified_or_single_score,high,39,0,39,1,2023,数学,中2
+2023年度　2B 前期中間　数学,2023年度 2B 前期中間 数学,school_regular_exam,first_term,midterm,数学,unspecified_or_single_score,high,39,0,39,1,2023,数学,中2
+2023年度　2B 前期中間　英語,2023年度 2B 前期中間 英語,school_regular_exam,first_term,midterm,英語,unspecified_or_single_score,high,39,0,39,1,2023,英語,中2
+2023年度　2C 前期中間　英語,2023年度 2C 前期中間 英語,school_regular_exam,first_term,midterm,英語,unspecified_or_single_score,high,39,0,39,1,2023,英語,中2
+2023年度　3A 前期中間　数学,2023年度 3A 前期中間 数学,school_regular_exam,first_term,midterm,数学,unspecified_or_single_score,high,39,0,39,1,2023,数学,中3
+2023年度　3B Bライン 3年5章　図形と相似,2023年度 3B Bライン 3年5章 図形と相似,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,39,0,39,1,2023,数学,中3
+2023年度　3B Bライン 3年6章　円の性質,2023年度 3B Bライン 3年6章 円の性質,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,39,0,39,1,2023,数学,中3
+2023年度　3B Bライン 3年7章　三平方の定理,2023年度 3B Bライン 3年7章 三平方の定理,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,39,0,39,1,2023,数学,中3
+2023年度　3B 前期期末　数S,2023年度 3B 前期期末 数S,school_regular_exam,first_term,final,数学,unspecified_or_single_score,high,39,0,39,1,2023,数学,中3
+2023年度　3B 前期期末　数学,2023年度 3B 前期期末 数学,school_regular_exam,first_term,final,数学,unspecified_or_single_score,high,39,0,39,1,2023,数学,中3
+2023年度　3B 前期期末　英語,2023年度 3B 前期期末 英語,school_regular_exam,first_term,final,英語,unspecified_or_single_score,high,39,0,39,1,2023,英語,中3
+2023年度　3B 夏休み明けテスト　数学,2023年度 3B 夏休み明けテスト 数学,break_after_test,unknown,after_break,数学,unspecified_or_single_score,medium,39,0,39,1,2023,数学,中3
+2023年度　3B 後期中間　数学,2023年度 3B 後期中間 数学,school_regular_exam,second_term,midterm,数学,unspecified_or_single_score,high,39,0,39,1,2023,数学,中3
+2023年度　3B 後期中間　英語,2023年度 3B 後期中間 英語,school_regular_exam,second_term,midterm,英語,unspecified_or_single_score,high,39,0,39,1,2023,英語,中3
+2023年度　3B 後期期末　数S,2023年度 3B 後期期末 数S,school_regular_exam,second_term,final,数学,unspecified_or_single_score,high,39,0,39,1,2024,数学,中3
+2023年度　3B 後期期末　数学,2023年度 3B 後期期末 数学,school_regular_exam,second_term,final,数学,unspecified_or_single_score,high,39,0,39,1,2024,数学,中3
+2023年度　3B 後期期末　英語,2023年度 3B 後期期末 英語,school_regular_exam,second_term,final,英語,unspecified_or_single_score,high,39,0,39,1,2024,英語,中3
+2023年度　3C Bライン 3年5章　図形と相似,2023年度 3C Bライン 3年5章 図形と相似,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,39,0,39,1,2023,数学,中3
+2023年度　3C Bライン 3年6章　円の性質,2023年度 3C Bライン 3年6章 円の性質,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,39,0,39,1,2023,数学,中3
+2023年度　3C Bライン 3年7章　三平方の定理,2023年度 3C Bライン 3年7章 三平方の定理,unit_or_chapter_test,unknown,unit_or_chapter,unknown,unspecified_or_single_score,medium,39,0,39,1,2023,数学,中3
+2023年度　3C 前期中間　数S,2023年度 3C 前期中間 数S,school_regular_exam,first_term,midterm,数学,unspecified_or_single_score,high,39,0,39,1,2023,数学,中3
+2023年度　3C 前期中間　数学,2023年度 3C 前期中間 数学,school_regular_exam,first_term,midterm,数学,unspecified_or_single_score,high,39,0,39,1,2023,数学,中3
+2023年度　3C 前期期末　数S,2023年度 3C 前期期末 数S,school_regular_exam,first_term,final,数学,unspecified_or_single_score,high,39,0,39,1,2023,数学,中3
+2023年度　3C 前期期末　数学,2023年度 3C 前期期末 数学,school_regular_exam,first_term,final,数学,unspecified_or_single_score,high,39,0,39,1,2023,数学,中3
+2023年度　3C 前期期末　英語,2023年度 3C 前期期末 英語,school_regular_exam,first_term,final,英語,unspecified_or_single_score,high,39,0,39,1,2023,英語,中3
+2023年度　3C 夏休み明けテスト　数学,2023年度 3C 夏休み明けテスト 数学,break_after_test,unknown,after_break,数学,unspecified_or_single_score,medium,39,0,39,1,2023,数学,中3
+2023年度　3C 後期中間　数学,2023年度 3C 後期中間 数学,school_regular_exam,second_term,midterm,数学,unspecified_or_single_score,high,39,0,39,1,2023,数学,中3
+2023年度　3C 後期中間　英語,2023年度 3C 後期中間 英語,school_regular_exam,second_term,midterm,英語,unspecified_or_single_score,high,39,0,39,1,2023,英語,中3
+2024年度 12内進 前期中間 数①,2024年度 12内進 前期中間 数①,school_regular_exam,first_term,midterm,数学,math_part_1,high,39,0,39,1,2024,数学,高1
+2024年度 12内進 前期中間 数②,2024年度 12内進 前期中間 数②,school_regular_exam,first_term,midterm,数学,math_part_2,high,39,0,39,1,2024,数学,高1
+2024年度 12内進 前期期末 数①,2024年度 12内進 前期期末 数①,school_regular_exam,first_term,final,数学,math_part_1,high,39,0,39,1,2024,数学,高1
+2024年度 12内進 前期期末 数②,2024年度 12内進 前期期末 数②,school_regular_exam,first_term,final,数学,math_part_2,high,39,0,39,1,2024,数学,高1
+2024年度 12内進 後期中間 数①,2024年度 12内進 後期中間 数①,school_regular_exam,second_term,midterm,数学,math_part_1,high,39,0,39,1,2024,数学,高1
+2024年度 12内進 後期中間 数②,2024年度 12内進 後期中間 数②,school_regular_exam,second_term,midterm,数学,math_part_2,high,39,0,39,1,2024,数学,高1
+2024年度 12内進 後期期末 数①,2024年度 12内進 後期期末 数①,school_regular_exam,second_term,final,数学,math_part_1,high,39,0,39,1,2025,数学,高1
+2024年度 12内進 後期期末 数②,2024年度 12内進 後期期末 数②,school_regular_exam,second_term,final,数学,math_part_2,high,39,0,39,1,2025,数学,高1
+2024年度 1A ベネッセ模試 第2回 国語,2024年度 1A ベネッセ模試 第2回 国語,external_benesse,unknown,mock_exam,国語,unspecified_or_single_score,high,39,0,39,1,2024,国語,中1
+2024年度 2A ベネッセ模試 第1回 国語,2024年度 2A ベネッセ模試 第1回 国語,external_benesse,unknown,mock_exam,国語,unspecified_or_single_score,high,39,0,39,1,2024,国語,中2
+2024年度 2A ベネッセ模試 第1回 数学,2024年度 2A ベネッセ模試 第1回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,39,0,39,1,2024,数学,中2
+2024年度 2A ベネッセ模試 第1回 英語,2024年度 2A ベネッセ模試 第1回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,39,0,39,1,2024,英語,中2
+2024年度 2A ベネッセ模試 第2回 国語,2024年度 2A ベネッセ模試 第2回 国語,external_benesse,unknown,mock_exam,国語,unspecified_or_single_score,high,39,0,39,1,2024,国語,中2
+2024年度 2A ベネッセ模試 第2回 数学,2024年度 2A ベネッセ模試 第2回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,39,0,39,1,2024,数学,中2
+2024年度 2A ベネッセ模試 第2回 英語,2024年度 2A ベネッセ模試 第2回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,39,0,39,1,2024,英語,中2
+2024年度 2C ベネッセ模試 第2回 国語,2024年度 2C ベネッセ模試 第2回 国語,external_benesse,unknown,mock_exam,国語,unspecified_or_single_score,high,39,0,39,1,2024,国語,中2
+2024年度 2C ベネッセ模試 第2回 数学,2024年度 2C ベネッセ模試 第2回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,39,0,39,1,2024,数学,中2
+2024年度 2C ベネッセ模試 第2回 英語,2024年度 2C ベネッセ模試 第2回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,39,0,39,1,2024,英語,中2
+2024年度 34内進 前期中間 数①,2024年度 34内進 前期中間 数①,school_regular_exam,first_term,midterm,数学,math_part_1,high,39,0,39,1,2024,数学,高1
+2024年度 34内進 前期中間 数②,2024年度 34内進 前期中間 数②,school_regular_exam,first_term,midterm,数学,math_part_2,high,39,0,39,1,2024,数学,高1
+2024年度 34内進 前期期末 数①,2024年度 34内進 前期期末 数①,school_regular_exam,first_term,final,数学,math_part_1,high,39,0,39,1,2024,数学,高1
+2024年度 34内進 前期期末 数②,2024年度 34内進 前期期末 数②,school_regular_exam,first_term,final,数学,math_part_2,high,39,0,39,1,2024,数学,高1
+2024年度 34内進 後期中間 数①,2024年度 34内進 後期中間 数①,school_regular_exam,second_term,midterm,数学,math_part_1,high,39,0,39,1,2024,数学,高1
+2024年度 34内進 後期中間 数②,2024年度 34内進 後期中間 数②,school_regular_exam,second_term,midterm,数学,math_part_2,high,39,0,39,1,2024,数学,高1
+2024年度 34内進 後期期末 数①,2024年度 34内進 後期期末 数①,school_regular_exam,second_term,final,数学,math_part_1,high,39,0,39,1,2025,数学,高1
+2024年度 34内進 後期期末 数②,2024年度 34内進 後期期末 数②,school_regular_exam,second_term,final,数学,math_part_2,high,39,0,39,1,2025,数学,高1
+2024年度 3C ベネッセ模試 第2回 国語,2024年度 3C ベネッセ模試 第2回 国語,external_benesse,unknown,mock_exam,国語,unspecified_or_single_score,high,39,0,39,1,2024,国語,中3
+2024年度 3C ベネッセ模試 第2回 数学,2024年度 3C ベネッセ模試 第2回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,39,0,39,1,2024,数学,中3
+2024年度 3C ベネッセ模試 第2回 英語,2024年度 3C ベネッセ模試 第2回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,39,0,39,1,2024,英語,中3
+2A 後期期末　英語,2A 後期期末 英語,school_regular_exam,second_term,final,英語,unspecified_or_single_score,high,39,0,39,1,2023,英語,中2
+3B 後期期末　数学,3B 後期期末 数学,school_regular_exam,second_term,final,数学,unspecified_or_single_score,high,39,0,39,1,2023,数学,中3
+3C 後期期末　数学,3C 後期期末 数学,school_regular_exam,second_term,final,数学,unspecified_or_single_score,high,39,0,39,1,2023,数学,中3
+3C 後期期末　英語,3C 後期期末 英語,school_regular_exam,second_term,final,英語,unspecified_or_single_score,high,39,0,39,1,2023,英語,中3
+567外進1　前期中間　数A,567外進1 前期中間 数A,school_regular_exam,first_term,midterm,数学,unspecified_or_single_score,high,39,0,39,1,2023,数学,高1
+567外進1　前期中間　数Ⅰ,567外進1 前期中間 数Ⅰ,school_regular_exam,first_term,midterm,数学,unspecified_or_single_score,high,39,0,39,1,2023,数学,高1
+567外進1　後期中間　数①,567外進1 後期中間 数①,school_regular_exam,second_term,midterm,数学,math_part_1,high,39,0,39,1,2023,数学,高1
+567外進1　後期中間　数②,567外進1 後期中間 数②,school_regular_exam,second_term,midterm,数学,math_part_2,high,39,0,39,1,2023,数学,高1
+567外進2　前期中間　数A,567外進2 前期中間 数A,school_regular_exam,first_term,midterm,数学,unspecified_or_single_score,high,39,0,39,1,2023,数学,高1
+567外進2　前期中間　数Ⅰ,567外進2 前期中間 数Ⅰ,school_regular_exam,first_term,midterm,数学,unspecified_or_single_score,high,39,0,39,1,2023,数学,高1
+567外進2　前期期末　数A,567外進2 前期期末 数A,school_regular_exam,first_term,final,数学,unspecified_or_single_score,high,39,0,39,1,2023,数学,高1
+567外進2　前期期末　数Ⅰ,567外進2 前期期末 数Ⅰ,school_regular_exam,first_term,final,数学,unspecified_or_single_score,high,39,0,39,1,2023,数学,高1
+567外進2　後期中間　数①,567外進2 後期中間 数①,school_regular_exam,second_term,midterm,数学,math_part_1,high,39,0,39,1,2023,数学,高1
+567外進2　後期中間　数②,567外進2 後期中間 数②,school_regular_exam,second_term,midterm,数学,math_part_2,high,39,0,39,1,2023,数学,高1
+567外進2　後期期末　数①,567外進2 後期期末 数①,school_regular_exam,second_term,final,数学,math_part_1,high,39,0,39,1,2024,数学,高1
+567外進2　後期期末　数②,567外進2 後期期末 数②,school_regular_exam,second_term,final,数学,math_part_2,high,39,0,39,1,2024,数学,高1
+2019年度 3A ベネッセ模試 第2回 数学,2019年度 3A ベネッセ模試 第2回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,38,0,38,1,2019,数学,中3
+2019年度 3A ベネッセ模試 第2回 英語,2019年度 3A ベネッセ模試 第2回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,38,0,38,1,2019,英語,中3
+2019年度 3B ベネッセ模試 第1回 数学,2019年度 3B ベネッセ模試 第1回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,38,0,38,1,2019,数学,中3
+2019年度 3B ベネッセ模試 第1回 英語,2019年度 3B ベネッセ模試 第1回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,38,0,38,1,2019,英語,中3
+2019年度 3C ベネッセ模試 第2回 数学,2019年度 3C ベネッセ模試 第2回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,38,0,38,1,2019,数学,中3
+2019年度 3C ベネッセ模試 第2回 英語,2019年度 3C ベネッセ模試 第2回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,38,0,38,1,2019,英語,中3
+2020年度 1C ベネッセ模試 第2回 数学,2020年度 1C ベネッセ模試 第2回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,38,0,38,1,2020,数学,中1
+2020年度 1C ベネッセ模試 第2回 英語,2020年度 1C ベネッセ模試 第2回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,38,0,38,1,2020,英語,中1
+2020年度 2A ベネッセ模試 第2回 数学,2020年度 2A ベネッセ模試 第2回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,38,0,38,1,2020,数学,中2
+2020年度 2A ベネッセ模試 第2回 英語,2020年度 2A ベネッセ模試 第2回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,38,0,38,1,2020,英語,中2
+2023年度　3B 前期中間　英語,2023年度 3B 前期中間 英語,school_regular_exam,first_term,midterm,英語,unspecified_or_single_score,high,38,0,38,1,2023,英語,中3
+2023年度　3C 前期中間　英語,2023年度 3C 前期中間 英語,school_regular_exam,first_term,midterm,英語,unspecified_or_single_score,high,38,0,38,1,2023,英語,中3
+2024年度 12理発展 前期中間 数①,2024年度 12理発展 前期中間 数①,school_regular_exam,first_term,midterm,数学,math_part_1,high,38,0,38,1,2024,数学,高2
+2024年度 12理発展 前期中間 数②,2024年度 12理発展 前期中間 数②,school_regular_exam,first_term,midterm,数学,math_part_2,high,38,0,38,1,2024,数学,高2
+2024年度 12理発展 前期期末 数①,2024年度 12理発展 前期期末 数①,school_regular_exam,first_term,final,数学,math_part_1,high,38,0,38,1,2024,数学,高2
+2024年度 12理発展 前期期末 数②,2024年度 12理発展 前期期末 数②,school_regular_exam,first_term,final,数学,math_part_2,high,38,0,38,1,2024,数学,高2
+2024年度 12理発展 後期中間 数①,2024年度 12理発展 後期中間 数①,school_regular_exam,second_term,midterm,数学,math_part_1,high,38,0,38,1,2024,数学,高2
+2024年度 12理発展 後期中間 数②,2024年度 12理発展 後期中間 数②,school_regular_exam,second_term,midterm,数学,math_part_2,high,38,0,38,1,2024,数学,高2
+2024年度 12理発展 後期期末 数①,2024年度 12理発展 後期期末 数①,school_regular_exam,second_term,final,数学,math_part_1,high,38,0,38,1,2025,数学,高2
+2024年度 12理発展 後期期末 数②,2024年度 12理発展 後期期末 数②,school_regular_exam,second_term,final,数学,math_part_2,high,38,0,38,1,2025,数学,高2
+2024年度 1A ベネッセ模試 第2回 数学,2024年度 1A ベネッセ模試 第2回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,38,0,38,1,2024,数学,中1
+2024年度 1A ベネッセ模試 第2回 英語,2024年度 1A ベネッセ模試 第2回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,38,0,38,1,2024,英語,中1
+2024年度 34理発展 前期中間 数①,2024年度 34理発展 前期中間 数①,school_regular_exam,first_term,midterm,数学,math_part_1,high,38,0,38,1,2024,数学,高2
+2024年度 34理発展 前期中間 数②,2024年度 34理発展 前期中間 数②,school_regular_exam,first_term,midterm,数学,math_part_2,high,38,0,38,1,2024,数学,高2
+2024年度 34理発展 前期期末 数①,2024年度 34理発展 前期期末 数①,school_regular_exam,first_term,final,数学,math_part_1,high,38,0,38,1,2024,数学,高2
+2024年度 34理発展 前期期末 数②,2024年度 34理発展 前期期末 数②,school_regular_exam,first_term,final,数学,math_part_2,high,38,0,38,1,2024,数学,高2
+2024年度 34理発展 後期中間 数①,2024年度 34理発展 後期中間 数①,school_regular_exam,second_term,midterm,数学,math_part_1,high,38,0,38,1,2024,数学,高2
+2024年度 34理発展 後期中間 数②,2024年度 34理発展 後期中間 数②,school_regular_exam,second_term,midterm,数学,math_part_2,high,38,0,38,1,2024,数学,高2
+2024年度 34理発展 後期期末 数①,2024年度 34理発展 後期期末 数①,school_regular_exam,second_term,final,数学,math_part_1,high,38,0,38,1,2025,数学,高2
+2024年度 34理発展 後期期末 数②,2024年度 34理発展 後期期末 数②,school_regular_exam,second_term,final,数学,math_part_2,high,38,0,38,1,2025,数学,高2
+2024年度 567内進 前期中間 数①,2024年度 567内進 前期中間 数①,school_regular_exam,first_term,midterm,数学,math_part_1,high,38,0,38,1,2024,数学,高1
+2024年度 567内進 前期中間 数②,2024年度 567内進 前期中間 数②,school_regular_exam,first_term,midterm,数学,math_part_2,high,38,0,38,1,2024,数学,高1
+2024年度 567内進 前期期末 数①,2024年度 567内進 前期期末 数①,school_regular_exam,first_term,final,数学,math_part_1,high,38,0,38,1,2024,数学,高1
+2024年度 567内進 前期期末 数②,2024年度 567内進 前期期末 数②,school_regular_exam,first_term,final,数学,math_part_2,high,38,0,38,1,2024,数学,高1
+2024年度 567内進 後期中間 数①,2024年度 567内進 後期中間 数①,school_regular_exam,second_term,midterm,数学,math_part_1,high,38,0,38,1,2024,数学,高1
+2024年度 567内進 後期中間 数②,2024年度 567内進 後期中間 数②,school_regular_exam,second_term,midterm,数学,math_part_2,high,38,0,38,1,2024,数学,高1
+2024年度 567内進 後期期末 数①,2024年度 567内進 後期期末 数①,school_regular_exam,second_term,final,数学,math_part_1,high,38,0,38,1,2025,数学,高1
+2024年度 567内進 後期期末 数②,2024年度 567内進 後期期末 数②,school_regular_exam,second_term,final,数学,math_part_2,high,38,0,38,1,2025,数学,高1
+2A 後期期末　数学,2A 後期期末 数学,school_regular_exam,second_term,final,数学,unspecified_or_single_score,high,38,0,38,1,2023,数学,中2
+34内進　前期中間　数A,34内進 前期中間 数A,school_regular_exam,first_term,midterm,数学,unspecified_or_single_score,high,38,0,38,1,2023,数学,高1
+34内進　前期中間　数Ⅰ,34内進 前期中間 数Ⅰ,school_regular_exam,first_term,midterm,数学,unspecified_or_single_score,high,38,0,38,1,2023,数学,高1
+3B 後期期末　英語,3B 後期期末 英語,school_regular_exam,second_term,final,英語,unspecified_or_single_score,high,38,0,38,1,2023,英語,中3
+567外進1　前期期末　数Ⅰ,567外進1 前期期末 数Ⅰ,school_regular_exam,first_term,final,数学,unspecified_or_single_score,high,38,0,38,1,2023,数学,高1
+2020年度 2A ベネッセ模試 第1回 数学,2020年度 2A ベネッセ模試 第1回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,37,0,37,1,2020,数学,中2
+2020年度 2A ベネッセ模試 第1回 英語,2020年度 2A ベネッセ模試 第1回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,37,0,37,1,2020,英語,中2
+2020年度 2B ベネッセ模試 第2回 数学,2020年度 2B ベネッセ模試 第2回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,37,0,37,1,2020,数学,中2
+2020年度 2B ベネッセ模試 第2回 英語,2020年度 2B ベネッセ模試 第2回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,37,0,37,1,2020,英語,中2
+2020年度 2C ベネッセ模試 第1回 数学,2020年度 2C ベネッセ模試 第1回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,37,0,37,1,2020,数学,中2
+2020年度 2C ベネッセ模試 第1回 英語,2020年度 2C ベネッセ模試 第1回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,37,0,37,1,2020,英語,中2
+2020年度 3A ベネッセ模試 第2回 数学,2020年度 3A ベネッセ模試 第2回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,37,0,37,1,2020,数学,中3
+2020年度 3A ベネッセ模試 第2回 英語,2020年度 3A ベネッセ模試 第2回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,37,0,37,1,2020,英語,中3
+2023年度　3B 前期中間　数S,2023年度 3B 前期中間 数S,school_regular_exam,first_term,midterm,数学,unspecified_or_single_score,high,37,0,37,1,2023,数学,中3
+2023年度　3B 前期中間　数学,2023年度 3B 前期中間 数学,school_regular_exam,first_term,midterm,数学,unspecified_or_single_score,high,37,0,37,1,2023,数学,中3
+2B 後期期末　数学,2B 後期期末 数学,school_regular_exam,second_term,final,数学,unspecified_or_single_score,high,37,0,37,1,2023,数学,中2
+2B 後期期末　英語,2B 後期期末 英語,school_regular_exam,second_term,final,英語,unspecified_or_single_score,high,37,0,37,1,2023,英語,中2
+2C 後期期末　数学,2C 後期期末 数学,school_regular_exam,second_term,final,数学,unspecified_or_single_score,high,37,0,37,1,2023,数学,中2
+2C 後期期末　英語,2C 後期期末 英語,school_regular_exam,second_term,final,英語,unspecified_or_single_score,high,37,0,37,1,2023,英語,中2
+567外進1　前期期末　数A,567外進1 前期期末 数A,school_regular_exam,first_term,final,数学,unspecified_or_single_score,high,37,0,37,1,2023,数学,高1
+2020年度 3C ベネッセ模試 第2回 数学,2020年度 3C ベネッセ模試 第2回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,36,0,36,1,2020,数学,中3
+2020年度 3C ベネッセ模試 第2回 英語,2020年度 3C ベネッセ模試 第2回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,36,0,36,1,2020,英語,中3
+567文系　基礎1　数①,567文系 基礎1 数①,unclear,unknown,unknown,数学,math_part_1,low,36,0,20,2,2023|2024,数学,高2
+567文系　基礎1　数②,567文系 基礎1 数②,unclear,unknown,unknown,数学,math_part_2,low,36,0,20,2,2023|2024,数学,高2
+2020年度 2B ベネッセ模試 第1回 数学,2020年度 2B ベネッセ模試 第1回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,35,0,35,1,2020,数学,中2
+2020年度 2B ベネッセ模試 第1回 英語,2020年度 2B ベネッセ模試 第1回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,35,0,35,1,2020,英語,中2
+2020年度 2C ベネッセ模試 第2回 数学,2020年度 2C ベネッセ模試 第2回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,35,0,35,1,2020,数学,中2
+2020年度 2C ベネッセ模試 第2回 英語,2020年度 2C ベネッセ模試 第2回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,35,0,35,1,2020,英語,中2
+2024年度 567文標準1 前期中間 数①,2024年度 567文標準1 前期中間 数①,school_regular_exam,first_term,midterm,数学,math_part_1,high,35,0,35,1,2024,数学,高2
+2024年度 567文標準1 前期中間 数②,2024年度 567文標準1 前期中間 数②,school_regular_exam,first_term,midterm,数学,math_part_2,high,35,0,35,1,2024,数学,高2
+2024年度 567文標準1 前期期末 数①,2024年度 567文標準1 前期期末 数①,school_regular_exam,first_term,final,数学,math_part_1,high,35,0,35,1,2024,数学,高2
+2024年度 567文標準1 前期期末 数②,2024年度 567文標準1 前期期末 数②,school_regular_exam,first_term,final,数学,math_part_2,high,35,0,35,1,2024,数学,高2
+2024年度 567文標準1 後期中間 数①,2024年度 567文標準1 後期中間 数①,school_regular_exam,second_term,midterm,数学,math_part_1,high,35,0,35,1,2024,数学,高2
+2024年度 567文標準1 後期中間 数②,2024年度 567文標準1 後期中間 数②,school_regular_exam,second_term,midterm,数学,math_part_2,high,35,0,35,1,2024,数学,高2
+2024年度 567文標準1 後期期末 数①,2024年度 567文標準1 後期期末 数①,school_regular_exam,second_term,final,数学,math_part_1,high,35,0,35,1,2025,数学,高2
+2024年度 567文標準1 後期期末 数②,2024年度 567文標準1 後期期末 数②,school_regular_exam,second_term,final,数学,math_part_2,high,35,0,35,1,2025,数学,高2
+34理系　基礎　数①,34理系 基礎 数①,unclear,unknown,unknown,数学,math_part_1,low,35,0,20,3,2023|2024,数学,高2
+34理系　基礎　数②,34理系 基礎 数②,unclear,unknown,unknown,数学,math_part_2,low,35,0,20,3,2023|2024,数学,高2
+567文系　標準1　数C,567文系 標準1 数C,unclear,unknown,unknown,数学,unspecified_or_single_score,low,34,0,34,1,2023,数学,高2
+567文系　標準1　数Ⅱ,567文系 標準1 数Ⅱ,unclear,unknown,unknown,数学,unspecified_or_single_score,low,34,0,34,1,2023,数学,高2
+567文系　発展　数C,567文系 発展 数C,unclear,unknown,unknown,数学,unspecified_or_single_score,low,34,0,34,1,2023,数学,高2
+567文系　発展　数Ⅱ,567文系 発展 数Ⅱ,unclear,unknown,unknown,数学,unspecified_or_single_score,low,34,0,34,1,2023,数学,高2
+2024年度 567文標準2 前期中間 数①,2024年度 567文標準2 前期中間 数①,school_regular_exam,first_term,midterm,数学,math_part_1,high,30,0,30,1,2024,数学,高2
+2024年度 567文標準2 前期中間 数②,2024年度 567文標準2 前期中間 数②,school_regular_exam,first_term,midterm,数学,math_part_2,high,30,0,30,1,2024,数学,高2
+2024年度 567文標準2 前期期末 数①,2024年度 567文標準2 前期期末 数①,school_regular_exam,first_term,final,数学,math_part_1,high,30,0,30,1,2024,数学,高2
+2024年度 567文標準2 前期期末 数②,2024年度 567文標準2 前期期末 数②,school_regular_exam,first_term,final,数学,math_part_2,high,30,0,30,1,2024,数学,高2
+2024年度 567文標準2 後期中間 数①,2024年度 567文標準2 後期中間 数①,school_regular_exam,second_term,midterm,数学,math_part_1,high,30,0,30,1,2024,数学,高2
+2024年度 567文標準2 後期中間 数②,2024年度 567文標準2 後期中間 数②,school_regular_exam,second_term,midterm,数学,math_part_2,high,30,0,30,1,2024,数学,高2
+2024年度 567文標準2 後期期末 数①,2024年度 567文標準2 後期期末 数①,school_regular_exam,second_term,final,数学,math_part_1,high,30,0,30,1,2025,数学,高2
+2024年度 567文標準2 後期期末 数②,2024年度 567文標準2 後期期末 数②,school_regular_exam,second_term,final,数学,math_part_2,high,30,0,30,1,2025,数学,高2
+12理系　標準　数C,12理系 標準 数C,unclear,unknown,unknown,数学,unspecified_or_single_score,low,27,0,27,1,2023,数学,高2
+12理系　標準　数Ⅱ,12理系 標準 数Ⅱ,unclear,unknown,unknown,数学,unspecified_or_single_score,low,27,0,27,1,2023,数学,高2
+2024年度 12理標準 前期中間 数①,2024年度 12理標準 前期中間 数①,school_regular_exam,first_term,midterm,数学,math_part_1,high,25,0,25,1,2024,数学,高2
+2024年度 12理標準 前期中間 数②,2024年度 12理標準 前期中間 数②,school_regular_exam,first_term,midterm,数学,math_part_2,high,25,0,25,1,2024,数学,高2
+2024年度 12理標準 前期期末 数①,2024年度 12理標準 前期期末 数①,school_regular_exam,first_term,final,数学,math_part_1,high,25,0,25,1,2024,数学,高2
+2024年度 12理標準 前期期末 数②,2024年度 12理標準 前期期末 数②,school_regular_exam,first_term,final,数学,math_part_2,high,25,0,25,1,2024,数学,高2
+2024年度 12理標準 後期中間 数①,2024年度 12理標準 後期中間 数①,school_regular_exam,second_term,midterm,数学,math_part_1,high,25,0,25,1,2024,数学,高2
+2024年度 12理標準 後期中間 数②,2024年度 12理標準 後期中間 数②,school_regular_exam,second_term,midterm,数学,math_part_2,high,25,0,25,1,2024,数学,高2
+2024年度 12理標準 後期期末 数①,2024年度 12理標準 後期期末 数①,school_regular_exam,second_term,final,数学,math_part_1,high,25,0,25,1,2025,数学,高2
+2024年度 12理標準 後期期末 数②,2024年度 12理標準 後期期末 数②,school_regular_exam,second_term,final,数学,math_part_2,high,25,0,25,1,2025,数学,高2
+2024年度 34理標準 前期中間 数①,2024年度 34理標準 前期中間 数①,school_regular_exam,first_term,midterm,数学,math_part_1,high,25,0,25,1,2024,数学,高2
+2024年度 34理標準 前期中間 数②,2024年度 34理標準 前期中間 数②,school_regular_exam,first_term,midterm,数学,math_part_2,high,25,0,25,1,2024,数学,高2
+2024年度 34理標準 前期期末 数①,2024年度 34理標準 前期期末 数①,school_regular_exam,first_term,final,数学,math_part_1,high,25,0,25,1,2024,数学,高2
+2024年度 34理標準 前期期末 数②,2024年度 34理標準 前期期末 数②,school_regular_exam,first_term,final,数学,math_part_2,high,25,0,25,1,2024,数学,高2
+2024年度 34理標準 後期中間 数①,2024年度 34理標準 後期中間 数①,school_regular_exam,second_term,midterm,数学,math_part_1,high,25,0,25,1,2024,数学,高2
+2024年度 34理標準 後期中間 数②,2024年度 34理標準 後期中間 数②,school_regular_exam,second_term,midterm,数学,math_part_2,high,25,0,25,1,2024,数学,高2
+2024年度 34理標準 後期期末 数①,2024年度 34理標準 後期期末 数①,school_regular_exam,second_term,final,数学,math_part_1,high,25,0,25,1,2025,数学,高2
+2024年度 34理標準 後期期末 数②,2024年度 34理標準 後期期末 数②,school_regular_exam,second_term,final,数学,math_part_2,high,25,0,25,1,2025,数学,高2
+34理系　標準　数Ⅱ,34理系 標準 数Ⅱ,unclear,unknown,unknown,数学,unspecified_or_single_score,low,25,0,25,1,2023,数学,高2
+34理系　標準　数C,34理系 標準 数C,unclear,unknown,unknown,数学,unspecified_or_single_score,low,24,0,24,1,2023,数学,高2
+2019年度 1A前半 ベネッセ模試 第1回 数学,2019年度 1A前半 ベネッセ模試 第1回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,20,0,20,1,2019,数学,中1
+2019年度 1A前半 ベネッセ模試 第2回 数学,2019年度 1A前半 ベネッセ模試 第2回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,20,0,20,1,2019,数学,中1
+2019年度 1A前半 ベネッセ模試 第2回 英語,2019年度 1A前半 ベネッセ模試 第2回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,20,0,20,1,2019,英語,中1
+2019年度 1A後半 ベネッセ模試 第1回 数学,2019年度 1A後半 ベネッセ模試 第1回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,20,0,20,1,2019,数学,中1
+2019年度 1B前半 ベネッセ模試 第1回 数学,2019年度 1B前半 ベネッセ模試 第1回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,20,0,20,1,2019,数学,中1
+2019年度 1B前半 ベネッセ模試 第2回 数学,2019年度 1B前半 ベネッセ模試 第2回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,20,0,20,1,2019,数学,中1
+2019年度 1B前半 ベネッセ模試 第2回 英語,2019年度 1B前半 ベネッセ模試 第2回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,20,0,20,1,2019,英語,中1
+2019年度 1B後半 ベネッセ模試 第1回 数学,2019年度 1B後半 ベネッセ模試 第1回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,20,0,20,1,2019,数学,中1
+2019年度 1B後半 ベネッセ模試 第2回 数学,2019年度 1B後半 ベネッセ模試 第2回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,20,0,20,1,2019,数学,中1
+2019年度 1B後半 ベネッセ模試 第2回 英語,2019年度 1B後半 ベネッセ模試 第2回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,20,0,20,1,2019,英語,中1
+2019年度 1C前半 ベネッセ模試 第1回 数学,2019年度 1C前半 ベネッセ模試 第1回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,20,0,20,1,2019,数学,中1
+2019年度 1C後半 ベネッセ模試 第1回 数学,2019年度 1C後半 ベネッセ模試 第1回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,20,0,20,1,2019,数学,中1
+2019年度 1C後半 ベネッセ模試 第2回 数学,2019年度 1C後半 ベネッセ模試 第2回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,20,0,20,1,2019,数学,中1
+2019年度 1C後半 ベネッセ模試 第2回 英語,2019年度 1C後半 ベネッセ模試 第2回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,20,0,20,1,2019,英語,中1
+2019年度 2A前半 ベネッセ模試 第1回 数学,2019年度 2A前半 ベネッセ模試 第1回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,20,0,20,1,2019,数学,中2
+2019年度 2A前半 ベネッセ模試 第1回 英語,2019年度 2A前半 ベネッセ模試 第1回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,20,0,20,1,2019,英語,中2
+2019年度 2A前半 ベネッセ模試 第2回 数学,2019年度 2A前半 ベネッセ模試 第2回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,20,0,20,1,2019,数学,中2
+2019年度 2A前半 ベネッセ模試 第2回 英語,2019年度 2A前半 ベネッセ模試 第2回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,20,0,20,1,2019,英語,中2
+2019年度 2A後半 ベネッセ模試 第1回 数学,2019年度 2A後半 ベネッセ模試 第1回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,20,0,20,1,2019,数学,中2
+2019年度 2A後半 ベネッセ模試 第1回 英語,2019年度 2A後半 ベネッセ模試 第1回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,20,0,20,1,2019,英語,中2
+2019年度 2B前半 ベネッセ模試 第1回 数学,2019年度 2B前半 ベネッセ模試 第1回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,20,0,20,1,2019,数学,中2
+2019年度 2B前半 ベネッセ模試 第1回 英語,2019年度 2B前半 ベネッセ模試 第1回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,20,0,20,1,2019,英語,中2
+2019年度 2B前半 ベネッセ模試 第2回 数学,2019年度 2B前半 ベネッセ模試 第2回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,20,0,20,1,2019,数学,中2
+2019年度 2B前半 ベネッセ模試 第2回 英語,2019年度 2B前半 ベネッセ模試 第2回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,20,0,20,1,2019,英語,中2
+2019年度 2B後半 ベネッセ模試 第1回 数学,2019年度 2B後半 ベネッセ模試 第1回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,20,0,20,1,2019,数学,中2
+2019年度 2B後半 ベネッセ模試 第1回 英語,2019年度 2B後半 ベネッセ模試 第1回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,20,0,20,1,2019,英語,中2
+2019年度 2B後半 ベネッセ模試 第2回 数学,2019年度 2B後半 ベネッセ模試 第2回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,20,0,20,1,2019,数学,中2
+2019年度 2B後半 ベネッセ模試 第2回 英語,2019年度 2B後半 ベネッセ模試 第2回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,20,0,20,1,2019,英語,中2
+2019年度 2C前半 ベネッセ模試 第1回 数学,2019年度 2C前半 ベネッセ模試 第1回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,20,0,20,1,2019,数学,中2
+2019年度 2C前半 ベネッセ模試 第1回 英語,2019年度 2C前半 ベネッセ模試 第1回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,20,0,20,1,2019,英語,中2
+2019年度 2C前半 ベネッセ模試 第2回 数学,2019年度 2C前半 ベネッセ模試 第2回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,20,0,20,1,2019,数学,中2
+2019年度 2C前半 ベネッセ模試 第2回 英語,2019年度 2C前半 ベネッセ模試 第2回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,20,0,20,1,2019,英語,中2
+2019年度 1A後半 ベネッセ模試 第2回 数学,2019年度 1A後半 ベネッセ模試 第2回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,19,0,19,1,2019,数学,中1
+2019年度 1A後半 ベネッセ模試 第2回 英語,2019年度 1A後半 ベネッセ模試 第2回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,19,0,19,1,2019,英語,中1
+2019年度 1C前半 ベネッセ模試 第2回 数学,2019年度 1C前半 ベネッセ模試 第2回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,19,0,19,1,2019,数学,中1
+2019年度 1C前半 ベネッセ模試 第2回 英語,2019年度 1C前半 ベネッセ模試 第2回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,19,0,19,1,2019,英語,中1
+2019年度 2C後半 ベネッセ模試 第1回 数学,2019年度 2C後半 ベネッセ模試 第1回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,19,0,19,1,2019,数学,中2
+2019年度 2C後半 ベネッセ模試 第1回 英語,2019年度 2C後半 ベネッセ模試 第1回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,19,0,19,1,2019,英語,中2
+2019年度 2A後半 ベネッセ模試 第2回 数学,2019年度 2A後半 ベネッセ模試 第2回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,18,0,18,1,2019,数学,中2
+2019年度 2A後半 ベネッセ模試 第2回 英語,2019年度 2A後半 ベネッセ模試 第2回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,18,0,18,1,2019,英語,中2
+2019年度 2C後半 ベネッセ模試 第2回 数学,2019年度 2C後半 ベネッセ模試 第2回 数学,external_benesse,unknown,mock_exam,数学,unspecified_or_single_score,high,18,0,18,1,2019,数学,中2
+2019年度 2C後半 ベネッセ模試 第2回 英語,2019年度 2C後半 ベネッセ模試 第2回 英語,external_benesse,unknown,mock_exam,英語,unspecified_or_single_score,high,18,0,18,1,2019,英語,中2
+567文系　基礎　数①,567文系 基礎 数①,unclear,unknown,unknown,数学,math_part_1,low,17,0,17,1,2023,数学,高2
+567文系　基礎　数②,567文系 基礎 数②,unclear,unknown,unknown,数学,math_part_2,low,17,0,17,1,2023,数学,高2
+12理系　基礎　数C,12理系 基礎 数C,unclear,unknown,unknown,数学,unspecified_or_single_score,low,16,0,16,1,2023,数学,高2
+34理系　基礎　数C,34理系 基礎 数C,unclear,unknown,unknown,数学,unspecified_or_single_score,low,16,0,16,1,2023,数学,高2
+567文系　基礎2　数C,567文系 基礎2 数C,unclear,unknown,unknown,数学,unspecified_or_single_score,low,16,0,16,1,2023,数学,高2
+567文系　基礎2　数Ⅱ,567文系 基礎2 数Ⅱ,unclear,unknown,unknown,数学,unspecified_or_single_score,low,16,0,16,1,2023,数学,高2
+12理系　基礎　数Ⅱ,12理系 基礎 数Ⅱ,unclear,unknown,unknown,数学,unspecified_or_single_score,low,15,0,15,1,2023,数学,高2
+567文系　基礎1　数C,567文系 基礎1 数C,unclear,unknown,unknown,数学,unspecified_or_single_score,low,15,0,15,1,2023,数学,高2
+567文系　基礎1　数Ⅱ,567文系 基礎1 数Ⅱ,unclear,unknown,unknown,数学,unspecified_or_single_score,low,15,0,15,1,2023,数学,高2
+2024年度 567文基礎 前期中間 数①,2024年度 567文基礎 前期中間 数①,school_regular_exam,first_term,midterm,数学,math_part_1,high,14,0,14,1,2024,数学,高2
+2024年度 567文基礎 前期中間 数②,2024年度 567文基礎 前期中間 数②,school_regular_exam,first_term,midterm,数学,math_part_2,high,14,0,14,1,2024,数学,高2
+2024年度 567文基礎 前期期末 数①,2024年度 567文基礎 前期期末 数①,school_regular_exam,first_term,final,数学,math_part_1,high,14,0,14,1,2024,数学,高2
+2024年度 567文基礎 前期期末 数②,2024年度 567文基礎 前期期末 数②,school_regular_exam,first_term,final,数学,math_part_2,high,14,0,14,1,2024,数学,高2
+2024年度 567文基礎 後期中間 数①,2024年度 567文基礎 後期中間 数①,school_regular_exam,second_term,midterm,数学,math_part_1,high,14,0,14,1,2024,数学,高2
+2024年度 567文基礎 後期中間 数②,2024年度 567文基礎 後期中間 数②,school_regular_exam,second_term,midterm,数学,math_part_2,high,14,0,14,1,2024,数学,高2
+2024年度 567文基礎 後期期末 数①,2024年度 567文基礎 後期期末 数①,school_regular_exam,second_term,final,数学,math_part_1,high,14,0,14,1,2025,数学,高2
+2024年度 567文基礎 後期期末 数②,2024年度 567文基礎 後期期末 数②,school_regular_exam,second_term,final,数学,math_part_2,high,14,0,14,1,2025,数学,高2
+34理系　基礎　数Ⅱ,34理系 基礎 数Ⅱ,unclear,unknown,unknown,数学,unspecified_or_single_score,low,14,0,14,1,2023,数学,高2
+2024年度 12理基礎 前期中間 数①,2024年度 12理基礎 前期中間 数①,school_regular_exam,first_term,midterm,数学,math_part_1,high,12,0,12,1,2024,数学,高2
+2024年度 12理基礎 前期中間 数②,2024年度 12理基礎 前期中間 数②,school_regular_exam,first_term,midterm,数学,math_part_2,high,12,0,12,1,2024,数学,高2
+2024年度 12理基礎 前期期末 数①,2024年度 12理基礎 前期期末 数①,school_regular_exam,first_term,final,数学,math_part_1,high,12,0,12,1,2024,数学,高2
+2024年度 12理基礎 前期期末 数②,2024年度 12理基礎 前期期末 数②,school_regular_exam,first_term,final,数学,math_part_2,high,12,0,12,1,2024,数学,高2
+2024年度 12理基礎 後期中間 数①,2024年度 12理基礎 後期中間 数①,school_regular_exam,second_term,midterm,数学,math_part_1,high,12,0,12,1,2024,数学,高2
+2024年度 12理基礎 後期中間 数②,2024年度 12理基礎 後期中間 数②,school_regular_exam,second_term,midterm,数学,math_part_2,high,12,0,12,1,2024,数学,高2
+2024年度 12理基礎 後期期末 数①,2024年度 12理基礎 後期期末 数①,school_regular_exam,second_term,final,数学,math_part_1,high,12,0,12,1,2025,数学,高2
+2024年度 12理基礎 後期期末 数②,2024年度 12理基礎 後期期末 数②,school_regular_exam,second_term,final,数学,math_part_2,high,12,0,12,1,2025,数学,高2
+2024年度 34理基礎 前期中間 数①,2024年度 34理基礎 前期中間 数①,school_regular_exam,first_term,midterm,数学,math_part_1,high,12,0,12,1,2024,数学,高2
+2024年度 34理基礎 前期中間 数②,2024年度 34理基礎 前期中間 数②,school_regular_exam,first_term,midterm,数学,math_part_2,high,12,0,12,1,2024,数学,高2
+2024年度 34理基礎 前期期末 数①,2024年度 34理基礎 前期期末 数①,school_regular_exam,first_term,final,数学,math_part_1,high,12,0,12,1,2024,数学,高2
+2024年度 34理基礎 前期期末 数②,2024年度 34理基礎 前期期末 数②,school_regular_exam,first_term,final,数学,math_part_2,high,12,0,12,1,2024,数学,高2
+2024年度 34理基礎 後期中間 数①,2024年度 34理基礎 後期中間 数①,school_regular_exam,second_term,midterm,数学,math_part_1,high,12,0,12,1,2024,数学,高2
+2024年度 34理基礎 後期中間 数②,2024年度 34理基礎 後期中間 数②,school_regular_exam,second_term,midterm,数学,math_part_2,high,12,0,12,1,2024,数学,高2
+2024年度 34理基礎 後期期末 数①,2024年度 34理基礎 後期期末 数①,school_regular_exam,second_term,final,数学,math_part_1,high,12,0,12,1,2025,数学,高2
+2024年度 34理基礎 後期期末 数②,2024年度 34理基礎 後期期末 数②,school_regular_exam,second_term,final,数学,math_part_2,high,12,0,12,1,2025,数学,高2
+上書きテスト,上書きテスト,generic_test,unknown,unknown,unknown,unspecified_or_single_score,low,5,0,5,1,2025,,

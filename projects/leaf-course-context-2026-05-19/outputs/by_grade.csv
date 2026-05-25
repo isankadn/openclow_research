@@ -1,0 +1,8 @@
+grade_level,courses,score_rows,students_course_sum,tests_course_sum
+高1,26,17679,3926,171
+高2,60,14352,3959,221
+中1,48,11955,1679,309
+中2,49,11855,1790,417
+中3,39,9943,1550,255
+高3,2,1614,538,6
+(unclassified),2,274,211,5

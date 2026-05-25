@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="260" viewBox="0 0 940 260">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="24" y="34" font-family="Arial" font-size="20" font-weight="700">Placebo Check: Pre-Test vs Future Active Days</text>
+<text x="24" y="56" font-family="Arial" font-size="12" fill="#555">Student and assessment fixed effects; adjusted behavior model</text>
+<line x1="550.0" x2="550.0" y1="58" y2="204" stroke="#888"/>
+<text x="24" y="94" font-family="Arial" font-size="13" dominant-baseline="middle">school_regular_exam</text>
+<line x1="580.3" x2="743.9" y1="86" y2="86" stroke="#1f7a4d" stroke-width="3" stroke-linecap="round"/>
+<circle cx="662.1" cy="86" r="5" fill="#1f7a4d"/>
+<text x="842" y="87" font-family="Arial" font-size="11" dominant-baseline="middle" fill="#333">pre +0.056</text>
+<line x1="378.6" x2="571.6" y1="104" y2="104" stroke="#9b2c2c" stroke-width="3" stroke-linecap="round"/>
+<circle cx="475.1" cy="104" r="5" fill="#9b2c2c"/>
+<text x="842" y="105" font-family="Arial" font-size="11" dominant-baseline="middle" fill="#333">future -0.037</text>
+<text x="24" y="164" font-family="Arial" font-size="13" dominant-baseline="middle">unit_or_chapter_test</text>
+<line x1="615.9" x2="790.9" y1="156" y2="156" stroke="#1f7a4d" stroke-width="3" stroke-linecap="round"/>
+<circle cx="703.4" cy="156" r="5" fill="#1f7a4d"/>
+<text x="842" y="157" font-family="Arial" font-size="11" dominant-baseline="middle" fill="#333">pre +0.077</text>
+<line x1="320.6" x2="536.7" y1="174" y2="174" stroke="#9b2c2c" stroke-width="3" stroke-linecap="round"/>
+<circle cx="428.7" cy="174" r="5" fill="#9b2c2c"/>
+<text x="842" y="175" font-family="Arial" font-size="11" dominant-baseline="middle" fill="#333">future -0.061</text>
+<text x="550.0" y="238" font-family="Arial" font-size="12" text-anchor="middle" fill="#444">Standardized coefficient for log active days</text>
+</svg>

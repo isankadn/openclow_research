@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="360" viewBox="0 0 1040 360">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="24" y="34" font-family="Arial" font-size="20" font-weight="700">Active-Days Mechanism by Assessment Family</text>
+<text x="24" y="56" font-family="Arial" font-size="12" fill="#555">Student and assessment fixed effects; adjusted for event volume and behavior composition</text>
+<line x1="560.3" x2="560.3" y1="58" y2="274" stroke="#888"/>
+<text x="24" y="94" font-family="Arial" font-size="13" dominant-baseline="middle">school_regular_exam</text>
+<line x1="627.0" x2="802.5" y1="86" y2="86" stroke="#2868a8" stroke-width="3" stroke-linecap="round"/>
+<circle cx="714.7" cy="86" r="5" fill="#2868a8"/>
+<text x="942" y="87" font-family="Arial" font-size="11" dominant-baseline="middle" fill="#333">m3 +0.067</text>
+<line x1="572.0" x2="758.3" y1="103" y2="103" stroke="#22845b" stroke-width="3" stroke-linecap="round"/>
+<circle cx="665.2" cy="103" r="5" fill="#22845b"/>
+<text x="942" y="104" font-family="Arial" font-size="11" dominant-baseline="middle" fill="#333">m6 +0.045</text>
+<line x1="570.6" x2="756.3" y1="120" y2="120" stroke="#b05a28" stroke-width="3" stroke-linecap="round"/>
+<circle cx="663.5" cy="120" r="5" fill="#b05a28"/>
+<text x="942" y="121" font-family="Arial" font-size="11" dominant-baseline="middle" fill="#333">m12 +0.045</text>
+<text x="24" y="164" font-family="Arial" font-size="13" dominant-baseline="middle">unit_or_chapter_test</text>
+<line x1="584.3" x2="803.0" y1="156" y2="156" stroke="#2868a8" stroke-width="3" stroke-linecap="round"/>
+<circle cx="693.7" cy="156" r="5" fill="#2868a8"/>
+<text x="942" y="157" font-family="Arial" font-size="11" dominant-baseline="middle" fill="#333">m3 +0.058</text>
+<line x1="551.9" x2="782.9" y1="173" y2="173" stroke="#22845b" stroke-width="3" stroke-linecap="round"/>
+<circle cx="667.4" cy="173" r="5" fill="#22845b"/>
+<text x="942" y="174" font-family="Arial" font-size="11" dominant-baseline="middle" fill="#333">m6 +0.046</text>
+<line x1="547.1" x2="787.1" y1="190" y2="190" stroke="#b05a28" stroke-width="3" stroke-linecap="round"/>
+<circle cx="667.1" cy="190" r="5" fill="#b05a28"/>
+<text x="942" y="191" font-family="Arial" font-size="11" dominant-baseline="middle" fill="#333">m12 +0.046</text>
+<text x="24" y="234" font-family="Arial" font-size="13" dominant-baseline="middle">external_benesse</text>
+<line x1="530.4" x2="756.5" y1="226" y2="226" stroke="#2868a8" stroke-width="3" stroke-linecap="round"/>
+<circle cx="643.4" cy="226" r="5" fill="#2868a8"/>
+<text x="942" y="227" font-family="Arial" font-size="11" dominant-baseline="middle" fill="#333">m3 +0.036</text>
+<line x1="514.0" x2="747.0" y1="243" y2="243" stroke="#22845b" stroke-width="3" stroke-linecap="round"/>
+<circle cx="630.5" cy="243" r="5" fill="#22845b"/>
+<text x="942" y="244" font-family="Arial" font-size="11" dominant-baseline="middle" fill="#333">m6 +0.030</text>
+<line x1="515.6" x2="748.7" y1="260" y2="260" stroke="#b05a28" stroke-width="3" stroke-linecap="round"/>
+<circle cx="632.1" cy="260" r="5" fill="#b05a28"/>
+<text x="942" y="261" font-family="Arial" font-size="11" dominant-baseline="middle" fill="#333">m12 +0.031</text>
+<circle cx="710" cy="34" r="5" fill="#2868a8"/>
+<text x="722" y="35" font-family="Arial" font-size="12" dominant-baseline="middle">m3</text>
+<circle cx="710" cy="52" r="5" fill="#22845b"/>
+<text x="722" y="53" font-family="Arial" font-size="12" dominant-baseline="middle">m6</text>
+<circle cx="710" cy="70" r="5" fill="#b05a28"/>
+<text x="722" y="71" font-family="Arial" font-size="12" dominant-baseline="middle">m12</text>
+<text x="595.0" y="336" font-family="Arial" font-size="12" text-anchor="middle" fill="#444">Standardized coefficient for log active days</text>
+</svg>

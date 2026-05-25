@@ -1,0 +1,7 @@
+model,feature,beta_std,ci_low,ci_high,p_boot,bootstraps,n_rows,n_students,n_assessments
+assessment_fixed_effects_multivariable,log_events_m3,0.05904,0.01348,0.10939,0.01000,200,26940,1712,687
+assessment_fixed_effects_multivariable,log_active_days_m3,0.08332,0.03445,0.12679,0.00000,200,26940,1712,687
+assessment_fixed_effects_multivariable,navigation_rate_m3,-0.11300,-0.15189,-0.07968,0.00000,200,26940,1712,687
+assessment_fixed_effects_multivariable,memo_rate_m3,-0.01620,-0.05386,0.01707,0.35000,200,26940,1712,687
+assessment_fixed_effects_multivariable,marker_rate_m3,-0.00264,-0.01931,0.01013,0.63000,200,26940,1712,687
+assessment_fixed_effects_multivariable,content_session_rate_m3,-0.02453,-0.04148,-0.00910,0.00000,200,26940,1712,687

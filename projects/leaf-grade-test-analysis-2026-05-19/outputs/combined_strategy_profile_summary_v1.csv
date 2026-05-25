@@ -1,0 +1,17 @@
+combined_strategy,rows,students,assessments,score_resid_std_mean,score_resid_std_sd,score_resid_ci_low,score_resid_ci_high,top_test_families,top_grades
+intermittent_activity + high_volume_marker_intensive,109,92,37,0.09331,0.84453,-0.12547,0.26333,external_benesse:57; school_regular_exam:50; unit_or_chapter_test:2,中2:65; 中1:26; 中3:12; 高2:6
+early_declining + memo_intensive,220,134,93,0.08417,1.03901,-0.10350,0.25143,school_regular_exam:128; external_benesse:55; unit_or_chapter_test:36; break_after_test:1,中2:91; 中3:66; 中1:53; 高2:9
+distributed_sustained + memo_intensive,5048,545,240,0.04615,0.96199,-0.02709,0.11730,school_regular_exam:2689; unit_or_chapter_test:1551; break_after_test:557; external_benesse:251,中1:2211; 中2:1646; 中3:1186; 高2:5
+distributed_navigation + distributed_navigation,1477,672,295,0.03007,1.01765,-0.06330,0.12416,school_regular_exam:915; external_benesse:515; unit_or_chapter_test:40; break_after_test:7,高1:409; 中2:330; 中1:303; 中3:250
+late_intensive + memo_intensive,2335,538,143,0.02015,0.91252,-0.05077,0.08522,school_regular_exam:1234; unit_or_chapter_test:1002; external_benesse:86; break_after_test:13,中2:816; 中3:764; 中1:727; 高2:17
+distributed_navigation + memo_intensive,1319,377,248,0.01320,1.00743,-0.09907,0.13180,school_regular_exam:655; unit_or_chapter_test:346; external_benesse:245; break_after_test:73,中1:655; 中2:361; 中3:288; 高1:12
+intermittent_activity + memo_intensive,1997,502,308,-0.00371,0.95258,-0.08906,0.06915,school_regular_exam:1018; unit_or_chapter_test:600; external_benesse:339; break_after_test:40,中2:953; 中1:580; 中3:453; 高2:10
+no_same_course_activity + no_same_course_xapi,6240,1355,358,-0.01423,0.98431,-0.05791,0.03014,school_regular_exam:3503; external_benesse:2731; unit_or_chapter_test:5; break_after_test:1,高1:1895; 中1:1423; 中2:1367; 中3:927
+late_intensive + distributed_navigation,2172,869,312,-0.01592,1.01782,-0.07535,0.04783,school_regular_exam:1609; unit_or_chapter_test:290; external_benesse:272; break_after_test:1,高1:805; 中1:404; 中2:398; 高2:342
+intermittent_activity + low_regular_activity,139,104,72,-0.02650,0.93107,-0.25566,0.16868,school_regular_exam:115; external_benesse:21; unit_or_chapter_test:3,中2:90; 高1:20; 中1:15; 中3:12
+early_declining + distributed_navigation,1731,826,215,-0.03467,1.12046,-0.10484,0.04055,school_regular_exam:1434; external_benesse:295; break_after_test:2,高1:542; 高2:533; 中1:306; 中2:212
+single_month_activity + distributed_navigation,558,358,150,-0.04102,1.09198,-0.15479,0.07144,school_regular_exam:495; external_benesse:63,高1:221; 高2:126; 中3:93; 中1:66
+early_declining + low_regular_activity,126,106,60,-0.04246,0.99017,-0.24710,0.15145,school_regular_exam:105; external_benesse:20; unit_or_chapter_test:1,中2:47; 高1:32; 中1:22; 中3:16
+intermittent_activity + distributed_navigation,2588,934,375,-0.04464,1.07410,-0.11179,0.01980,school_regular_exam:1828; external_benesse:709; unit_or_chapter_test:46; break_after_test:5,高1:805; 中2:538; 中1:495; 高2:442
+late_intensive + low_regular_activity,371,258,136,-0.06025,1.00665,-0.18133,0.06310,school_regular_exam:260; unit_or_chapter_test:62; external_benesse:48; break_after_test:1,中2:141; 中3:88; 高1:75; 中1:45
+single_month_activity + low_regular_activity,194,139,81,-0.09947,1.17366,-0.28422,0.09125,school_regular_exam:185; external_benesse:9,高1:111; 中2:29; 高2:29; 中3:15

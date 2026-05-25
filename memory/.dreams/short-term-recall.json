@@ -1,0 +1,1088 @@
+{
+  "version": 1,
+  "updatedAt": "2026-05-25T18:14:32.834Z",
+  "entries": {
+    "memory:memory/2026-03-30.md:10:14": {
+      "key": "memory:memory/2026-03-30.md:10:14",
+      "path": "memory/2026-03-30.md",
+      "startLine": 10,
+      "endLine": 14,
+      "source": "memory",
+      "snippet": "- Added new remembered `statements_mv` column definitions: `platform` = platform name (for example BookRoll, Moodle, Logpalette, GOAL, SCROLL), `actor_name_role` = user role, `context_id` = Moodle course ID, `context_title` = Moodle course name, and `context_label` = Moodle course name. - Added a saved LEAF student-flow interpretation: Moodle (LMS) login/authentication -> Moodle course -> BookRoll via LTI -> read course-linked contents -> optionally view Analysis. - Saved the rule that viewed content is assigned to a Moodle course and that Moodle courses are categorized by school grade/level. - Saved the provided Moodle SQL query pattern for mapping parent categories, child categories, and c",
+      "recallCount": 3,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1.092965206503868,
+      "maxScore": 0.3852580040693283,
+      "firstRecalledAt": "2026-05-19T04:23:57.436Z",
+      "lastRecalledAt": "2026-05-22T10:38:42.530Z",
+      "queryHashes": [
+        "adbe9bff3e3b",
+        "e0a75d3f33e5",
+        "d8c3902e23a0"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-21",
+        "2026-05-22"
+      ],
+      "conceptTags": [
+        "statements-mv",
+        "actor-name-role",
+        "context-id",
+        "context-title",
+        "context-label",
+        "student-flow",
+        "login/authentication",
+        "course-linked"
+      ]
+    },
+    "memory:memory/2026-04-03.md:1:12": {
+      "key": "memory:memory/2026-04-03.md:1:12",
+      "path": "memory/2026-04-03.md",
+      "startLine": 1,
+      "endLine": 12,
+      "source": "memory",
+      "snippet": "# 2026-04-03 - User clarified semantics for `analysis_development.course_student_scores`: `name` = test name, `course_name` = course name, `course_id` = course ID, and `date_at` = test date / date conducted. - Ran a bounded read-only accessibility check against `analysis_development.course_student_scores`. - Confirmed the table is accessible and returns data. - Quick profile: 67,672 rows total, 2,497 distinct students, 226 distinct courses, 1,070 distinct test names, and 43,180 rows with non-null `date_at`. - Sample accessible rows include records like `1A 後期期末 英語` in course `2022年度1年A組英語[中学]` with `course_id=397` and `date_at=2023-02-21`. - Orchestrated 3 sub-agents to design score-data in",
+      "recallCount": 4,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1.5464256018400193,
+      "maxScore": 0.40688245594501493,
+      "firstRecalledAt": "2026-05-19T04:30:19.146Z",
+      "lastRecalledAt": "2026-05-24T04:15:10.151Z",
+      "queryHashes": [
+        "082f9f6595b0",
+        "14aa6b7528c3",
+        "9c23662095d5",
+        "01558107d92b"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-22",
+        "2026-05-24"
+      ],
+      "conceptTags": [
+        "course-name",
+        "course-id",
+        "date-at",
+        "read-only",
+        "non-null",
+        "sub-agents",
+        "score-data",
+        "clarified"
+      ]
+    },
+    "memory:memory/2026-04-03.md:10:19": {
+      "key": "memory:memory/2026-04-03.md:10:19",
+      "path": "memory/2026-04-03.md",
+      "startLine": 10,
+      "endLine": 19,
+      "source": "memory",
+      "snippet": "- Phase 1 integrity checks showed: 24,492 / 67,672 score rows (36.19%) have non-null `course_student_id`, and all such rows match `course_students.id`. - `course_students` has 305 duplicate `(student_id, course_id)` pairs, so fallback joining on `(student_id, course_id)` is not automatically safe. - `course_student_scores` showed 0 duplicate groups at `(student_id, course_id, name, date_at)` and internally consistent course labeling (`course_id` <-> `course_name`). - All 226 distinct score-table `course_id` values overlap Moodle `mdl_course.id`, strongly supporting a shared course-ID system there. - Only 13 of the 226 score-table `course_id` values overlap non-empty `saikyo_new.statements_mv",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.759209007024765,
+      "maxScore": 0.40328964591026306,
+      "firstRecalledAt": "2026-05-19T04:30:19.146Z",
+      "lastRecalledAt": "2026-05-22T07:16:57.033Z",
+      "queryHashes": [
+        "082f9f6595b0",
+        "9c23662095d5"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-22"
+      ],
+      "conceptTags": [
+        "36.19",
+        "non-null",
+        "course-student-id",
+        "course-students.id",
+        "course-students",
+        "student-id",
+        "course-id",
+        "course-student-scores"
+      ]
+    },
+    "memory:memory/2026-03-25.md:11:19": {
+      "key": "memory:memory/2026-03-25.md:11:19",
+      "path": "memory/2026-03-25.md",
+      "startLine": 11,
+      "endLine": 19,
+      "source": "memory",
+      "snippet": "- Early findings: `analysis_development.course_student_scores` is populated, Moodle user table is `mdl_user`, BookRoll has large behavioral tables, and ClickHouse exposes many per-instance xAPI databases with `statements` / `statements_mv` style tables. - User clarified an operating rule: until told otherwise, use only ClickHouse database `saikyo_old`. - User also instructed that for Moodle, BookRoll, and Analysis relational schemas, I should ask for table/column definitions when needed instead of guessing meanings. - Ran a bounded first-pass scan of ClickHouse `saikyo_old.statements_mv`: about 101.8M rows, 7,939 accounts, 13,294 contents, 43 operations. - The strongest preliminary research-",
+      "recallCount": 4,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1.6375164300203322,
+      "maxScore": 0.457402491569519,
+      "firstRecalledAt": "2026-05-19T05:04:18.239Z",
+      "lastRecalledAt": "2026-05-22T10:38:42.530Z",
+      "queryHashes": [
+        "7ad2b69d7787",
+        "e0a75d3f33e5",
+        "9c23662095d5",
+        "d8c3902e23a0"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-21",
+        "2026-05-22"
+      ],
+      "conceptTags": [
+        "mdl-user",
+        "per-instance",
+        "statements-mv",
+        "saikyo-old",
+        "table/column",
+        "first-pass",
+        "saikyo-old.statements-mv",
+        "101.8m"
+      ]
+    },
+    "memory:memory/2026-05-19.md:1:15": {
+      "key": "memory:memory/2026-05-19.md:1:15",
+      "path": "memory/2026-05-19.md",
+      "startLine": 1,
+      "endLine": 15,
+      "source": "memory",
+      "snippet": "# 2026-05-19 ## Session restart - User asked to refresh context before starting work again. - Today and yesterday daily notes were missing, so context was refreshed from `MEMORY.md` and LEAF project memory files. - Current working frame: LEAF is an existing-data-first secondary-use research system; use ClickHouse `saikyo_new` for xAPI exploration unless instructed otherwise. ## Score-course Moodle context mapping - User asked whether the Analysis score table courses can be mapped through Moodle to meaningful grade/class levels and subjects, while keeping content analysis aside because math, Japanese, and English are different subjects. - Created `projects/leaf-course-context-2026-05-19/` w",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.8130513608455657,
+      "maxScore": 0.4411492615938186,
+      "firstRecalledAt": "2026-05-19T05:04:18.239Z",
+      "lastRecalledAt": "2026-05-25T01:31:23.445Z",
+      "queryHashes": [
+        "7ad2b69d7787",
+        "ad11a46b9928"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-25"
+      ],
+      "conceptTags": [
+        "memory.md",
+        "existing-data-first",
+        "secondary-use",
+        "saikyo-new",
+        "score-course",
+        "grade/class",
+        "restart",
+        "asked"
+      ]
+    },
+    "memory:memory/2026-03-30.md:1:12": {
+      "key": "memory:memory/2026-03-30.md:1:12",
+      "path": "memory/2026-03-30.md",
+      "startLine": 1,
+      "endLine": 12,
+      "source": "memory",
+      "snippet": "# 2026-03-30 - User changed the standing default ClickHouse xAPI database from `saikyo_old` to `saikyo_new`. - This should be treated as the permanent default for future xAPI exploration and analysis until the user explicitly changes it again. - Historical notes, analyses, and project files that genuinely refer to `saikyo_old` should remain as historical records unless the user asks to migrate/update them. - User added a new canonical CSV of operation names/definitions at `/home/ubuntu/.openclaw/external-resources/new-operation-names.csv`. - Updated saved memory so this new CSV is the only operation-name source to use going forward. - User explicitly said there is no need to keep the old na",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.758909747004509,
+      "maxScore": 0.39667557179927826,
+      "firstRecalledAt": "2026-05-19T07:00:52.590Z",
+      "lastRecalledAt": "2026-05-19T07:22:51.158Z",
+      "queryHashes": [
+        "bc13b1617378",
+        "eb302cbd644f"
+      ],
+      "recallDays": [
+        "2026-05-19"
+      ],
+      "conceptTags": [
+        "saikyo-old",
+        "saikyo-new",
+        "migrate/update",
+        "names/definitions",
+        "home/ubuntu",
+        "operation-name",
+        "changed",
+        "standing"
+      ]
+    },
+    "memory:memory/2026-03-26.md:1:16": {
+      "key": "memory:memory/2026-03-26.md:1:16",
+      "path": "memory/2026-03-26.md",
+      "startLine": 1,
+      "endLine": 16,
+      "source": "memory",
+      "snippet": "# 2026-03-26 - User expanded the xAPI exploration scope beyond `saikyo_old` and explicitly requested a sufficiency check on ClickHouse `saikyo_new.statements_mv`, with no MySQL/BookRoll/Analysis inspection. - Bounded read-only profile of `saikyo_new.statements_mv`: - `7,636,461` rows - `2,306` unique users - `3,969` unique contents - `160` unique operation names - time range includes anomalies around `1969-12-31` / `1970-01-01`, but substantive activity is concentrated in `2025`-`2026` - blank `operation_name` rows: `557,190` - blank `contents_id` rows: `843,574` - Coverage for the prior xAPI-only content-friction style pilot appears sufficient in `saikyo_new`: - `1,221` con",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.7281840145587921,
+      "maxScore": 0.372623535990715,
+      "firstRecalledAt": "2026-05-19T07:00:52.590Z",
+      "lastRecalledAt": "2026-05-22T10:58:03.506Z",
+      "queryHashes": [
+        "bc13b1617378",
+        "95462e9a8558"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-22"
+      ],
+      "conceptTags": [
+        "saikyo-old",
+        "saikyo-new.statements-mv",
+        "mysql/bookroll/analysis",
+        "read-only",
+        "operation-name",
+        "contents-id",
+        "xapi-only",
+        "content-friction"
+      ]
+    },
+    "memory:memory/2026-05-19.md:14:18": {
+      "key": "memory:memory/2026-05-19.md:14:18",
+      "path": "memory/2026-05-19.md",
+      "startLine": 14,
+      "endLine": 18,
+      "source": "memory",
+      "snippet": "- Interpretation: grade/subject stratification is defensible as course-context metadata, but should be stored with source flags because many newer courses require subject inference from course names rather than category paths. - User clarified again that `date_at` represents the test conduct date and asked to focus on 2025 and 2026 tests or grade-based analysis. - Built `projects/leaf-course-context-2026-05-19/focus_2025_2026_tests.py` and outputs. The current `date_at >= 2025-01-01 and < 2027-01-01` window contains 3,041 score rows, 924 students, 65 test names, and 39 courses, all in 2025; there are no 2026 conduct-date rows currently in the score table. - In that recent-test window, strong",
+      "recallCount": 3,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1.2666418284177778,
+      "maxScore": 0.46818350851535795,
+      "firstRecalledAt": "2026-05-19T07:39:54.312Z",
+      "lastRecalledAt": "2026-05-25T01:31:23.445Z",
+      "queryHashes": [
+        "14aa6b7528c3",
+        "9c23662095d5",
+        "ad11a46b9928"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-22",
+        "2026-05-25"
+      ],
+      "conceptTags": [
+        "grade/subject",
+        "course-context",
+        "date-at",
+        "grade-based",
+        "conduct-date",
+        "recent-test",
+        "interpretation",
+        "grade"
+      ]
+    },
+    "memory:memory/2026-04-03.md:17:25": {
+      "key": "memory:memory/2026-04-03.md:17:25",
+      "path": "memory/2026-04-03.md",
+      "startLine": 17,
+      "endLine": 25,
+      "source": "memory",
+      "snippet": "- Within those 13 courses, `course_students` coverage existed only for course `280`, so `course_student_id` / `course_students` bridging is insufficient for most overlapping score-bearing courses. - Empirical student-ID overlap between score-table `student_id` and xAPI actor-prefix IDs exists in a few overlapping courses, but coverage is sparse. - Under a strict validity rule (same course, exact student-ID match, xAPI before `date_at`), the restricted enrichment produced 0 valid matched pre-test score rows. - The safe conclusion is that score-only longitudinal analysis is currently valid, but merged pre-test xAPI + score findings from `saikyo_new` are not yet defensible. - Saved phase 2 resu",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.7651070684194564,
+      "maxScore": 0.4061377167701721,
+      "firstRecalledAt": "2026-05-19T07:39:54.312Z",
+      "lastRecalledAt": "2026-05-22T07:16:57.033Z",
+      "queryHashes": [
+        "14aa6b7528c3",
+        "9c23662095d5"
+      ],
+      "recallDays": [
+        "2026-05-19",
+        "2026-05-22"
+      ],
+      "conceptTags": [
+        "course-students",
+        "course-student-id",
+        "score-bearing",
+        "student-id",
+        "score-table",
+        "actor-prefix",
+        "date-at",
+        "pre-test"
+      ]
+    },
+    "memory:memory/2026-03-25.md:17:24": {
+      "key": "memory:memory/2026-03-25.md:17:24",
+      "path": "memory/2026-03-25.md",
+      "startLine": 17,
+      "endLine": 24,
+      "source": "memory",
+      "snippet": "- User clarified that Moodle course information is important context because BookRoll contents basically belong to courses. - Course analyses should consider Japanese K-12 grade/level and subject area (for example English, Japanese) rather than pooling all contents together blindly. - Re-checked the top 3 candidate research angles against both Ogata-lab/adjacent work and broader outside literature. - The best gap-filling direction is not generic learner profiling or generic recommendation uptake; the strongest current candidate is content-level friction diagnostics across Japanese K-12 courses using BookRoll interaction traces. - Other viable gap-aware angles are course-design / instructiona",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.4367609769105911,
+      "maxScore": 0.4367609769105911,
+      "firstRecalledAt": "2026-05-21T19:22:47.644Z",
+      "lastRecalledAt": "2026-05-21T19:22:47.644Z",
+      "queryHashes": [
+        "e0a75d3f33e5"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "k-12",
+        "grade/level",
+        "re-checked",
+        "ogata-lab/adjacent",
+        "gap-filling",
+        "content-level",
+        "gap-aware",
+        "course-design"
+      ]
+    },
+    "memory:memory/2026-05-19.md:25:27": {
+      "key": "memory:memory/2026-05-19.md:25:27",
+      "path": "memory/2026-05-19.md",
+      "startLine": 25,
+      "endLine": 27,
+      "source": "memory",
+      "snippet": "- First grade/test results: `course_student_scores` has 67,672 rows; 24,492 missing `date_at` excluded; 43,180 dated rows retained; duplicate groups at clean grain = 0. Dated range is 2019-04-10 to 2025-03-05. Test-family classification after tightening: school regular exams 28,258 rows; external Benesse 8,261; unit/chapter tests 4,074; after-break tests 718; unclear 1,864; generic test 5. - Verified the old BookRoll database name on port 33306 is `bookroll` rather than `bokroll`. `br_event_log` exposes `log_id`, `user_id`, `contents_id`, `contents_name`, `operation_date`, `operation_name`, `process_code`, `contextid`, `context_title`, `context_label`, and `role`, so it may help bridge old B",
+      "recallCount": 7,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 2.9463289916515345,
+      "maxScore": 0.4918231517076492,
+      "firstRecalledAt": "2026-05-21T19:22:47.644Z",
+      "lastRecalledAt": "2026-05-24T04:15:10.151Z",
+      "queryHashes": [
+        "e0a75d3f33e5",
+        "e6b173ed8860",
+        "9c23662095d5",
+        "d8c3902e23a0",
+        "95462e9a8558",
+        "7aa745d62f80",
+        "01558107d92b"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-22",
+        "2026-05-24"
+      ],
+      "conceptTags": [
+        "grade/test",
+        "course-student-scores",
+        "date-at",
+        "test-family",
+        "unit/chapter",
+        "after-break",
+        "br-event-log",
+        "log-id"
+      ]
+    },
+    "memory:memory/2026-05-19.md:54:58": {
+      "key": "memory:memory/2026-05-19.md:54:58",
+      "path": "memory/2026-05-19.md",
+      "startLine": 54,
+      "endLine": 58,
+      "source": "memory",
+      "snippet": "- After user restarted gateway with xhigh and asked to recheck, re-audited the paper package against the ICCE criteria and user concerns. Removed remaining front-facing old/new provenance rows from the main evidence table, removed remaining internal/meta phrasing, changed references placeholders into a real References section with targeted citations, and kept time-spent as a cautious robustness item rather than a main mechanism. - User clarified that the ebook application name should be written as \"Bookroll\" in the paper and provided a paper about LEAF/Bookroll context. Updated paper_draft/manuscript_draft.md with a compact LEAF/Bookroll paragraph in Data and Linkage: LEAF is the Learning an",
+      "recallCount": 4,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1.5839913398027419,
+      "maxScore": 0.4109717935323715,
+      "firstRecalledAt": "2026-05-21T19:45:59.789Z",
+      "lastRecalledAt": "2026-05-24T17:58:36.745Z",
+      "queryHashes": [
+        "754aef972fff",
+        "b25419d749f7",
+        "69ccdade2f86",
+        "ca0a9e03f7af"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-24"
+      ],
+      "conceptTags": [
+        "gateway",
+        "re-audited",
+        "front-facing",
+        "old/new",
+        "internal/meta",
+        "time-spent",
+        "leaf/bookroll",
+        "paper-draft/manuscript-draft.md"
+      ]
+    },
+    "memory:memory/2026-05-21.md:1:6": {
+      "key": "memory:memory/2026-05-21.md:1:6",
+      "path": "memory/2026-05-21.md",
+      "startLine": 1,
+      "endLine": 6,
+      "source": "memory",
+      "snippet": "# 2026-05-21 - Re-read paper_draft/manuscript_draft.md and relevant LEAF/Bookroll analysis context. Updated paper-facing wording from \"Moodle course metadata\" to \"Learning Management System (LMS) course metadata\" / \"LMS course metadata\" because Bookroll can support LMSs beyond Moodle. Kept analysis-source language conceptually separate where it describes actual Moodle-derived tables. - Reviewed the paper_draft/figures manuscript figures after user noted they all look the same. They are not duplicate files, but all four are coefficient/CI forest plots, which makes the manuscript visually repetitive. Existing analysis figures can diversify the paper: coverage/sample flow, same-course linkage/",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.4394897401332855,
+      "maxScore": 0.4394897401332855,
+      "firstRecalledAt": "2026-05-21T20:56:05.162Z",
+      "lastRecalledAt": "2026-05-21T20:56:05.162Z",
+      "queryHashes": [
+        "b25419d749f7"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "re-read",
+        "paper-draft/manuscript-draft.md",
+        "leaf/bookroll",
+        "paper-facing",
+        "analysis-source",
+        "moodle-derived",
+        "paper-draft/figures",
+        "coefficient/ci"
+      ]
+    },
+    "memory:memory/2026-05-19.md:22:25": {
+      "key": "memory:memory/2026-05-19.md:22:25",
+      "path": "memory/2026-05-19.md",
+      "startLine": 22,
+      "endLine": 25,
+      "source": "memory",
+      "snippet": "- User clarified primary condition for analysis-agent work: do not send data to an LLM and ask it to analyze. Analysis must be implemented as local Python programs/scripts. LLM assistance is acceptable for Python script issues, debugging, design, and interpretation of aggregate outputs, but raw data analysis should happen locally. - User requested xhigh/extra-high model level for analysis reasoning. Record this as the preferred effort level for LEAF research analysis agents/subagents when available. - Started grade/test outcome-side analysis in `projects/leaf-grade-test-analysis-2026-05-19/` using local Python only. Script `01_profile_grade_tests.py` filters out missing `date_at`, checks/rem",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.8047708392143249,
+      "maxScore": 0.43269525468349457,
+      "firstRecalledAt": "2026-05-21T20:56:05.162Z",
+      "lastRecalledAt": "2026-05-25T01:31:23.445Z",
+      "queryHashes": [
+        "b25419d749f7",
+        "ad11a46b9928"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-25"
+      ],
+      "conceptTags": [
+        "analysis-agent",
+        "programs/scripts",
+        "xhigh/extra-high",
+        "agents/subagents",
+        "grade/test",
+        "outcome-side",
+        "01-profile-grade-tests.py",
+        "date-at"
+      ]
+    },
+    "memory:memory/2026-03-25.md:1:12": {
+      "key": "memory:memory/2026-03-25.md:1:12",
+      "path": "memory/2026-03-25.md",
+      "startLine": 1,
+      "endLine": 12,
+      "source": "memory",
+      "snippet": "# 2026-03-25 - Added a LEAF-wide research organization preference: each research effort should keep its data, documents, notes, code, and outputs in a separate folder. - Project-specific artifact locations should be remembered/recorded so LEAF can reaccess them later. - Updated relevant agent instructions and memory for Conductor, Data Scientist, Content Reader, and Context Mapper to reflect this rule. - User provided a CSV of BookRoll operation/event names and definitions; stored these as working canonical definitions for future analysis memory. - Added a LEAF Data Scientist rule: before analysis, check whether relevant data volume/coverage is sufficient; if not, do not use that dataset fo",
+      "recallCount": 4,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1.5418794780969618,
+      "maxScore": 0.4483635246753692,
+      "firstRecalledAt": "2026-05-21T20:56:05.162Z",
+      "lastRecalledAt": "2026-05-24T17:58:36.745Z",
+      "queryHashes": [
+        "b25419d749f7",
+        "e6b173ed8860",
+        "d8c3902e23a0",
+        "ca0a9e03f7af"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-22",
+        "2026-05-24"
+      ],
+      "conceptTags": [
+        "leaf-wide",
+        "project-specific",
+        "remembered/recorded",
+        "operation/event",
+        "volume/coverage",
+        "added",
+        "leaf",
+        "wide"
+      ]
+    },
+    "memory:memory/2026-05-21.md:1:5": {
+      "key": "memory:memory/2026-05-21.md:1:5",
+      "path": "memory/2026-05-21.md",
+      "startLine": 1,
+      "endLine": 5,
+      "source": "memory",
+      "snippet": "# 2026-05-21 - Re-read paper_draft/manuscript_draft.md and relevant LEAF/Bookroll analysis context. Updated paper-facing wording from \"Moodle course metadata\" to \"Learning Management System (LMS) course metadata\" / \"LMS course metadata\" because Bookroll can support LMSs beyond Moodle. Kept analysis-source language conceptually separate where it describes actual Moodle-derived tables. - Reviewed the paper_draft/figures manuscript figures after user noted they all look the same. They are not duplicate files, but all four are coefficient/CI forest plots, which makes the manuscript visually repetitive. Existing analysis figures can diversify the paper: coverage/sample flow, same-course linkage/",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.7894248187541961,
+      "maxScore": 0.43374987244606017,
+      "firstRecalledAt": "2026-05-21T21:42:38.868Z",
+      "lastRecalledAt": "2026-05-24T17:58:36.745Z",
+      "queryHashes": [
+        "69ccdade2f86",
+        "ca0a9e03f7af"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-24"
+      ],
+      "conceptTags": [
+        "re-read",
+        "paper-draft/manuscript-draft.md",
+        "leaf/bookroll",
+        "paper-facing",
+        "analysis-source",
+        "moodle-derived",
+        "paper-draft/figures",
+        "coefficient/ci"
+      ]
+    },
+    "memory:memory/2026-05-21.md:5:7": {
+      "key": "memory:memory/2026-05-21.md:5:7",
+      "path": "memory/2026-05-21.md",
+      "startLine": 5,
+      "endLine": 7,
+      "source": "memory",
+      "snippet": "- User asked for evidentiary weight of suggested figures and the most aligned model to strengthen the fixed-effect findings. Recommended not adding generic diagrams except possibly one method/coverage figure; highest-weight figures are main active-days coefficient, future-placebo, and window robustness, with grade/subject heterogeneity as robustness/supplement. Recommended student-course fixed effects plus assessment-occasion fixed effects as the most aligned next model, ahead of multilevel/dose-response/event-time additions. - Continued the paper analysis for a higher-standard/best-paper target. Added projects/leaf-grade-test-analysis-2026-05-19/28_student_course_fe_robustness.py, which est",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.39158304035663605,
+      "maxScore": 0.39158304035663605,
+      "firstRecalledAt": "2026-05-21T21:42:38.868Z",
+      "lastRecalledAt": "2026-05-21T21:42:38.868Z",
+      "queryHashes": [
+        "69ccdade2f86"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "fixed-effect",
+        "method/coverage",
+        "highest-weight",
+        "active-days",
+        "future-placebo",
+        "grade/subject",
+        "robustness/supplement",
+        "student-course"
+      ]
+    },
+    "memory:memory/2026-05-19.md:27:29": {
+      "key": "memory:memory/2026-05-19.md:27:29",
+      "path": "memory/2026-05-19.md",
+      "startLine": 27,
+      "endLine": 29,
+      "source": "memory",
+      "snippet": "- Continued analysis and produced `projects/leaf-grade-test-analysis-2026-05-19/reports/paper_ready_result_set_v1.md`, `candidate_analysis_cells_v1.csv`, and aggregate SVG figures. Student-level monthly xAPI sufficiency pass linked cleaned score rows to BookRoll xAPI by Moodle user ID prefix: old monthly aggregate rows 33,970 representing 74,452,949 old events; new monthly aggregate rows 4,935 representing 4,116,001 events. Strong candidate cells include high school regular math/English and junior-high math/English regular exams/unit tests, but same-course linkage remains the next methodological gate because old BookRoll `context_id` is absent/sparse in `saikyo_old` BookRoll rows. - User cla",
+      "recallCount": 4,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1.700545075535774,
+      "maxScore": 0.4763300776481628,
+      "firstRecalledAt": "2026-05-22T00:58:47.815Z",
+      "lastRecalledAt": "2026-05-25T01:31:23.445Z",
+      "queryHashes": [
+        "e6b173ed8860",
+        "9c23662095d5",
+        "95462e9a8558",
+        "ad11a46b9928"
+      ],
+      "recallDays": [
+        "2026-05-22",
+        "2026-05-25"
+      ],
+      "conceptTags": [
+        "candidate-analysis-cells-v1.csv",
+        "student-level",
+        "math/english",
+        "junior-high",
+        "exams/unit",
+        "same-course",
+        "context-id",
+        "absent/sparse"
+      ]
+    },
+    "memory:memory/2026-05-19.md:18:20": {
+      "key": "memory:memory/2026-05-19.md:18:20",
+      "path": "memory/2026-05-19.md",
+      "startLine": 18,
+      "endLine": 20,
+      "source": "memory",
+      "snippet": "- Checked xAPI sufficiency for the 39 recent-test courses in `saikyo_new.statements_mv`. For a pre-test school-year window `2024-04-01` through `2025-03-05`, there were 0 matching student xAPI events for those course IDs. Broad all-time matching showed only small post-test student xAPI for a few courses plus a demo course; these are not enough for outcome-linked behavior prediction. - Conclusion for the planned best-paper structure: 2025 conduct-date score data is enough for recent score/grade descriptive analysis, but not enough by itself for the full fine-grained reading-behavior -> strategy discovery -> mixed-effects outcome modeling paper unless more relevant pre-test xAPI or 2026 outcom",
+      "recallCount": 3,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1.2364914804697036,
+      "maxScore": 0.43440549075603485,
+      "firstRecalledAt": "2026-05-22T07:16:57.033Z",
+      "lastRecalledAt": "2026-05-25T01:31:23.445Z",
+      "queryHashes": [
+        "9c23662095d5",
+        "95462e9a8558",
+        "ad11a46b9928"
+      ],
+      "recallDays": [
+        "2026-05-22",
+        "2026-05-25"
+      ],
+      "conceptTags": [
+        "recent-test",
+        "saikyo-new.statements-mv",
+        "pre-test",
+        "school-year",
+        "all-time",
+        "post-test",
+        "outcome-linked",
+        "best-paper"
+      ]
+    },
+    "memory:memory/2026-05-22.md:1:4": {
+      "key": "memory:memory/2026-05-22.md:1:4",
+      "path": "memory/2026-05-22.md",
+      "startLine": 1,
+      "endLine": 4,
+      "source": "memory",
+      "snippet": "# 2026-05-22 - User questioned the large exclusion of 59,209,738 old Bookroll/xAPI events and asked for all SQL queries used across databases. Audited scripted SQL in the LEAF grade-test and course-context projects and created `projects/leaf-grade-test-analysis-2026-05-19/sql_query_inventory.md`, grouping queries by analysis MySQL, LMS/Moodle MySQL, old Bookroll MySQL, old ClickHouse xAPI, and new ClickHouse xAPI. Key finding: the 59,209,738 events were fetched by the old content-month xAPI query and then excluded locally because their `contents_id` lacked a unique course mapping in the old Bookroll content-directory bridge; onboarding them requires improving content-course mapping, not cha",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.36363668143749234,
+      "maxScore": 0.36363668143749234,
+      "firstRecalledAt": "2026-05-22T10:38:42.530Z",
+      "lastRecalledAt": "2026-05-22T10:38:42.530Z",
+      "queryHashes": [
+        "d8c3902e23a0"
+      ],
+      "recallDays": [
+        "2026-05-22"
+      ],
+      "conceptTags": [
+        "bookroll/xapi",
+        "grade-test",
+        "course-context",
+        "lms/moodle",
+        "content-month",
+        "contents-id",
+        "content-directory",
+        "content-course"
+      ]
+    },
+    "memory:memory/2026-05-22.md:1:5": {
+      "key": "memory:memory/2026-05-22.md:1:5",
+      "path": "memory/2026-05-22.md",
+      "startLine": 1,
+      "endLine": 5,
+      "source": "memory",
+      "snippet": "# 2026-05-22 - User questioned the large exclusion of 59,209,738 old Bookroll/xAPI events and asked for all SQL queries used across databases. Audited scripted SQL in the LEAF grade-test and course-context projects and created `projects/leaf-grade-test-analysis-2026-05-19/sql_query_inventory.md`, grouping queries by analysis MySQL, LMS/Moodle MySQL, old Bookroll MySQL, old ClickHouse xAPI, and new ClickHouse xAPI. Key finding: the 59,209,738 events were fetched by the old content-month xAPI query and then excluded locally because their `contents_id` lacked a unique course mapping in the old Bookroll content-directory bridge; onboarding them requires improving content-course mapping, not cha",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.8043866723775863,
+      "maxScore": 0.42750166952610014,
+      "firstRecalledAt": "2026-05-22T10:58:03.506Z",
+      "lastRecalledAt": "2026-05-24T02:30:24.400Z",
+      "queryHashes": [
+        "95462e9a8558",
+        "7aa745d62f80"
+      ],
+      "recallDays": [
+        "2026-05-22",
+        "2026-05-24"
+      ],
+      "conceptTags": [
+        "bookroll/xapi",
+        "grade-test",
+        "course-context",
+        "lms/moodle",
+        "content-month",
+        "contents-id",
+        "content-directory",
+        "content-course"
+      ]
+    },
+    "memory:memory/2026-05-22.md:5:8": {
+      "key": "memory:memory/2026-05-22.md:5:8",
+      "path": "memory/2026-05-22.md",
+      "startLine": 5,
+      "endLine": 8,
+      "source": "memory",
+      "snippet": "- User clarified that analyses should include the 2025-04-01 to 2026-04-01 period and provided NEW relational MySQL endpoints: new Bookroll `localhost:30100`, new Analysis `localhost:30101`, and new Moodle `localhost:30102`. Updated `MEMORY.md`, `memory/leaf-old-data-stores.md`, and `agents/leaf-data-scientist/MEMORY.md` so future analysis includes these stores. - User emphasized that `agents/leaf-data-scientist/MEMORY.md` already contains the new MySQL access details and instructed: use agents for analysis jobs, or obtain/read the Data Scientist agent memory first. Added this as an operating rule in main `MEMORY.md` and `agents/leaf-conductor/MEMORY.md`. - User asked to rerun the full analy",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.4046912550926208,
+      "maxScore": 0.4046912550926208,
+      "firstRecalledAt": "2026-05-24T02:30:24.400Z",
+      "lastRecalledAt": "2026-05-24T02:30:24.400Z",
+      "queryHashes": [
+        "7aa745d62f80"
+      ],
+      "recallDays": [
+        "2026-05-24"
+      ],
+      "conceptTags": [
+        "memory.md",
+        "memory/leaf-old-data-stores.md",
+        "obtain/read",
+        "agents/leaf-conductor/memory.md",
+        "clarified",
+        "analyses",
+        "include",
+        "period"
+      ]
+    },
+    "memory:memory/2026-05-24.md:7:10": {
+      "key": "memory:memory/2026-05-24.md:7:10",
+      "path": "memory/2026-05-24.md",
+      "startLine": 7,
+      "endLine": 10,
+      "source": "memory",
+      "snippet": "- Updated `projects/leaf-grade-test-analysis-2026-05-19/06_same_course_harmonized_xapi.py` to use old ClickHouse `context_id` directly instead of the old content-course bridge. The prior 59,209,738 skipped-old-event limitation is now obsolete for the direct-context rerun. New same-course coverage: old events represented for score students 45,681,730; new events represented 4,095,770; clean matrix has 23,124/43,180 rows with 3-month same-course xAPI. - Reran the manuscript analysis pipeline from same-course feature building through fixed-effect/robustness outputs. Strong-cell valid rows increased to 27,409; course-embedded rows to 20,719; same-course pre-test ebook events in strong cells to 6",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.36695132255554197,
+      "maxScore": 0.36695132255554197,
+      "firstRecalledAt": "2026-05-24T17:15:13.427Z",
+      "lastRecalledAt": "2026-05-24T17:15:13.427Z",
+      "queryHashes": [
+        "304cd7eea9e2"
+      ],
+      "recallDays": [
+        "2026-05-24"
+      ],
+      "conceptTags": [
+        "context-id",
+        "content-course",
+        "skipped-old-event",
+        "direct-context",
+        "same-course",
+        "124/43",
+        "3-month",
+        "fixed-effect/robustness"
+      ]
+    },
+    "memory:memory/2026-05-24.md:10:11": {
+      "key": "memory:memory/2026-05-24.md:10:11",
+      "path": "memory/2026-05-24.md",
+      "startLine": 10,
+      "endLine": 11,
+      "source": "memory",
+      "snippet": "- User asked whether the analysis was math-only or all subjects, then asked to refine subject-specific models at highest accuracy. Added and ran `projects/leaf-grade-test-analysis-2026-05-19/35_subject_specific_refined_models.py`, producing `outputs/subject_specific_refined_models_v1.csv`, `outputs/subject_specific_refined_coverage_v1.csv`, `reports/subject_specific_refined_models_v1.md`, and `paper_draft/tables/table_subject_specific_refined_models.md`. Result: mathematics regular exams are the strongest subject-specific claim (m3 adjusted student-course FE beta +0.080, CI +0.039 to +0.122, p < .001; log_events negative at -0.084). English regular exams are positive in sign but not precise",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1.0940068121711601,
+      "maxScore": 0.7347638811628212,
+      "firstRecalledAt": "2026-05-24T17:41:14.714Z",
+      "lastRecalledAt": "2026-05-24T17:58:36.745Z",
+      "queryHashes": [
+        "387fcf4936a4",
+        "ca0a9e03f7af"
+      ],
+      "recallDays": [
+        "2026-05-24"
+      ],
+      "conceptTags": [
+        "math-only",
+        "subject-specific",
+        "student-course",
+        "0.080",
+        "0.039",
+        "0.122",
+        "log-events",
+        "0.084"
+      ]
+    },
+    "memory:memory/2026-05-24.md:8:10": {
+      "key": "memory:memory/2026-05-24.md:8:10",
+      "path": "memory/2026-05-24.md",
+      "startLine": 8,
+      "endLine": 10,
+      "source": "memory",
+      "snippet": "- Reran the manuscript analysis pipeline from same-course feature building through fixed-effect/robustness outputs. Strong-cell valid rows increased to 27,409; course-embedded rows to 20,719; same-course pre-test ebook events in strong cells to 67,095,840. Key result revised: active days remain the more stable/interpretable signal than click volume alone, but raw event volume is not simply useless in broader models; Benesse contrast is also more nuanced after the direct-context rerun. - Updated `paper_draft/manuscript_draft.md` and added `projects/leaf-grade-test-analysis-2026-05-19/reports/direct_context_rerun_2026-05-24.md` documenting the step-by-step rerun and manuscript implications. -",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.6742550412979241,
+      "maxScore": 0.6742550412979241,
+      "firstRecalledAt": "2026-05-24T17:41:14.714Z",
+      "lastRecalledAt": "2026-05-24T17:41:14.714Z",
+      "queryHashes": [
+        "387fcf4936a4"
+      ],
+      "recallDays": [
+        "2026-05-24"
+      ],
+      "conceptTags": [
+        "same-course",
+        "fixed-effect/robustness",
+        "strong-cell",
+        "course-embedded",
+        "pre-test",
+        "stable/interpretable",
+        "direct-context",
+        "paper-draft/manuscript-draft.md"
+      ]
+    },
+    "memory:memory/2026-05-19.md:46:48": {
+      "key": "memory:memory/2026-05-19.md:46:48",
+      "path": "memory/2026-05-19.md",
+      "startLine": 46,
+      "endLine": 48,
+      "source": "memory",
+      "snippet": "- Family-specific result: active days is robustly positive for school regular exams (adjusted beta m3 +0.056, m6 +0.068, m12 +0.070) and unit/chapter tests (adjusted beta m3 +0.077, m6 +0.086, m12 +0.091). It does not hold for external Benesse tests (adjusted beta negative/non-significant across windows). Interpretation: mechanism is context-specific to course-embedded assessments, not formal external Benesse tests. Strong paper framing: regular course-linked study days predict internal/course-aligned assessment outcomes, but not external standardized outcomes. - User asked to keep all Python code for rerun/verification. All analysis scripts are retained in `projects/leaf-grade-test-analysis",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.3542684972286224,
+      "maxScore": 0.3542684972286224,
+      "firstRecalledAt": "2026-05-24T17:41:14.714Z",
+      "lastRecalledAt": "2026-05-24T17:41:14.714Z",
+      "queryHashes": [
+        "387fcf4936a4"
+      ],
+      "recallDays": [
+        "2026-05-24"
+      ],
+      "conceptTags": [
+        "family-specific",
+        "0.056",
+        "0.068",
+        "0.070",
+        "unit/chapter",
+        "0.077",
+        "0.086",
+        "0.091"
+      ]
+    },
+    "memory:memory/2026-05-24.md:7:9": {
+      "key": "memory:memory/2026-05-24.md:7:9",
+      "path": "memory/2026-05-24.md",
+      "startLine": 7,
+      "endLine": 9,
+      "source": "memory",
+      "snippet": "- Updated `projects/leaf-grade-test-analysis-2026-05-19/06_same_course_harmonized_xapi.py` to use old ClickHouse `context_id` directly instead of the old content-course bridge. The prior 59,209,738 skipped-old-event limitation is now obsolete for the direct-context rerun. New same-course coverage: old events represented for score students 45,681,730; new events represented 4,095,770; clean matrix has 23,124/43,180 rows with 3-month same-course xAPI. - Reran the manuscript analysis pipeline from same-course feature building through fixed-effect/robustness outputs. Strong-cell valid rows increased to 27,409; course-embedded rows to 20,719; same-course pre-test ebook events in strong cells to 6",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.35789138972759243,
+      "maxScore": 0.35789138972759243,
+      "firstRecalledAt": "2026-05-24T17:58:36.745Z",
+      "lastRecalledAt": "2026-05-24T17:58:36.745Z",
+      "queryHashes": [
+        "ca0a9e03f7af"
+      ],
+      "recallDays": [
+        "2026-05-24"
+      ],
+      "conceptTags": [
+        "context-id",
+        "content-course",
+        "skipped-old-event",
+        "direct-context",
+        "same-course",
+        "124/43",
+        "3-month",
+        "fixed-effect/robustness"
+      ]
+    },
+    "memory:memory/2026-05-25.md:8:11": {
+      "key": "memory:memory/2026-05-25.md:8:11",
+      "path": "memory/2026-05-25.md",
+      "startLine": 8,
+      "endLine": 11,
+      "source": "memory",
+      "snippet": "- Applied the same treatment to `paper_draft/figures/Figure2_window_robustness.svg/png`: removed visible title/subtitle, compressed vertical spacing while keeping font sizes, tightened the crop/no outer border, rendered a 1530x442 PNG, and saved title/subtitle in `paper_draft/figures/Figure2_window_robustness_caption.txt`. - User asked to revise `paper_draft/icce_award_full_paper.md` from `paper_draft/icce_award_full_paper-review.md` without expanding the paper, and to create a separate exact-change file for updating a Word copy. Added local diagnostics script `projects/leaf-grade-test-analysis-2026-05-19/39_review_requested_diagnostics.py` for the review-requested any-activity/active-days s",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.4702858805656433,
+      "maxScore": 0.4702858805656433,
+      "firstRecalledAt": "2026-05-25T18:08:50.792Z",
+      "lastRecalledAt": "2026-05-25T18:08:50.792Z",
+      "queryHashes": [
+        "88c7b7388b7b"
+      ],
+      "recallDays": [
+        "2026-05-25"
+      ],
+      "conceptTags": [
+        "title/subtitle",
+        "crop/no",
+        "exact-change",
+        "review-requested",
+        "any-activity/active-days",
+        "applied",
+        "treatment",
+        "paper-draft"
+      ]
+    },
+    "memory:memory/2026-05-24.md:17:18": {
+      "key": "memory:memory/2026-05-24.md:17:18",
+      "path": "memory/2026-05-24.md",
+      "startLine": 17,
+      "endLine": 18,
+      "source": "memory",
+      "snippet": "- Addressed substantive feedback from paper_draft/icce_award_full_paper-review.md while leaving formatting/table clipping to the user. Updated paper_draft/icce_award_full_paper.md with an explicit course-aligned trace-validity framework, empirical context table, data-construction flow, clearer strong-cell coverage definition, precise calendar-month window definition, ethics/data-governance paragraph, two-way student+assessment cluster sensitivity for the key mathematics regular-exam model, coefficient/row-count notes, safer event-volume interpretation as residual intensity, and softened placebo wording. Added script projects/leaf-grade-test-analysis-2026-05-19/36_key_cluster_sensitivity.py a",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.7463985294103621,
+      "maxScore": 0.38723332881927486,
+      "firstRecalledAt": "2026-05-25T18:08:50.792Z",
+      "lastRecalledAt": "2026-05-25T18:14:32.834Z",
+      "queryHashes": [
+        "88c7b7388b7b",
+        "59631557b764"
+      ],
+      "recallDays": [
+        "2026-05-25"
+      ],
+      "conceptTags": [
+        "formatting/table",
+        "course-aligned",
+        "trace-validity",
+        "data-construction",
+        "strong-cell",
+        "calendar-month",
+        "ethics/data-governance",
+        "two-way"
+      ]
+    },
+    "memory:memory/2026-05-25.md:11:12": {
+      "key": "memory:memory/2026-05-25.md:11:12",
+      "path": "memory/2026-05-25.md",
+      "startLine": 11,
+      "endLine": 12,
+      "source": "memory",
+      "snippet": "- User updated `paper_draft/icce_award_full_paper-review.md` again and asked for careful checking. Applied the remaining small fixes: removed internal phrase \"review-requested\" from the manuscript; explicitly defined event intensity as `log_events - log_active_days`; reported the any-activity coefficient (-0.085, 95% CI [-0.154, -0.017]) alongside the active-days-given-activity coefficient; softened Table 3 coverage-threshold wording; and added corresponding exact replacement blocks to `paper_draft/icce_award_full_paper_exact_changes_for_word.md`.",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.4897412449121475,
+      "maxScore": 0.4897412449121475,
+      "firstRecalledAt": "2026-05-25T18:14:32.834Z",
+      "lastRecalledAt": "2026-05-25T18:14:32.834Z",
+      "queryHashes": [
+        "59631557b764"
+      ],
+      "recallDays": [
+        "2026-05-25"
+      ],
+      "conceptTags": [
+        "review-requested",
+        "log-events",
+        "log-active-days",
+        "any-activity",
+        "0.085",
+        "0.154",
+        "0.017",
+        "active-days-given-activity"
+      ]
+    },
+    "memory:memory/2026-05-25.md:9:11": {
+      "key": "memory:memory/2026-05-25.md:9:11",
+      "path": "memory/2026-05-25.md",
+      "startLine": 9,
+      "endLine": 11,
+      "source": "memory",
+      "snippet": "- User asked to revise `paper_draft/icce_award_full_paper.md` from `paper_draft/icce_award_full_paper-review.md` without expanding the paper, and to create a separate exact-change file for updating a Word copy. Added local diagnostics script `projects/leaf-grade-test-analysis-2026-05-19/39_review_requested_diagnostics.py` for the review-requested any-activity/active-days split and event-intensity checks; outputs are `outputs/review_requested_diagnostics_v1.csv` and `reports/review_requested_diagnostics_v1.md`. Revised the manuscript to narrow claims to mathematics regular exams, soften study-days wording, clarify 67.1M as event-window observations, add compact robustness results, and clarify",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.47190849781036376,
+      "maxScore": 0.47190849781036376,
+      "firstRecalledAt": "2026-05-25T18:14:32.834Z",
+      "lastRecalledAt": "2026-05-25T18:14:32.834Z",
+      "queryHashes": [
+        "59631557b764"
+      ],
+      "recallDays": [
+        "2026-05-25"
+      ],
+      "conceptTags": [
+        "exact-change",
+        "review-requested",
+        "any-activity/active-days",
+        "event-intensity",
+        "study-days",
+        "67.1m",
+        "event-window",
+        "asked"
+      ]
+    },
+    "memory:memory/2026-05-25.md:8:10": {
+      "key": "memory:memory/2026-05-25.md:8:10",
+      "path": "memory/2026-05-25.md",
+      "startLine": 8,
+      "endLine": 10,
+      "source": "memory",
+      "snippet": "- Applied the same treatment to `paper_draft/figures/Figure2_window_robustness.svg/png`: removed visible title/subtitle, compressed vertical spacing while keeping font sizes, tightened the crop/no outer border, rendered a 1530x442 PNG, and saved title/subtitle in `paper_draft/figures/Figure2_window_robustness_caption.txt`. - User asked to revise `paper_draft/icce_award_full_paper.md` from `paper_draft/icce_award_full_paper-review.md` without expanding the paper, and to create a separate exact-change file for updating a Word copy. Added local diagnostics script `projects/leaf-grade-test-analysis-2026-05-19/39_review_requested_diagnostics.py` for the review-requested any-activity/active-days s",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.4688859403133392,
+      "maxScore": 0.4688859403133392,
+      "firstRecalledAt": "2026-05-25T18:14:32.834Z",
+      "lastRecalledAt": "2026-05-25T18:14:32.834Z",
+      "queryHashes": [
+        "59631557b764"
+      ],
+      "recallDays": [
+        "2026-05-25"
+      ],
+      "conceptTags": [
+        "title/subtitle",
+        "crop/no",
+        "exact-change",
+        "review-requested",
+        "any-activity/active-days",
+        "applied",
+        "treatment",
+        "paper-draft"
+      ]
+    },
+    "memory:memory/2026-05-24.md:18:20": {
+      "key": "memory:memory/2026-05-24.md:18:20",
+      "path": "memory/2026-05-24.md",
+      "startLine": 18,
+      "endLine": 20,
+      "source": "memory",
+      "snippet": "- Reviewed the updated icce_award_full_paper-review.md and addressed more substantive points. Added active-day construct robustness using same-course daily xAPI aggregates: mathematics regular-exam active-days result remains positive for any-event days (+0.080), 2+ event days (+0.077), 3+ event days (+0.085), and non-open/close days (+0.078). Added script projects/leaf-grade-test-analysis-2026-05-19/37_active_day_construct_robustness.py, aggregate output active_day_construct_robustness_v1.csv, and report active_day_construct_robustness_v1.md. Updated manuscript with framework-to-analysis mapping, behavior-control denominator definition, standardization explanation, primary-test vs heterogene",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.3708061963319778,
+      "maxScore": 0.3708061963319778,
+      "firstRecalledAt": "2026-05-25T18:14:32.834Z",
+      "lastRecalledAt": "2026-05-25T18:14:32.834Z",
+      "queryHashes": [
+        "59631557b764"
+      ],
+      "recallDays": [
+        "2026-05-25"
+      ],
+      "conceptTags": [
+        "icce-award-full-paper-review.md",
+        "active-day",
+        "same-course",
+        "regular-exam",
+        "active-days",
+        "any-event",
+        "0.080",
+        "0.077"
+      ]
+    }
+  }
+}

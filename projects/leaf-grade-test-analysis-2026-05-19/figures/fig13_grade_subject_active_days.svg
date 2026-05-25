@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="500" viewBox="0 0 1120 500">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="24" y="34" font-family="Arial" font-size="20" font-weight="700">Active-Days Mechanism Across Junior-High Mathematics</text>
+<text x="24" y="56" font-family="Arial" font-size="12" fill="#555">Student and assessment fixed effects; adjusted for event volume and behavior composition</text>
+<line x1="570.0" x2="570.0" y1="56" y2="412" stroke="#888"/>
+<text x="24" y="90" font-family="Arial" font-size="12" dominant-baseline="middle">中1 数学 school_regular_exam</text>
+<line x1="602.7" x2="899.5" y1="82" y2="82" stroke="#2868a8" stroke-width="3" stroke-linecap="round"/>
+<circle cx="751.1" cy="82" r="5" fill="#2868a8"/>
+<text x="1022" y="83" font-family="Arial" font-size="10" dominant-baseline="middle" fill="#333">m3 +0.082</text>
+<line x1="581.1" x2="833.1" y1="98" y2="98" stroke="#22845b" stroke-width="3" stroke-linecap="round"/>
+<circle cx="707.1" cy="98" r="5" fill="#22845b"/>
+<text x="1022" y="99" font-family="Arial" font-size="10" dominant-baseline="middle" fill="#333">m6 +0.062</text>
+<line x1="622.5" x2="884.4" y1="114" y2="114" stroke="#b05a28" stroke-width="3" stroke-linecap="round"/>
+<circle cx="753.5" cy="114" r="5" fill="#b05a28"/>
+<text x="1022" y="115" font-family="Arial" font-size="10" dominant-baseline="middle" fill="#333">m12 +0.083</text>
+<text x="24" y="148" font-family="Arial" font-size="12" dominant-baseline="middle">中1 数学 unit_or_chapter_test</text>
+<line x1="530.8" x2="781.9" y1="140" y2="140" stroke="#2868a8" stroke-width="3" stroke-linecap="round"/>
+<circle cx="656.4" cy="140" r="5" fill="#2868a8"/>
+<text x="1022" y="141" font-family="Arial" font-size="10" dominant-baseline="middle" fill="#333">m3 +0.039</text>
+<line x1="522.9" x2="789.3" y1="156" y2="156" stroke="#22845b" stroke-width="3" stroke-linecap="round"/>
+<circle cx="656.1" cy="156" r="5" fill="#22845b"/>
+<text x="1022" y="157" font-family="Arial" font-size="10" dominant-baseline="middle" fill="#333">m6 +0.039</text>
+<line x1="532.5" x2="787.2" y1="172" y2="172" stroke="#b05a28" stroke-width="3" stroke-linecap="round"/>
+<circle cx="659.8" cy="172" r="5" fill="#b05a28"/>
+<text x="1022" y="173" font-family="Arial" font-size="10" dominant-baseline="middle" fill="#333">m12 +0.041</text>
+<text x="24" y="206" font-family="Arial" font-size="12" dominant-baseline="middle">中2 数学 school_regular_exam</text>
+<line x1="641.8" x2="967.5" y1="198" y2="198" stroke="#2868a8" stroke-width="3" stroke-linecap="round"/>
+<circle cx="804.7" cy="198" r="5" fill="#2868a8"/>
+<text x="1022" y="199" font-family="Arial" font-size="10" dominant-baseline="middle" fill="#333">m3 +0.107</text>
+<line x1="701.3" x2="1024.1" y1="214" y2="214" stroke="#22845b" stroke-width="3" stroke-linecap="round"/>
+<circle cx="862.7" cy="214" r="5" fill="#22845b"/>
+<text x="1022" y="215" font-family="Arial" font-size="10" dominant-baseline="middle" fill="#333">m6 +0.133</text>
+<line x1="736.0" x2="1063.2" y1="230" y2="230" stroke="#b05a28" stroke-width="3" stroke-linecap="round"/>
+<circle cx="899.6" cy="230" r="5" fill="#b05a28"/>
+<text x="1022" y="231" font-family="Arial" font-size="10" dominant-baseline="middle" fill="#333">m12 +0.150</text>
+<text x="24" y="264" font-family="Arial" font-size="12" dominant-baseline="middle">中2 数学 unit_or_chapter_test</text>
+<line x1="516.0" x2="894.0" y1="256" y2="256" stroke="#2868a8" stroke-width="3" stroke-linecap="round"/>
+<circle cx="705.0" cy="256" r="5" fill="#2868a8"/>
+<text x="1022" y="257" font-family="Arial" font-size="10" dominant-baseline="middle" fill="#333">m3 +0.061</text>
+<line x1="523.9" x2="871.7" y1="272" y2="272" stroke="#22845b" stroke-width="3" stroke-linecap="round"/>
+<circle cx="697.8" cy="272" r="5" fill="#22845b"/>
+<text x="1022" y="273" font-family="Arial" font-size="10" dominant-baseline="middle" fill="#333">m6 +0.058</text>
+<line x1="527.9" x2="876.6" y1="288" y2="288" stroke="#b05a28" stroke-width="3" stroke-linecap="round"/>
+<circle cx="702.3" cy="288" r="5" fill="#b05a28"/>
+<text x="1022" y="289" font-family="Arial" font-size="10" dominant-baseline="middle" fill="#333">m12 +0.060</text>
+<text x="24" y="322" font-family="Arial" font-size="12" dominant-baseline="middle">中3 数学 school_regular_exam</text>
+<line x1="336.9" x2="626.7" y1="314" y2="314" stroke="#2868a8" stroke-width="3" stroke-linecap="round"/>
+<circle cx="481.8" cy="314" r="5" fill="#2868a8"/>
+<text x="1022" y="315" font-family="Arial" font-size="10" dominant-baseline="middle" fill="#333">m3 -0.040</text>
+<line x1="468.5" x2="780.7" y1="330" y2="330" stroke="#22845b" stroke-width="3" stroke-linecap="round"/>
+<circle cx="624.6" cy="330" r="5" fill="#22845b"/>
+<text x="1022" y="331" font-family="Arial" font-size="10" dominant-baseline="middle" fill="#333">m6 +0.025</text>
+<line x1="340.3" x2="756.7" y1="346" y2="346" stroke="#b05a28" stroke-width="3" stroke-linecap="round"/>
+<circle cx="548.5" cy="346" r="5" fill="#b05a28"/>
+<text x="1022" y="347" font-family="Arial" font-size="10" dominant-baseline="middle" fill="#333">m12 -0.010</text>
+<text x="24" y="380" font-family="Arial" font-size="12" dominant-baseline="middle">中3 数学 unit_or_chapter_test</text>
+<line x1="435.9" x2="919.4" y1="372" y2="372" stroke="#2868a8" stroke-width="3" stroke-linecap="round"/>
+<circle cx="677.6" cy="372" r="5" fill="#2868a8"/>
+<text x="1022" y="373" font-family="Arial" font-size="10" dominant-baseline="middle" fill="#333">m3 +0.049</text>
+<line x1="450.9" x2="928.0" y1="388" y2="388" stroke="#22845b" stroke-width="3" stroke-linecap="round"/>
+<circle cx="689.5" cy="388" r="5" fill="#22845b"/>
+<text x="1022" y="389" font-family="Arial" font-size="10" dominant-baseline="middle" fill="#333">m6 +0.054</text>
+<line x1="451.0" x2="928.3" y1="404" y2="404" stroke="#b05a28" stroke-width="3" stroke-linecap="round"/>
+<circle cx="689.6" cy="404" r="5" fill="#b05a28"/>
+<text x="1022" y="405" font-family="Arial" font-size="10" dominant-baseline="middle" fill="#333">m12 +0.054</text>
+<circle cx="760" cy="34" r="5" fill="#2868a8"/>
+<text x="772" y="35" font-family="Arial" font-size="12" dominant-baseline="middle">m3</text>
+<circle cx="760" cy="52" r="5" fill="#22845b"/>
+<text x="772" y="53" font-family="Arial" font-size="12" dominant-baseline="middle">m6</text>
+<circle cx="760" cy="70" r="5" fill="#b05a28"/>
+<text x="772" y="71" font-family="Arial" font-size="12" dominant-baseline="middle">m12</text>
+<text x="680.0" y="478" font-family="Arial" font-size="12" text-anchor="middle" fill="#444">Standardized coefficient for log active days</text>
+</svg>

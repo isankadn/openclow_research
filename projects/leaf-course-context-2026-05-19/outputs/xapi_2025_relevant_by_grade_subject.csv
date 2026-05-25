@@ -1,0 +1,12 @@
+grade_level,subject,courses,score_rows,score_students_course_sum,score_tests_course_sum,xapi_events,xapi_students_course_sum,student_overlap_course_sum,contents_course_sum,operations_course_sum
+高1,数学,7,560,280,14,0,0,0,0,0
+高2,数学,10,558,279,20,0,0,0,0,0
+高2,英語,2,558,558,2,0,0,0,0,0
+高1,英語,1,280,280,1,0,0,0,0,0
+中1,数学,3,240,120,6,0,0,0,0,0
+中2,数学,3,240,120,6,0,0,0,0,0
+中3,数学,3,240,120,6,0,0,0,0,0
+中1,英語,3,120,120,3,0,0,0,0,0
+中2,英語,3,120,120,3,0,0,0,0,0
+中3,英語,3,120,120,3,0,0,0,0,0
+(unclassified),(unclassified),1,5,5,1,0,0,0,0,0

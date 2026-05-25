@@ -1,0 +1,5 @@
+outcome,feature,beta_std,se_cluster_student,ci_low,ci_high,p_cluster,rows,students,student_courses,assessments
+normalized_score,log_active_days,0.080349,0.021303,0.038595,0.122104,0.000162,10968,850,1400,309
+normalized_score,log_events,-0.083850,0.027435,-0.137623,-0.030077,0.002241,10968,850,1400,309
+within_assessment_z_score,log_active_days,0.078739,0.020623,0.038317,0.119161,0.000135,10968,850,1400,309
+within_assessment_z_score,log_events,-0.062190,0.025427,-0.112027,-0.012353,0.014452,10968,850,1400,309

@@ -1,0 +1,8 @@
+phase_strategy,rows,students,assessments,score_resid_std_mean,score_resid_std_sd,score_resid_ci_low,score_resid_ci_high,active_month_count_mean,phase_entropy_mean,late_event_share_mean,active_day_slope_mean,navigation_share_mean,memo_share_mean,marker_share_mean,top_test_families
+distributed_sustained,5096,549,247,0.04615,0.96277,-0.02645,0.11609,3.00000,0.87343,0.33214,0.34282,0.18640,0.69929,0.00830,school_regular_exam:2713; unit_or_chapter_test:1561; break_after_test:562; external_benesse:260
+distributed_navigation,2806,812,413,0.02237,1.01237,-0.05239,0.09592,3.00000,0.87374,0.31778,-0.43656,0.62869,0.19421,0.00825,school_regular_exam:1577; external_benesse:762; unit_or_chapter_test:387; break_after_test:80
+late_intensive,4942,974,376,-0.00143,0.96760,-0.05684,0.05030,1.68515,0.24739,0.86419,9.35148,0.45112,0.34637,0.01327,school_regular_exam:3151; unit_or_chapter_test:1364; external_benesse:412; break_after_test:15
+no_same_course_activity,6240,1355,358,-0.01423,0.98431,-0.05791,0.03014,0.00000,0.00000,0.00000,0.00000,0.00000,0.00000,0.00000,school_regular_exam:3503; external_benesse:2731; unit_or_chapter_test:5; break_after_test:1
+early_declining,2146,928,290,-0.02310,1.09729,-0.08586,0.04385,1.78844,0.28279,0.06388,-4.75955,0.71022,0.08174,0.02489,school_regular_exam:1683; external_benesse:423; unit_or_chapter_test:37; break_after_test:3
+intermittent_activity,4833,1069,544,-0.02409,1.01681,-0.08677,0.03135,2.61266,0.65100,0.30628,0.34037,0.52541,0.28598,0.01915,school_regular_exam:3011; external_benesse:1126; unit_or_chapter_test:651; break_after_test:45
+single_month_activity,877,533,184,-0.04115,1.10686,-0.13270,0.05813,1.00000,0.00000,0.00000,0.00000,0.47789,0.07152,0.06098,school_regular_exam:793; external_benesse:84

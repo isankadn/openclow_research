@@ -1,0 +1,48 @@
+old_operation_name,old_process_code,old_verb_display_en,canonical_operation,operation_group,confidence,observed_events,notes
+ADD_HW_MEMO,051,,ADD_HW_MEMO,memo_handwriting,high,21278781,Shared with new canonical operation.
+NEXT,003,,NEXT,navigation,high,15228684,Shared page-next operation.
+DELETE MARKER,018,,DELETE_MARKER,annotation_marker,high,13065469,Old spelling uses space; new canonical uses underscore.
+PREV,002,,PREV,navigation,high,5536718,Shared page-previous operation.
+TIMER_STOP,062,,TIMER_STOP,timer,high,4233207,Shared timer operation.
+CHANGE MEMO,020,,CHANGE_MEMO,memo_text,high,3026660,Old spelling uses space; new canonical uses underscore.
+OPEN,023,,OPEN,content_session,high,2128272,Open content.
+DELETE BOOKMARK,006,,DELETE_BOOKMARK,bookmark,high,2064659,Old spelling uses space; new canonical uses underscore.
+ADD MARKER,016,,ADD_MARKER,annotation_marker,high,1637724,Old spelling uses space; new canonical uses underscore.
+CLOSE,024,,CLOSE,content_session,high,1574178,Close content.
+PAGE_JUMP,015,,PAGE_JUMP,navigation,high,1524638,Shared page-jump operation.
+ADD BOOKMARK,004,,ADD_BOOKMARK,bookmark,high,883209,Old spelling uses space; new canonical uses underscore.
+UNDO_HW_MEMO,052,,UNDO_HW_MEMO,memo_handwriting,high,761017,Shared operation.
+OPEN_RECOMMENDATION,036,,OPEN_RECOMMENDATION,recommendation,high,525863,Shared operation.
+CLOSE_RECOMMENDATION,037,,CLOSE_RECOMMENDATION,recommendation,high,488195,Shared operation.
+QUIZ_ANSWER_CORRECT,035,answered,ANSWER_QUIZ,quiz,medium,457910,Old variant encodes correctness; preserve raw operation and derive correctness separately if possible.
+TIMER_PAUSE,063,,TIMER_PAUSE,timer,high,424312,Shared timer operation.
+BOOKMARK_JUMP,015,,BOOKMARK_JUMP,bookmark_navigation,medium,307901,Old-only operation; no exact new canonical name observed. Keep canonical as old-specific.
+ADD MEMO,019,,ADD_MEMO,memo_text,high,297030,Old spelling uses space; new canonical uses underscore.
+QUIZ_ANSWER,035,answered,ANSWER_QUIZ,quiz,medium,175346,Maps to new ANSWER_QUIZ; preserve raw variant.
+AUDIO_START,071,,AUDIO_START,audio,medium,142398,Old-only audio event; no new canonical equivalent in current CSV.
+DELETE_MEMO,022,,DELETE_MEMO,memo_text,high,69567,Shared operation.
+CLEAR_HW_MEMO,053,,CLEAR_HW_MEMO,memo_handwriting,high,66275,Shared operation.
+ADD_SVG_PATH,051,,ADD_SVG_PATH,drawing_svg,high,62467,Shared operation; process_code overlaps with ADD_HW_MEMO, so operation_name is primary.
+AUDIO_PAUSE,072,,AUDIO_PAUSE,audio,medium,50070,Old-only audio event.
+SEARCH,007,,SEARCH,search,high,43505,Shared operation.
+SEARCH_JUMP,015,,SEARCH_JUMP,search_navigation,high,39996,Shared operation.
+CHANGE_SVG_PATH,051,,CHANGE_SVG_PATH,drawing_svg,high,37715,Shared operation; process_code overlaps with other drawing/memo ops.
+AUDIO_END,073,,AUDIO_END,audio,medium,34740,Old-only audio event.
+REDO_HW_MEMO,052,,REDO_HW_MEMO,memo_handwriting,high,23079,Shared operation.
+REGIST CONTENTS,,,REGISTER_CONTENTS,content_admin,medium,20138,Old spelling/truncated form; maps to new REGISTER_CONTENTS but should be reviewed.
+MEMO_TEXT_CHANGE_HISTORY,054,,MEMO_TEXT_CHANGE_HISTORY,memo_text,high,18725,Shared operation.
+CLICK_RECOMMENDATION,031,,CLICK_RECOMMENDATION,recommendation,high,9763,Shared operation.
+ADD_RECOMMENDATION,032,,ADD_RECOMMENDATION,recommendation,high,7529,Shared operation.
+LINK_CLICK,030,,CLICK_LINK,link,high,7297,Old name order differs; new canonical is CLICK_LINK.
+GETIT,041,,GETIT,feedback,low,7098,Old-only feedback/comprehension-style event; definition needs confirmation.
+MEMO_JUMP,015,,MEMO_JUMP,memo_navigation,high,3689,Shared operation.
+TIMER_START,061,,TIMER_START,timer,high,2491,Shared timer operation.
+NOTGETIT,042,,NOTGETIT,feedback,low,1186,Old-only feedback/comprehension-style event; definition needs confirmation.
+ADD_HW_MEMO,031,,ADD_HW_MEMO,memo_handwriting,medium,802,Same operation with alternate process_code; preserve process_code.
+DELETE CONTENTS,,,DELETE_CONTENTS,content_admin,high,799,Old spelling uses space; new canonical uses underscore.
+SUBMIT CONTENTS,,,SUBMIT_CONTENTS,content_admin,low,470,Old-only or admin workflow event; needs confirmation before combining.
+DELETE_RECOMMENDATION,033,,DELETE_RECOMMENDATION,recommendation,high,376,Shared operation.
+UNDO_HW_MEMO,032,,UNDO_HW_MEMO,memo_handwriting,medium,142,Same operation with alternate process_code; preserve process_code.
+CLEAR_HW_MEMO,033,,CLEAR_HW_MEMO,memo_handwriting,medium,34,Same operation with alternate process_code; preserve process_code.
+QUIZ_ANSWER_CORRECT,035,,ANSWER_QUIZ,quiz,medium,20,Same old variant without verb label; preserve raw operation.
+QUIZ_ANSWER,035,,ANSWER_QUIZ,quiz,medium,12,Same old variant without verb label; preserve raw operation.

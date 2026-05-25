@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="418" viewBox="0 0 1120 418">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="24" y="34" font-family="Arial" font-size="20" font-weight="700">Temporal Strategy Patterns Before Tests</text>
+<text x="24" y="56" font-family="Arial" font-size="12" fill="#555">Three-month phase strategies; outcome is assessment fixed-effect residual score</text>
+<line x1="662.2" x2="662.2" y1="60" y2="358" stroke="#888"/>
+<text x="24" y="82" font-family="Arial" font-size="12" dominant-baseline="middle">distributed_sustained</text>
+<text x="24" y="98" font-family="Arial" font-size="10" fill="#666">rows 5,096, students 549</text>
+<line x1="634.3" x2="784.8" y1="89" y2="89" stroke="#666666" stroke-width="3" stroke-linecap="round"/>
+<circle cx="710.9" cy="89" r="5" fill="#666666"/>
+<text x="1012" y="90" font-family="Arial" font-size="11" fill="#333" dominant-baseline="middle">+0.046</text>
+<text x="24" y="124" font-family="Arial" font-size="12" dominant-baseline="middle">distributed_navigation</text>
+<text x="24" y="140" font-family="Arial" font-size="10" fill="#666">rows 2,806, students 812</text>
+<line x1="606.9" x2="763.5" y1="131" y2="131" stroke="#666666" stroke-width="3" stroke-linecap="round"/>
+<circle cx="685.8" cy="131" r="5" fill="#666666"/>
+<text x="1012" y="132" font-family="Arial" font-size="11" fill="#333" dominant-baseline="middle">+0.022</text>
+<text x="24" y="166" font-family="Arial" font-size="12" dominant-baseline="middle">late_intensive</text>
+<text x="24" y="182" font-family="Arial" font-size="10" fill="#666">rows 4,942, students 974</text>
+<line x1="602.2" x2="715.3" y1="173" y2="173" stroke="#666666" stroke-width="3" stroke-linecap="round"/>
+<circle cx="660.7" cy="173" r="5" fill="#666666"/>
+<text x="1012" y="174" font-family="Arial" font-size="11" fill="#333" dominant-baseline="middle">-0.001</text>
+<text x="24" y="208" font-family="Arial" font-size="12" dominant-baseline="middle">no_same_course_activity</text>
+<text x="24" y="224" font-family="Arial" font-size="10" fill="#666">rows 6,240, students 1,355</text>
+<line x1="601.1" x2="694.0" y1="215" y2="215" stroke="#666666" stroke-width="3" stroke-linecap="round"/>
+<circle cx="647.2" cy="215" r="5" fill="#666666"/>
+<text x="1012" y="216" font-family="Arial" font-size="11" fill="#333" dominant-baseline="middle">-0.014</text>
+<text x="24" y="250" font-family="Arial" font-size="12" dominant-baseline="middle">early_declining</text>
+<text x="24" y="266" font-family="Arial" font-size="10" fill="#666">rows 2,146, students 928</text>
+<line x1="571.6" x2="708.5" y1="257" y2="257" stroke="#666666" stroke-width="3" stroke-linecap="round"/>
+<circle cx="637.8" cy="257" r="5" fill="#666666"/>
+<text x="1012" y="258" font-family="Arial" font-size="11" fill="#333" dominant-baseline="middle">-0.023</text>
+<text x="24" y="292" font-family="Arial" font-size="12" dominant-baseline="middle">intermittent_activity</text>
+<text x="24" y="308" font-family="Arial" font-size="10" fill="#666">rows 4,833, students 1,069</text>
+<line x1="570.6" x2="695.3" y1="299" y2="299" stroke="#666666" stroke-width="3" stroke-linecap="round"/>
+<circle cx="636.8" cy="299" r="5" fill="#666666"/>
+<text x="1012" y="300" font-family="Arial" font-size="11" fill="#333" dominant-baseline="middle">-0.024</text>
+<text x="24" y="334" font-family="Arial" font-size="12" dominant-baseline="middle">single_month_activity</text>
+<text x="24" y="350" font-family="Arial" font-size="10" fill="#666">rows 877, students 533</text>
+<line x1="522.1" x2="723.6" y1="341" y2="341" stroke="#666666" stroke-width="3" stroke-linecap="round"/>
+<circle cx="618.8" cy="341" r="5" fill="#666666"/>
+<text x="1012" y="342" font-family="Arial" font-size="11" fill="#333" dominant-baseline="middle">-0.041</text>
+<text x="715.0" y="396" font-family="Arial" font-size="12" text-anchor="middle" fill="#444">Assessment-residual score, SD units</text>
+</svg>

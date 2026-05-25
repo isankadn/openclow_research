@@ -1,0 +1,3 @@
+Data construction for validity-aware modeling
+
+Rows are filtered by temporal availability, usable outcome scale, strong-cell coverage, course-embedded scope, and fixed-effect identification.

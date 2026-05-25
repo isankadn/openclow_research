@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1300" height="858" viewBox="0 0 1300 858">
+<style>text{font-family:Arial,sans-serif;fill:#222}.title{font-size:22px;font-weight:700}.label{font-size:13px}.value{font-size:13px;font-weight:700}.axis{stroke:#bbb}</style>
+<text x="24" y="34" class="title">3-Month Pre-Test XAPI Coverage by Year and Test Family</text>
+<line x1="390" x2="390" y1="52" y2="828" class="axis"/>
+<text x="390" y="848" class="label" text-anchor="middle">0%</text>
+<line x1="577" x2="577" y1="52" y2="828" class="axis"/>
+<text x="577" y="848" class="label" text-anchor="middle">25%</text>
+<line x1="765" x2="765" y1="52" y2="828" class="axis"/>
+<text x="765" y="848" class="label" text-anchor="middle">50%</text>
+<line x1="952" x2="952" y1="52" y2="828" class="axis"/>
+<text x="952" y="848" class="label" text-anchor="middle">75%</text>
+<line x1="1140" x2="1140" y1="52" y2="828" class="axis"/>
+<text x="1140" y="848" class="label" text-anchor="middle">100%</text>
+<text x="378" y="84" text-anchor="end" class="label">2024   school_regular_exam</text>
+<rect x="390" y="66" width="530" height="24" fill="#0f8b6f"/>
+<text x="928" y="84" class="value">71%</text>
+<text x="378" y="132" text-anchor="end" class="label">2023   school_regular_exam</text>
+<rect x="390" y="114" width="605" height="24" fill="#0f8b6f"/>
+<text x="1003" y="132" class="value">81%</text>
+<text x="378" y="180" text-anchor="end" class="label">2025   school_regular_exam</text>
+<rect x="390" y="162" width="615" height="24" fill="#0f8b6f"/>
+<text x="1013" y="180" class="value">82%</text>
+<text x="378" y="228" text-anchor="end" class="label">2024   unit_or_chapter_test</text>
+<rect x="390" y="210" width="750" height="24" fill="#0f8b6f"/>
+<text x="1148" y="228" class="value">100%</text>
+<text x="378" y="276" text-anchor="end" class="label">2023   unit_or_chapter_test</text>
+<rect x="390" y="258" width="748" height="24" fill="#0f8b6f"/>
+<text x="1146" y="276" class="value">100%</text>
+<text x="378" y="324" text-anchor="end" class="label">2024   external_benesse</text>
+<rect x="390" y="306" width="624" height="24" fill="#0f8b6f"/>
+<text x="1022" y="324" class="value">83%</text>
+<text x="378" y="372" text-anchor="end" class="label">2020   external_benesse</text>
+<rect x="390" y="354" width="738" height="24" fill="#0f8b6f"/>
+<text x="1136" y="372" class="value">98%</text>
+<text x="378" y="420" text-anchor="end" class="label">2021   external_benesse</text>
+<rect x="390" y="402" width="605" height="24" fill="#0f8b6f"/>
+<text x="1003" y="420" class="value">81%</text>
+<text x="378" y="468" text-anchor="end" class="label">2023   external_benesse</text>
+<rect x="390" y="450" width="561" height="24" fill="#0f8b6f"/>
+<text x="959" y="468" class="value">75%</text>
+<text x="378" y="516" text-anchor="end" class="label">2019   external_benesse</text>
+<rect x="390" y="498" width="395" height="24" fill="#0f8b6f"/>
+<text x="793" y="516" class="value">53%</text>
+<text x="378" y="564" text-anchor="end" class="label">2022   external_benesse</text>
+<rect x="390" y="546" width="497" height="24" fill="#0f8b6f"/>
+<text x="895" y="564" class="value">66%</text>
+<text x="378" y="612" text-anchor="end" class="label">2023   unclear</text>
+<rect x="390" y="594" width="222" height="24" fill="#0f8b6f"/>
+<text x="620" y="612" class="value">30%</text>
+<text x="378" y="660" text-anchor="end" class="label">2024   break_after_test</text>
+<rect x="390" y="642" width="750" height="24" fill="#0f8b6f"/>
+<text x="1148" y="660" class="value">100%</text>
+<text x="378" y="708" text-anchor="end" class="label">2023   break_after_test</text>
+<rect x="390" y="690" width="745" height="24" fill="#0f8b6f"/>
+<text x="1143" y="708" class="value">99%</text>
+<text x="378" y="756" text-anchor="end" class="label">2024   unclear</text>
+<rect x="390" y="738" width="92" height="24" fill="#0f8b6f"/>
+<text x="490" y="756" class="value">12%</text>
+<text x="378" y="804" text-anchor="end" class="label">2025   generic_test</text>
+<rect x="390" y="786" width="750" height="24" fill="#0f8b6f"/>
+<text x="1148" y="804" class="value">100%</text>
+</svg>

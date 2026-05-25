@@ -1,0 +1,3 @@
+Subject-specific trace validity: regularity versus click volume
+
+Adjusted 3-month student-course and assessment fixed-effect models; labels show standardized beta [95% CI].

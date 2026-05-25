@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="460" viewBox="0 0 1080 460">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="24" y="34" font-family="Arial" font-size="20" font-weight="700">Strategy Effects Before and After Behavior Adjustment</text>
+<text x="24" y="56" font-family="Arial" font-size="12" fill="#555">Two-way fixed effects: student and assessment occasion; baseline is no same-course activity</text>
+<line x1="525.0" x2="525.0" y1="58" y2="376" stroke="#888"/>
+<text x="24" y="88" font-family="Arial" font-size="12" dominant-baseline="middle">distributed_navigation</text>
+<line x1="567.8" x2="719.4" y1="82" y2="82" stroke="#2868a8" stroke-width="3" stroke-linecap="round"/>
+<circle cx="643.6" cy="82" r="5" fill="#2868a8"/>
+<text x="992" y="83" font-family="Arial" font-size="11" fill="#333" dominant-baseline="middle">+0.068</text>
+<line x1="448.7" x2="752.3" y1="99" y2="99" stroke="#b05a28" stroke-width="3" stroke-linecap="round"/>
+<circle cx="600.5" cy="99" r="5" fill="#b05a28"/>
+<text x="992" y="100" font-family="Arial" font-size="11" fill="#333" dominant-baseline="middle">+0.043</text>
+<text x="24" y="140" font-family="Arial" font-size="12" dominant-baseline="middle">distributed_sustained</text>
+<line x1="585.5" x2="795.3" y1="134" y2="134" stroke="#2868a8" stroke-width="3" stroke-linecap="round"/>
+<circle cx="690.4" cy="134" r="5" fill="#2868a8"/>
+<text x="992" y="135" font-family="Arial" font-size="11" fill="#333" dominant-baseline="middle">+0.095</text>
+<line x1="412.4" x2="852.3" y1="151" y2="151" stroke="#b05a28" stroke-width="3" stroke-linecap="round"/>
+<circle cx="632.3" cy="151" r="5" fill="#b05a28"/>
+<text x="992" y="152" font-family="Arial" font-size="11" fill="#333" dominant-baseline="middle">+0.061</text>
+<text x="24" y="192" font-family="Arial" font-size="12" dominant-baseline="middle">early_declining</text>
+<line x1="549.9" x2="750.5" y1="186" y2="186" stroke="#2868a8" stroke-width="3" stroke-linecap="round"/>
+<circle cx="650.2" cy="186" r="5" fill="#2868a8"/>
+<text x="992" y="187" font-family="Arial" font-size="11" fill="#333" dominant-baseline="middle">+0.072</text>
+<line x1="394.9" x2="823.7" y1="203" y2="203" stroke="#b05a28" stroke-width="3" stroke-linecap="round"/>
+<circle cx="609.3" cy="203" r="5" fill="#b05a28"/>
+<text x="992" y="204" font-family="Arial" font-size="11" fill="#333" dominant-baseline="middle">+0.048</text>
+<text x="24" y="244" font-family="Arial" font-size="12" dominant-baseline="middle">intermittent_activity</text>
+<line x1="607.6" x2="935.4" y1="238" y2="238" stroke="#2868a8" stroke-width="3" stroke-linecap="round"/>
+<circle cx="771.5" cy="238" r="5" fill="#2868a8"/>
+<text x="992" y="239" font-family="Arial" font-size="11" fill="#333" dominant-baseline="middle">+0.141</text>
+<line x1="329.1" x2="1037.8" y1="255" y2="255" stroke="#b05a28" stroke-width="3" stroke-linecap="round"/>
+<circle cx="683.5" cy="255" r="5" fill="#b05a28"/>
+<text x="992" y="256" font-family="Arial" font-size="11" fill="#333" dominant-baseline="middle">+0.091</text>
+<text x="24" y="296" font-family="Arial" font-size="12" dominant-baseline="middle">late_intensive</text>
+<line x1="581.3" x2="817.7" y1="290" y2="290" stroke="#2868a8" stroke-width="3" stroke-linecap="round"/>
+<circle cx="699.5" cy="290" r="5" fill="#2868a8"/>
+<text x="992" y="291" font-family="Arial" font-size="11" fill="#333" dominant-baseline="middle">+0.100</text>
+<line x1="381.9" x2="898.1" y1="307" y2="307" stroke="#b05a28" stroke-width="3" stroke-linecap="round"/>
+<circle cx="640.0" cy="307" r="5" fill="#b05a28"/>
+<text x="992" y="308" font-family="Arial" font-size="11" fill="#333" dominant-baseline="middle">+0.066</text>
+<text x="24" y="348" font-family="Arial" font-size="12" dominant-baseline="middle">single_month_activity</text>
+<line x1="542.2" x2="677.4" y1="342" y2="342" stroke="#2868a8" stroke-width="3" stroke-linecap="round"/>
+<circle cx="609.8" cy="342" r="5" fill="#2868a8"/>
+<text x="992" y="343" font-family="Arial" font-size="11" fill="#333" dominant-baseline="middle">+0.048</text>
+<line x1="461.8" x2="734.7" y1="359" y2="359" stroke="#b05a28" stroke-width="3" stroke-linecap="round"/>
+<circle cx="598.2" cy="359" r="5" fill="#b05a28"/>
+<text x="992" y="360" font-family="Arial" font-size="11" fill="#333" dominant-baseline="middle">+0.042</text>
+<circle cx="690" cy="33" r="5" fill="#2868a8"/>
+<text x="702" y="34" font-family="Arial" font-size="12" dominant-baseline="middle">Strategy total</text>
+<circle cx="690" cy="51" r="5" fill="#b05a28"/>
+<text x="702" y="52" font-family="Arial" font-size="12" dominant-baseline="middle">Adjusted for behavior features</text>
+<text x="630.0" y="438" font-family="Arial" font-size="12" text-anchor="middle" fill="#444">Standardized coefficient</text>
+</svg>

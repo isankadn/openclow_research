@@ -1,0 +1,17 @@
+test_year,test_family,clean_score_rows,duplicate_extra_rows,students,courses,test_names
+2024,school_regular_exam,14313,0,1200,70,246
+2023,school_regular_exam,10909,0,1183,53,158
+2025,school_regular_exam,3036,0,919,38,64
+2024,unit_or_chapter_test,2160,0,360,15,54
+2024,external_benesse,2143,0,359,27,54
+2023,unit_or_chapter_test,1914,0,358,9,48
+2021,external_benesse,1431,0,358,18,36
+2023,external_benesse,1431,0,239,18,36
+2019,external_benesse,1292,0,359,30,54
+2023,unclear,1289,0,269,30,42
+2020,external_benesse,1252,0,353,18,33
+2022,external_benesse,712,0,356,18,18
+2024,unclear,575,0,269,11,20
+2024,break_after_test,360,0,360,9,9
+2023,break_after_test,358,0,358,9,9
+2025,generic_test,5,0,5,1,1

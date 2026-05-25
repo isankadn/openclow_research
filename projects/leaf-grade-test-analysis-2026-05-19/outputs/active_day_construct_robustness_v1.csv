@@ -1,0 +1,5 @@
+definition,beta_std,se_cluster_student,ci_low,ci_high,p_cluster,rows,students,student_courses,assessments
+any_event_day,0.080349,0.021303,0.038595,0.122104,0.000162,10968,850,1400,309
+two_plus_event_day,0.076855,0.020793,0.036100,0.117609,0.000219,10968,850,1400,309
+three_plus_event_day,0.084814,0.020704,0.044235,0.125393,0.000042,10968,850,1400,309
+meaningful_non_open_close_day,0.078242,0.020685,0.037700,0.118784,0.000155,10968,850,1400,309
